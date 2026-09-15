@@ -7,15 +7,17 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 from . import config
 
-def build_preprocessor(scale_numeric: bool = True) -> ColumnTransformer:
+def build_preprocessor(scale_numeric: bool = True, *, categorical_predictors=None, numerical_predictors=None) -> ColumnTransformer:
+    categorical_predictors = list(categorical_predictors or config.CATEGORICAL_PREDICTORS)
+    numerical_predictors = list(numerical_predictors or config.NUMERICAL_PREDICTORS)
     numeric_steps = [("imputer", SimpleImputer(strategy="median"))]
     if scale_numeric:
         numeric_steps.append(("scaler", StandardScaler()))
     numeric = Pipeline(numeric_steps)
     categorical = Pipeline([("imputer", SimpleImputer(strategy="most_frequent")),
                             ("onehot", OneHotEncoder(handle_unknown="ignore"))])
-    return ColumnTransformer([("numeric", numeric, config.NUMERICAL_PREDICTORS),
-                              ("categorical", categorical, config.CATEGORICAL_PREDICTORS)],
+    return ColumnTransformer([("numeric", numeric, numerical_predictors),
+                              ("categorical", categorical, categorical_predictors)],
                              remainder="drop")
 
 def make_model_frame(df: pd.DataFrame) -> pd.DataFrame:
@@ -39,4 +41,3 @@ def split_summary(splits: Dict[str, pd.DataFrame]) -> pd.DataFrame:
                      "positives": int((y == 1).sum()), "negatives": int((y == 0).sum()),
                      "prevalence": float((y == 1).mean()) if len(y) else None})
     return pd.DataFrame(rows)
-

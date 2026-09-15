@@ -1,11 +1,11 @@
 variable,test,statistic,p_value,median_no_fault,median_fault,n
-age_years,Mann-Whitney U,1245519.5,8.178262486495022e-09,11.0,13.0,4315
-fiber_pairs,Mann-Whitney U,1467390.5,0.24621890589618523,8.0,8.0,4315
-length_km,Mann-Whitney U,1187053.0,3.383778985467487e-14,5630.0,6855.0,4315
-n_landing_countries,Mann-Whitney U,1377980.5,0.09806605572017782,5.0,5.0,4315
-design_capacity_tbps,Mann-Whitney U,1553952.0,0.0001152240657480283,204.3,168.0,4315
-lit_capacity_tbps,Mann-Whitney U,1483995.0,0.0939585990211349,135.4,120.44999999999999,4315
-utilization_pct,Mann-Whitney U,1300049.5,4.8863887365549024e-05,61.0,65.0,4315
-protected_burial,Mann-Whitney U,1588700.5,1.1316348111773437e-08,1.0,0.0,4315
-route_redundancy,Mann-Whitney U,1584920.5,1.3986037892174165e-06,45.0,43.0,4315
-fault_this_year,Mann-Whitney U,1229887.5,2.868908379799875e-20,0.0,0.0,4315
+age_years,Mann-Whitney U,1000746.0,3.119251490286255e-08,10.0,13.0,3851
+fiber_pairs,Mann-Whitney U,1175207.0,0.37357084856868894,8.0,8.0,3851
+length_km,Mann-Whitney U,971380.0,3.8415129076297344e-11,5630.0,6810.5,3851
+n_landing_countries,Mann-Whitney U,1110404.5,0.12903547320250341,5.0,5.0,3851
+design_capacity_tbps,Mann-Whitney U,1245506.5,0.0005125096490203032,196.6,168.0,3851
+lit_capacity_tbps,Mann-Whitney U,1194473.0,0.11034693246815362,128.1,115.45,3851
+utilization_pct,Mann-Whitney U,1034164.5,1.6965344099914213e-05,60.2,64.95,3851
+protected_burial,Mann-Whitney U,1286161.0,9.18533580386984e-09,1.0,0.0,3851
+route_redundancy,Mann-Whitney U,1272060.5,8.389602287703377e-06,44.0,41.0,3851
+fault_this_year,Mann-Whitney U,981189.5,6.058844315680803e-20,0.0,0.0,3851

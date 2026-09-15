@@ -1,0 +1,9 @@
+feature,source,temporal_rule,primary_model,status
+lit_capacity_change_yoy,existing panel,current/prior calendar-year information only,False,sensitivity candidate
+utilization_change_yoy,existing panel,current/prior calendar-year information only,False,sensitivity candidate
+route_redundancy_change_yoy,existing panel,current/prior calendar-year information only,False,sensitivity candidate
+fault_previous_year,existing panel,current/prior calendar-year information only,False,sensitivity candidate
+fault_count_prior_3_calendar_years,existing panel,current/prior calendar-year information only,False,sensitivity candidate
+years_since_previous_fault,existing panel,current/prior calendar-year information only,False,sensitivity candidate
+capacity_headroom_tbps,existing panel,current/prior calendar-year information only,False,sensitivity candidate
+lit_to_design_ratio,existing panel,current/prior calendar-year information only,False,sensitivity candidate

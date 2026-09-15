@@ -157,3 +157,9 @@ undersea-cable-fault-risk-prediction/
 ## Reproducible implementation (current)
 
 Kaggle metadata verifies that the supplied observations are 100% synthetic and procedurally generated with a fixed seed; they are not authenticated measurements of real submarine cable systems. Instructor approval for a clearly labeled synthetic-data educational study remains pending. Run `python scripts/run_pipeline.py` after installing `requirements.txt`. The safe runner creates audit, cleaning, EDA, statistical, model-comparison, and governance artifacts, uses chronological 2015–2022/2023–2024 development partitions, excludes six unresolved temporal labels, and keeps the 2025 final test locked until authorized Final-Term evaluation.
+
+The implementation also materializes a separate engineered-feature sensitivity
+dataset with causal lag/trend and capacity-headroom features. These features are
+not silently added to the primary model. External environmental factors require
+real cable geometry and an approved crosswalk; see
+`docs/methodology/feature_extension_plan.md`.

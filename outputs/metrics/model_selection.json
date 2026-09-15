@@ -1,6 +1,6 @@
 {
   "selected_model": "random_forest",
-  "selection_date": "2026-09-15T18:08:32.932208+00:00",
+  "selection_date": "2026-09-15T19:08:18.976409+00:00",
   "development_partitions": "train 2015-2022; validation 2023-2024",
   "primary_metric": "PR-AUC / average precision due to 18.98% positive prevalence",
   "supporting_metrics": [

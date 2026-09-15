@@ -1,2 +1,2 @@
-raw_rows,cleaned_rows,raw_columns,cleaned_columns
-4821,4315,21,21
+raw_rows,cleaned_rows,raw_columns,cleaned_columns,note
+4821,4821,21,25,cleaned panel retains audit columns and unlabeled rows
