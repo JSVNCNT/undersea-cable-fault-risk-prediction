@@ -1,6 +1,6 @@
-# Predicting Next-Year Fault Occurrence in Global Undersea Cable Systems
+﻿# Predicting Next-Year Fault Occurrence in Global Undersea Cable Systems
 
-**Introduction to Data Science — COPE0683X**  
+**Introduction to Data Science â€” COPE0683X**  
 **Section:** K44
 
 ## Project Overview
@@ -29,7 +29,7 @@ The working dataset is **Undersea Cables and Global Digital Infrastructure**, ob
 
 ### Dataset Summary
 
-- Observation period: 2015–2026
+- Observation period: 2015â€“2026
 - Unit of analysis: one cable-year observation
 - Master-file observations: 4,821
 - Unique cable identifiers: 500
@@ -47,11 +47,7 @@ The final observation for each cable has no forward label and is excluded from s
 
 The supplied data dictionary describes `cable_id` as a **synthetic cable system ID**.
 
-The supplied files do not identify a separate upstream empirical owner or custodian. Before the dataset is presented as real-world evidence, the group must verify whether only the identifiers are pseudonymized or whether the observations themselves are simulated.
-
-The exact Kaggle license/permitted-use statement and upstream provenance must also be recorded before making real-world claims.
-
-Because this repository is public, raw dataset files should only be committed if the dataset license permits redistribution.
+Kaggle metadata verifies that every observation is synthetic and procedurally generated with a fixed seed. The records are not authenticated measurements of real submarine cable systems. CC0 permits reuse with accurate attribution and no implied endorsement; instructor approval for synthetic-data use remains pending.
 
 ## Research Questions
 
@@ -99,8 +95,8 @@ The project uses **chronological validation** rather than random splitting.
 
 Planned starting split:
 
-- Training: 2015–2022
-- Validation/model selection: 2023–2024
+- Training: 2015â€“2022
+- Validation/model selection: 2023â€“2024
 - Final test: 2025 observations predicting 2026 fault occurrence
 
 All preprocessing, including encoding, scaling, imputation, and any class-imbalance treatment, must be fitted only on the training portion.
@@ -145,16 +141,19 @@ Derived or redundant variables will be audited before modeling.
 
 ```text
 undersea-cable-fault-risk-prediction/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-├── src/
-├── outputs/
-│   ├── figures/
-│   ├── tables/
-│   └── models/
-├── docs/
-├── requirements.txt
-├── .gitignore
-└── README.md
+â”œâ”€â”€ data/
+â”‚   â”œâ”€â”€ raw/
+â”‚   â””â”€â”€ processed/
+â”œâ”€â”€ notebooks/
+â”œâ”€â”€ src/
+â”œâ”€â”€ outputs/
+â”‚   â”œâ”€â”€ figures/
+â”‚   â”œâ”€â”€ tables/
+â”‚   â””â”€â”€ models/
+â”œâ”€â”€ docs/
+â”œâ”€â”€ requirements.txt
+â”œâ”€â”€ .gitignore
+â””â”€â”€ README.md
+## Reproducible implementation (current)
+
+Kaggle metadata verifies that the supplied observations are 100% synthetic and procedurally generated with a fixed seed; they are not authenticated measurements of real submarine cable systems. Instructor approval for a clearly labeled synthetic-data educational study remains pending. Run `python scripts/run_pipeline.py` after installing `requirements.txt`. The safe runner creates audit, cleaning, EDA, statistical, model-comparison, and governance artifacts, uses chronological 2015–2022/2023–2024 development partitions, excludes six unresolved temporal labels, and keeps the 2025 final test locked until authorized Final-Term evaluation.

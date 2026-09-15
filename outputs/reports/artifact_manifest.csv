@@ -1,0 +1,5 @@
+artifact,type,stage,source_notebook_or_script,research_question,description,generated_at,status
+outputs\tables\raw_data_quality_summary.csv,csv,development,scripts/run_pipeline.py,RQ1-RQ4,Generated reproducible artifact,2026-09-15T18:08:33.209296+00:00,generated
+outputs\tables\model_comparison_validation.csv,csv,development,scripts/run_pipeline.py,RQ1-RQ4,Generated reproducible artifact,2026-09-15T18:08:33.209370+00:00,generated
+outputs\metrics\model_selection.json,json,development,scripts/run_pipeline.py,RQ1-RQ4,Generated reproducible artifact,2026-09-15T18:08:33.209426+00:00,generated
+data\processed\undersea_cables_cleaned.csv,csv,development,scripts/run_pipeline.py,RQ1-RQ4,Generated reproducible artifact,2026-09-15T18:08:33.209479+00:00,generated

@@ -1,0 +1,16 @@
+{
+  "selected_model": "random_forest",
+  "selection_date": "2026-09-15T18:08:32.932208+00:00",
+  "development_partitions": "train 2015-2022; validation 2023-2024",
+  "primary_metric": "PR-AUC / average precision due to 18.98% positive prevalence",
+  "supporting_metrics": [
+    "recall",
+    "precision",
+    "F1",
+    "ROC-AUC",
+    "confusion matrix"
+  ],
+  "interpretability_consideration": "Prefer simpler model for ties; compare coefficient/tree/importance artifacts.",
+  "overfitting_consideration": "Final test not accessed; validation-only comparison.",
+  "limitations": "Results describe the supplied synthetic dataset and are not real-world cable evidence."
+}

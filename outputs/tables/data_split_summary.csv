@@ -1,0 +1,4 @@
+partition,min_year,max_year,rows,unique_cables,positives,negatives,prevalence
+train,2015,2022,2960,427,570,2390,0.19256756756756757
+validation,2023,2024,891,460,170,721,0.19079685746352412
+final_test,2025,2025,464,464,78,386,0.16810344827586207

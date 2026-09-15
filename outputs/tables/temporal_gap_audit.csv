@@ -1,0 +1,7 @@
+cable_id,year,next_observed_year,gap_years,label_temporally_valid
+CAB0035,2024,2026,2,False
+CAB0037,2023,2025,2,False
+CAB0084,2024,2026,2,False
+CAB0102,2024,2026,2,False
+CAB0219,2023,2025,2,False
+CAB0317,2024,2026,2,False

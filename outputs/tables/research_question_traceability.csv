@@ -1,0 +1,5 @@
+research_question,evidence,artifacts
+RQ1,EDA descriptive_statistics.csv and outputs/figures/eda,03_exploratory_analysis.ipynb
+RQ2,statistics/categorical_associations.csv; numeric_comparisons.csv,04_statistical_analysis.ipynb
+RQ3,model_comparison_validation.csv,06_model_development.ipynb
+RQ4,model_selection.json; validation_error_analysis.csv,07_model_evaluation.ipynb

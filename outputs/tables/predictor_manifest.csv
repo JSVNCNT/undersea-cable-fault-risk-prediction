@@ -1,0 +1,14 @@
+feature,role,type,included
+ocean_route,predictor,categorical,True
+operator_type,predictor,categorical,True
+chokepoint,predictor,categorical,True
+age_years,predictor,numeric,True
+fiber_pairs,predictor,numeric,True
+length_km,predictor,numeric,True
+n_landing_countries,predictor,numeric,True
+design_capacity_tbps,predictor,numeric,True
+lit_capacity_tbps,predictor,numeric,True
+utilization_pct,predictor,numeric,True
+protected_burial,predictor,numeric,True
+route_redundancy,predictor,numeric,True
+fault_this_year,predictor,numeric,True

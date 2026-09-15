@@ -1,0 +1,7 @@
+year,cable_id,ocean_route,operator_type,rfs_year,age_years,fiber_pairs,length_km,n_landing_countries,chokepoint,design_capacity_tbps,lit_capacity_tbps,utilization_pct,protected_burial,design_life_years,route_redundancy,is_low_redundancy,vulnerability_index,fault_cause,fault_this_year,fault_next_year,next_observed_year,has_consecutive_next_year,label_temporally_valid
+2024,CAB0035,Indian-Ocean,carrier,1998,26,21,10679.0,7,None,168.0,168.0,100.0,0,25,41,0,57.1,equipment,1,0.0,2026.0,False,False
+2023,CAB0037,Intra-Europe,hyperscaler,1998,25,2,2867.0,4,None,16.0,16.0,93.4,1,25,53,0,39.7,none,0,1.0,2025.0,False,False
+2024,CAB0084,Americas,hyperscaler,1999,25,5,6855.0,4,Panama,47.1,47.1,100.0,1,25,39,1,87.3,suspected_external,1,1.0,2026.0,False,False
+2024,CAB0102,EMEA-Asia,carrier,1998,26,4,13754.0,6,Malacca,32.0,32.0,87.0,1,25,48,0,69.0,fishing_anchor,1,0.0,2026.0,False,False
+2023,CAB0219,Indian-Ocean,consortium,1998,25,3,10198.0,6,Suez,24.0,24.0,100.0,1,25,40,0,67.5,none,0,0.0,2025.0,False,False
+2024,CAB0317,Intra-Europe,government,1998,26,14,2350.0,4,None,112.0,112.0,80.2,0,25,53,0,57.1,suspected_external,1,0.0,2026.0,False,False

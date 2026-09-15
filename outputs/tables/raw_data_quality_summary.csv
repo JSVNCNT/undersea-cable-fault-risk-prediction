@@ -1,0 +1,16 @@
+check,value
+rows,4821
+columns,21
+unique_cables,500
+min_year,2015
+max_year,2026
+labeled_rows,4321
+positive_labels,820
+negative_labels,3501
+positive_prevalence,0.18977088636889608
+duplicate_rows,0
+duplicate_cable_year,0
+chokepoint_literal_None,3986
+design_life_unique,1
+low_redundancy_equivalence,True
+temporally_valid_labeled,4315

@@ -1,0 +1,7 @@
+variable,reason
+cable_id,identifier/grouping only
+design_life_years,constant
+is_low_redundancy,deterministic duplicate of route_redundancy
+rfs_year,redundant with year and age_years
+vulnerability_index,construction not verifiable; sensitivity only
+fault_cause,potential contemporaneous leakage

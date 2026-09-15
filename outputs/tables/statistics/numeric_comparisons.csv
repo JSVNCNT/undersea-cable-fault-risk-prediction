@@ -1,0 +1,11 @@
+variable,test,statistic,p_value,median_no_fault,median_fault,n
+age_years,Mann-Whitney U,1245519.5,8.178262486495022e-09,11.0,13.0,4315
+fiber_pairs,Mann-Whitney U,1467390.5,0.24621890589618523,8.0,8.0,4315
+length_km,Mann-Whitney U,1187053.0,3.383778985467487e-14,5630.0,6855.0,4315
+n_landing_countries,Mann-Whitney U,1377980.5,0.09806605572017782,5.0,5.0,4315
+design_capacity_tbps,Mann-Whitney U,1553952.0,0.0001152240657480283,204.3,168.0,4315
+lit_capacity_tbps,Mann-Whitney U,1483995.0,0.0939585990211349,135.4,120.44999999999999,4315
+utilization_pct,Mann-Whitney U,1300049.5,4.8863887365549024e-05,61.0,65.0,4315
+protected_burial,Mann-Whitney U,1588700.5,1.1316348111773437e-08,1.0,0.0,4315
+route_redundancy,Mann-Whitney U,1584920.5,1.3986037892174165e-06,45.0,43.0,4315
+fault_this_year,Mann-Whitney U,1229887.5,2.868908379799875e-20,0.0,0.0,4315

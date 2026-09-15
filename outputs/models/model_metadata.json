@@ -1,0 +1,94 @@
+{
+  "random_seed": 42,
+  "predictors": [
+    "ocean_route",
+    "operator_type",
+    "chokepoint",
+    "age_years",
+    "fiber_pairs",
+    "length_km",
+    "n_landing_countries",
+    "design_capacity_tbps",
+    "lit_capacity_tbps",
+    "utilization_pct",
+    "protected_burial",
+    "route_redundancy",
+    "fault_this_year"
+  ],
+  "categorical_predictors": [
+    "ocean_route",
+    "operator_type",
+    "chokepoint"
+  ],
+  "numeric_predictors": [
+    "age_years",
+    "fiber_pairs",
+    "length_km",
+    "n_landing_countries",
+    "design_capacity_tbps",
+    "lit_capacity_tbps",
+    "utilization_pct",
+    "protected_burial",
+    "route_redundancy",
+    "fault_this_year"
+  ],
+  "models": {
+    "dummy_baseline": {
+      "constant": null,
+      "random_state": null,
+      "strategy": "most_frequent"
+    },
+    "logistic_regression": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 2000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": 42,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "decision_tree": {
+      "ccp_alpha": 0.0,
+      "class_weight": "balanced",
+      "criterion": "gini",
+      "max_depth": 6,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 10,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "random_state": 42,
+      "splitter": "best"
+    },
+    "random_forest": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": "balanced",
+      "criterion": "gini",
+      "max_depth": 10,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 3,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 250,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    }
+  }
+}
