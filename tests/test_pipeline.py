@@ -10,6 +10,7 @@ from src.evaluation import final_test_guard
 from src.feature_engineering import add_causal_features
 from src.modeling import expanding_window_folds
 from src.data_validation import add_temporal_label_audit
+from src.external_data import validate_external_data
 
 def test_raw_load_and_schema():
     df=load_master_data(); assert df.shape==(4821,21); assert {"cable_id","year","fault_next_year"}.issubset(df.columns)
@@ -41,3 +42,11 @@ def test_expanding_temporal_folds_are_ordered():
     folds = expanding_window_folds(df)
     assert [v[2].year.iloc[0] for v in folds] == [2019, 2020, 2021, 2022]
     assert all(v[1].year.max() < v[2].year.min() for v in folds)
+
+def test_external_context_and_incidents_are_source_backed():
+    context, incidents = validate_external_data()
+    assert len(context) >= 1
+    assert len(incidents) >= 1
+    assert context["source_url"].ne("").all()
+    assert incidents["source_url"].ne("").all()
+    assert incidents["incident_id"].is_unique

@@ -163,3 +163,15 @@ dataset with causal lag/trend and capacity-headroom features. These features are
 not silently added to the primary model. External environmental factors require
 real cable geometry and an approved crosswalk; see
 `docs/methodology/feature_extension_plan.md`.
+
+## Source-backed context and incidents
+
+The project keeps published real-world context separate from the synthetic
+modeling panel. `data/external/context_indicators.csv` contains cited ITU,
+ICPC, and TeleGeography indicators for international traffic share, fault
+causes/frequency, design life, network growth, and capacity context.
+`data/external/historical_incidents.csv` contains documented anchor-drag
+incidents summarized by TeleGeography. These files are not fabricated and are
+not joined to the `CAB####` records because the synthetic IDs have no real
+geometry or cable-name crosswalk. Load and provenance checks are provided by
+`src/external_data.py`.

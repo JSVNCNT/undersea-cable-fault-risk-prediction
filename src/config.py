@@ -3,6 +3,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = PROJECT_ROOT / "UnderseaCableRisk"
 DATA_DIR = PROJECT_ROOT / "data"
+EXTERNAL_DATA_DIR = DATA_DIR / "external"
 INTERIM_DIR = DATA_DIR / "interim"
 PROCESSED_DIR = DATA_DIR / "processed"
 MODEL_READY_DIR = DATA_DIR / "model_ready"
@@ -16,6 +17,8 @@ REPORTS_DIR = OUTPUT_DIR / "reports"
 MASTER_PATH = RAW_DIR / "undersea_cables_master.csv"
 REFERENCE_PATH = RAW_DIR / "cables_reference.csv"
 DICTIONARY_PATH = RAW_DIR / "data_dictionary.csv"
+EXTERNAL_CONTEXT_PATH = EXTERNAL_DATA_DIR / "context_indicators.csv"
+EXTERNAL_INCIDENTS_PATH = EXTERNAL_DATA_DIR / "historical_incidents.csv"
 
 RANDOM_SEED = 42
 TARGET_COLUMN = "fault_next_year"
@@ -36,11 +39,10 @@ VALIDATION_YEARS = [2023, 2024]
 FINAL_TEST_YEAR = 2025
 
 def ensure_directories() -> None:
-    for path in [INTERIM_DIR, PROCESSED_DIR, MODEL_READY_DIR, FIGURES_DIR,
+    for path in [EXTERNAL_DATA_DIR, INTERIM_DIR, PROCESSED_DIR, MODEL_READY_DIR, FIGURES_DIR,
                  TABLES_DIR, METRICS_DIR, MODELS_DIR, REPORTS_DIR]:
         path.mkdir(parents=True, exist_ok=True)
     (FIGURES_DIR / "eda").mkdir(parents=True, exist_ok=True)
     (TABLES_DIR / "eda").mkdir(parents=True, exist_ok=True)
     (TABLES_DIR / "statistics").mkdir(parents=True, exist_ok=True)
     (TABLES_DIR / "model_interpretation").mkdir(parents=True, exist_ok=True)
-

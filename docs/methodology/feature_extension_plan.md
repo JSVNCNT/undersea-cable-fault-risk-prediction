@@ -13,6 +13,24 @@ three-year fault count, and years since the previous fault. The generator uses
 strictly earlier calendar years for history and does not use `fault_next_year`.
 Gaps are not bridged. The primary model remains unchanged.
 
+## Source-backed external context now included
+
+The repository now includes two small, source-backed files under
+`data/external/`:
+
+- `context_indicators.csv` records published global context measures such as
+  the ITU's 99% international-traffic share, the ITU's 86% human-activity
+  fault share, historical ICPC fishing/anchor percentages, typical 25-year
+  design life, and published capacity/network-growth indicators.
+- `historical_incidents.csv` records seven documented anchor-drag incidents
+  summarized in TeleGeography's congressional testimony, including date,
+  location, cause summary, and reported telecom-cable damage.
+
+These are extracted facts with a source URL, access date, scope, and period;
+they are not generated observations. `src/external_data.py` validates their
+required provenance fields. They are context/evidence tables only and are not
+joined to the `CAB####` panel or used in model fitting.
+
 ## External data candidates
 
 External environmental data cannot currently be joined to `CAB####` because the
@@ -21,8 +39,8 @@ crosswalk. Do not assign synthetic IDs to real routes. If a future empirical
 geometry/cable-ID layer is approved, candidate covariates include GEBCO depth and
 slope, NOAA IBTrACS cyclone exposure, USGS earthquake exposure, ERA5 or
 Copernicus wave/current extremes, and Global Fishing Watch AIS vessel presence.
-Each source requires a dated snapshot, license/attribution record, spatial join
-rule, temporal availability rule, and missingness audit.
+Each future row-level source requires a dated snapshot, license/attribution
+record, spatial join rule, temporal availability rule, and missingness audit.
 
 ## Variables not suitable for primary inclusion
 
