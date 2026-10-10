@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-10-02T14:39:54.673204+00:00",
+  "train_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "validation_years": [
+    2023,
+    2024
+  ],
+  "train_rows": 2960,
+  "validation_rows": 891,
+  "data_origin": "publisher-declared synthetic panel",
+  "final_test_evaluated": false,
+  "primary_model_selection_changed": false,
+  "protected_input_sha256": {
+    "UnderseaCableRisk\\undersea_cables_master.csv": "091dc4ae90f0d7dd615318bc58f002542addc3bff2e4c09ca3f4e5a7498a41b4",
+    "UnderseaCableRisk\\cables_reference.csv": "2965659e4b1663922a0155bd7ba55a4385279d6a9fc7c7cd02c15e8435f7d09f",
+    "UnderseaCableRisk\\data_dictionary.csv": "ad4a16734a61e25fa1c663545b0cb711666859b119b635ad7d8082cd4e7aabcb",
+    "outputs\\metrics\\model_selection.json": "3a6c0865e36a5ab90b209e9f9400bafa517d1c99ea762cfb5805946d92d6469f",
+    "outputs\\metrics\\final_test_status.txt": "edae5e400fb38e31c48e20fe17a08c963cfaf7bad689a1e7d98f7b4931649315"
+  },
+  "grouping": "9 infrastructure and 4 operational predictors; analytical role, not causal certification",
+  "interpretation": "Exploratory block comparison on reused validation data; no independent significance or final-performance claim."
+}

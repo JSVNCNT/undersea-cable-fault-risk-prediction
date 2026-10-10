@@ -15,6 +15,26 @@ The study is designed as a data-science classification project, not an engineeri
 
 ## Dataset Source
 
+### Infrastructure and operational indicators
+
+The 13 primary predictors are now explicitly grouped into nine infrastructure
+indicators and four operational indicators. Definitions, timing, and a
+development-only comparison of separate versus combined feature groups are
+documented in [the indicator framework](docs/methodology/indicator_framework.md).
+Reproduce the supplementary comparison with
+`python scripts/analyze_indicator_groups.py`. Results are saved in
+`outputs/tables/indicator_analysis/`; the primary model selection and locked
+final test are preserved.
+
+The revised paper copies can be rebuilt with
+`python scripts/revise_indicator_documents.py build`. The document dependencies
+are listed in `requirements-documents.txt`; test dependencies are in
+`requirements-dev.txt`. The builder preserves the established formatted papers
+and writes separate `INDICATOR_REVISED.docx` files. Render with
+`scripts/render_indicator_documents.py`, refresh the contents lists using the
+builder's `paginate --pdf-dir` command, then render again and run
+`scripts/verify_indicator_documents.py --pdf-dir ... --check-pages` before use.
+
 The working dataset is **Undersea Cables and Global Digital Infrastructure**, obtained from Kaggle:
 
 - **Kaggle dataset:**  

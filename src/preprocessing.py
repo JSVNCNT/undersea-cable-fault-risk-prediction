@@ -8,8 +8,8 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from . import config
 
 def build_preprocessor(scale_numeric: bool = True, *, categorical_predictors=None, numerical_predictors=None) -> ColumnTransformer:
-    categorical_predictors = list(categorical_predictors or config.CATEGORICAL_PREDICTORS)
-    numerical_predictors = list(numerical_predictors or config.NUMERICAL_PREDICTORS)
+    categorical_predictors = list(config.CATEGORICAL_PREDICTORS if categorical_predictors is None else categorical_predictors)
+    numerical_predictors = list(config.NUMERICAL_PREDICTORS if numerical_predictors is None else numerical_predictors)
     numeric_steps = [("imputer", SimpleImputer(strategy="median"))]
     if scale_numeric:
         numeric_steps.append(("scaler", StandardScaler()))

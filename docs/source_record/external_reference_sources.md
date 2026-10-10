@@ -24,3 +24,17 @@ context and documented-event evidence only; none is joined to the synthetic
 - ITU and ICPC figures describe the real-world sector; the Kaggle panel remains
   explicitly synthetic. External values therefore cannot validate or calibrate
   the model without a real cable identifier/geometry crosswalk.
+
+## Research-rationale references (added 2026-10-03)
+
+These are narrative background references, not additional model datasets.
+
+| Organization | Reference | Used for | URL | Verified |
+|---|---|---|---|---|
+| ITU | *Restoring connectivity in Tonga through collaborative disaster response* (10 February 2022) | Documented cable disruption and temporary emergency connectivity; illustrates why alternatives and recovery matter, without claiming the model predicted the event | <https://www.itu.int/hub/2022/02/restoring-connectivity-tonga-internet/> | 2026-10-03 |
+| World Bank | *Unlocking the Philippines' Digital Transformation by Increasing Internet Connectivity* (2 July 2025) | Philippine relevance of connectivity to education, healthcare, financial inclusion and disaster resilience; not a Philippine cable-fault assessment | <https://www.worldbank.org/en/results/2025/07/02/unlocking-the-philippines-digital-transformation-by-increasing-internet-connectivity> | 2026-10-03 |
+
+The existing ITU 2025 connectivity chapter and April 2026 resilience
+backgrounder were also rechecked on 2026-10-03. Their discussion of repair
+delays strengthens the research motivation. No cited fact has been copied
+onto a cable-year record, and no new failure-frequency series was inferred.

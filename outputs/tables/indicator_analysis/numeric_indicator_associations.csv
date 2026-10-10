@@ -1,0 +1,11 @@
+variable,test,statistic,p_value,median_no_fault,median_fault,n,feature,indicator_group,label,unit
+age_years,Mann-Whitney U,1000746.0,3.1192514902862554e-08,10.0,13.0,3851,age_years,infrastructure,Cable age,years
+fiber_pairs,Mann-Whitney U,1175207.0,0.3735708485686889,8.0,8.0,3851,fiber_pairs,infrastructure,Fiber pairs,count
+length_km,Mann-Whitney U,971380.0,3.8415129076297344e-11,5630.0,6810.5,3851,length_km,infrastructure,Cable length,km
+n_landing_countries,Mann-Whitney U,1110404.5,0.1290354732025034,5.0,5.0,3851,n_landing_countries,infrastructure,Landing-country count,count
+design_capacity_tbps,Mann-Whitney U,1245506.5,0.0005125096490203,196.6,168.0,3851,design_capacity_tbps,infrastructure,Design capacity,Tbps
+lit_capacity_tbps,Mann-Whitney U,1194473.0,0.1103469324681536,128.1,115.45,3851,lit_capacity_tbps,operational,Activated capacity,Tbps
+utilization_pct,Mann-Whitney U,1034164.5,1.6965344099914213e-05,60.2,64.95,3851,utilization_pct,operational,Capacity utilization,%
+protected_burial,Mann-Whitney U,1286161.0,9.18533580386984e-09,1.0,0.0,3851,protected_burial,infrastructure,Burial/armor flag,0/1
+route_redundancy,Mann-Whitney U,1272060.5,8.389602287703377e-06,44.0,41.0,3851,route_redundancy,infrastructure,Route cable count,count
+fault_this_year,Mann-Whitney U,981189.5,6.058844315680803e-20,0.0,0.0,3851,fault_this_year,operational,Current-year fault,0/1
