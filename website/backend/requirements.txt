@@ -1,0 +1,9 @@
+# Model/runtime versions from the completed 2026-11-02 evaluation protocol.
+scikit-learn==1.9.1
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+joblib==1.6.0
+fastapi==0.121.0
+pydantic==2.12.4
+uvicorn==0.38.0
