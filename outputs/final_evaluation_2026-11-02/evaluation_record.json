@@ -1,0 +1,33 @@
+{
+  "completed_at_utc": "2026-11-02T12:14:00.865639+00:00",
+  "status": "completed_once",
+  "model_sha256": "4228e0bb067a895e4035229a275d0eb77007afc65c8f832b5ff8461673b56bfb",
+  "protocol_sha256": "2a4026e6deabbcbe9c4457ea8c34df6f83515382ed0493c8ee7aa46fdfb06fba",
+  "final_test": {
+    "partition": "final_test",
+    "model": "random_forest",
+    "rows": 464,
+    "predictor_min_year": 2025,
+    "predictor_max_year": 2025,
+    "positives": 78,
+    "prevalence": 0.16810344827586207,
+    "accuracy": 0.7478448275862069,
+    "precision": 0.29896907216494845,
+    "recall": 0.3717948717948718,
+    "f1": 0.3314285714285714,
+    "TN": 318,
+    "FP": 68,
+    "FN": 49,
+    "TP": 29,
+    "roc_auc": 0.6410588547894247,
+    "pr_auc": 0.2876512201357851
+  },
+  "source_and_original_model_unchanged": true,
+  "refit": false,
+  "tuning": false,
+  "limitation": "Publisher-declared computer-generated panel; no verified real-cable or operational claim.",
+  "artifact_sha256": {
+    "final_test_predictions.csv": "c428e397f9c58a1ecc0e6281e1f22e00c31040280aa1345db43ad44e4c9ba499",
+    "partition_metrics.csv": "448a452a64553d1b63a0ffa4b5859afca906c499f57c7626a57b2099a195dbe1"
+  }
+}

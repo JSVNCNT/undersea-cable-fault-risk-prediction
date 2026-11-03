@@ -1,1 +1,3 @@
-Final test evaluation is locked. Enable only for authorized Final-Term evaluation after model selection is frozen.
+Completed authorized one-time final evaluation of the frozen random_forest pipeline on 2026-11-02.
+Evidence: outputs/final_evaluation_2026-11-02/evaluation_record.json
+Do not reselect, refit, retune or rerun this final test. Reuse saved predictions and metrics.

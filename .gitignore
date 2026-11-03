@@ -7,3 +7,14 @@ outputs/models/*.joblib
 
 # Generated research submissions
 deliverables/
+
+# Local defense notes and their generated previews
+/scripts/build_defense_code_guide.py
+/output/pdf/Undersea_Cable_Code_Line_by_Line_Defense_Guide*.pdf
+/tmp/pdfs/defense_code_guide/
+/tmp/pdfs/defense_code_guide_expanded/
+/tmp/pdfs/defense_code_guide_rehearsal/
+/tmp/pdfs/defense_code_guide_csv/
+
+# Temporary rendering and verification artifacts remain local
+/tmp/
