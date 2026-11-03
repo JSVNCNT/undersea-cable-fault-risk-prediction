@@ -1,0 +1,1238 @@
+{
+  "schema_version": 1,
+  "release_id": "final-2026-11-02-56200c1c9706",
+  "title": "Predicting Next-Year Fault Occurrence in Global Undersea Cable Systems Using Infrastructure and Operational Indicators",
+  "completed_at": "2026-11-02T12:14:00.865639+00:00",
+  "model_sha256": "4228e0bb067a895e4035229a275d0eb77007afc65c8f832b5ff8461673b56bfb",
+  "source_url": "https://www.kaggle.com/datasets/sergionefedov/undersea-cables-and-global-digital-infrastructure",
+  "origin": "Publisher-declared 100% computer-generated (synthetic) dataset; not a verified cable-fault registry.",
+  "counts": {
+    "raw": 4821,
+    "eligible": 4315,
+    "cables_raw": 500,
+    "unlabeled": 500,
+    "unresolved": 6,
+    "predictors": 13,
+    "encoded": 31
+  },
+  "features": [
+    {
+      "name": "ocean_route",
+      "label": "Route region",
+      "group": "infrastructure",
+      "unit": "category",
+      "description": "Broad geographic setting",
+      "qualification": "A regional category does not measure vessel exposure or route geometry.",
+      "kind": "category",
+      "categories": [
+        "Africa-Coastal",
+        "Americas",
+        "EMEA-Asia",
+        "Indian-Ocean",
+        "Intra-Asia",
+        "Intra-Europe",
+        "Intra-Pacific-Islands",
+        "Trans-Atlantic",
+        "Trans-Pacific"
+      ],
+      "train_min": null,
+      "train_max": null,
+      "missing_train": 0
+    },
+    {
+      "name": "operator_type",
+      "label": "Operator category",
+      "group": "operational",
+      "unit": "category",
+      "description": "Organizational operating context",
+      "qualification": "Owner class does not establish maintenance quality or response time.",
+      "kind": "category",
+      "categories": [
+        "carrier",
+        "consortium",
+        "government",
+        "hyperscaler"
+      ],
+      "train_min": null,
+      "train_max": null,
+      "missing_train": 0
+    },
+    {
+      "name": "chokepoint",
+      "label": "Chokepoint corridor",
+      "group": "infrastructure",
+      "unit": "category",
+      "description": "Shared geographic corridor",
+      "qualification": "A corridor label does not locate a break or quantify anchoring activity.",
+      "kind": "category",
+      "categories": [
+        "Bab-el-Mandeb",
+        "Hormuz",
+        "Luzon-Strait",
+        "Malacca",
+        "None",
+        "Panama",
+        "Suez",
+        "Taiwan-Strait"
+      ],
+      "train_min": null,
+      "train_max": null,
+      "missing_train": 0
+    },
+    {
+      "name": "age_years",
+      "label": "Cable age",
+      "group": "infrastructure",
+      "unit": "years",
+      "description": "Asset lifecycle position",
+      "qualification": "Age changes annually; it does not certify wear, condition, or remaining life.",
+      "kind": "integer",
+      "categories": [],
+      "train_min": 0,
+      "train_max": 24,
+      "missing_train": 0
+    },
+    {
+      "name": "fiber_pairs",
+      "label": "Fiber pairs",
+      "group": "infrastructure",
+      "unit": "count",
+      "description": "Physical optical configuration",
+      "qualification": "Pair count describes configuration, not fault tolerance by itself.",
+      "kind": "integer",
+      "categories": [],
+      "train_min": 2,
+      "train_max": 48,
+      "missing_train": 0
+    },
+    {
+      "name": "length_km",
+      "label": "Cable length",
+      "group": "infrastructure",
+      "unit": "km",
+      "description": "Physical network extent",
+      "qualification": "Total length does not provide seabed conditions or per-kilometer failure exposure.",
+      "kind": "number",
+      "categories": [],
+      "train_min": 207.0,
+      "train_max": 19976.0,
+      "missing_train": 0
+    },
+    {
+      "name": "n_landing_countries",
+      "label": "Landing-country count",
+      "group": "infrastructure",
+      "unit": "count",
+      "description": "Geographic connection extent",
+      "qualification": "Country count is not a landing-station inventory or dependency map.",
+      "kind": "integer",
+      "categories": [],
+      "train_min": 2,
+      "train_max": 11,
+      "missing_train": 0
+    },
+    {
+      "name": "design_capacity_tbps",
+      "label": "Design capacity",
+      "group": "infrastructure",
+      "unit": "Tbps",
+      "description": "Potential transmission capacity",
+      "qualification": "Design potential differs from activated capacity and carried traffic.",
+      "kind": "number",
+      "categories": [],
+      "train_min": 16.0,
+      "train_max": 2029.7,
+      "missing_train": 0
+    },
+    {
+      "name": "lit_capacity_tbps",
+      "label": "Activated capacity",
+      "group": "operational",
+      "unit": "Tbps",
+      "description": "Capacity put into service",
+      "qualification": "Activated capacity is not measured traffic; it also depends on infrastructure.",
+      "kind": "number",
+      "categories": [],
+      "train_min": 16.0,
+      "train_max": 964.0,
+      "missing_train": 0
+    },
+    {
+      "name": "utilization_pct",
+      "label": "Capacity utilization",
+      "group": "operational",
+      "unit": "%",
+      "description": "Supplied operating-load indicator",
+      "qualification": "No traffic telemetry or verified denominator is supplied.",
+      "kind": "number",
+      "categories": [],
+      "train_min": 1.0,
+      "train_max": 100.0,
+      "missing_train": 0
+    },
+    {
+      "name": "protected_burial",
+      "label": "Burial/armor flag",
+      "group": "infrastructure",
+      "unit": "0/1",
+      "description": "Reported physical protection",
+      "qualification": "A binary flag does not measure burial depth, protected extent, or verified protection quality.",
+      "kind": "integer",
+      "categories": [],
+      "train_min": 0,
+      "train_max": 1,
+      "missing_train": 0
+    },
+    {
+      "name": "route_redundancy",
+      "label": "Route cable count",
+      "group": "infrastructure",
+      "unit": "count",
+      "description": "Route-year network multiplicity",
+      "qualification": "Other cables on a route do not establish independent paths or spare restoration capacity.",
+      "kind": "integer",
+      "categories": [],
+      "train_min": 27,
+      "train_max": 70,
+      "missing_train": 0
+    },
+    {
+      "name": "fault_this_year",
+      "label": "Current-year fault",
+      "group": "operational",
+      "unit": "0/1",
+      "description": "Prior experience at the prediction cutoff",
+      "qualification": "Available only after the current year closes; cause and repair condition remain unknown.",
+      "kind": "integer",
+      "categories": [],
+      "train_min": 0,
+      "train_max": 1,
+      "missing_train": 0
+    }
+  ],
+  "dictionary": [
+    {
+      "variable": "year",
+      "description": "Observation year (2015-2026)",
+      "dtype": "int64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']",
+      "missing_count": "0",
+      "valid_range": "2015 to 2026",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "exclude from primary model",
+      "predictor_inclusion_status": "excluded",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "cable_id",
+      "description": "Synthetic cable system id",
+      "dtype": "object",
+      "role": "identifier",
+      "units": "as supplied",
+      "allowed_observed_values": "['CAB0000', 'CAB0001', 'CAB0002', 'CAB0003', 'CAB0004', 'CAB0005', 'CAB0006', 'CAB0007', 'CAB0008', 'CAB0009', 'CAB0010', 'CAB0011', 'CAB0012', 'CAB0013', 'CAB0014', 'CAB0015', 'CAB0016', 'CAB0017', 'CAB0018', 'CAB0019', 'CAB0020', 'CAB0021', 'CAB0022', 'CAB0023', 'CAB0024', 'CAB0025', 'CAB0026', 'CAB0027', 'CAB0028', 'CAB0029']",
+      "missing_count": "0",
+      "valid_range": "categorical",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "exclude from primary model",
+      "predictor_inclusion_status": "excluded",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "ocean_route",
+      "description": "Route/region (Trans-Atlantic, Trans-Pacific, EMEA-Asia, ...)",
+      "dtype": "object",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['Africa-Coastal', 'Americas', 'EMEA-Asia', 'Indian-Ocean', 'Intra-Asia', 'Intra-Europe', 'Intra-Pacific-Islands', 'Trans-Atlantic', 'Trans-Pacific']",
+      "missing_count": "0",
+      "valid_range": "categorical",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "retain/audit",
+      "predictor_inclusion_status": "primary predictor",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "operator_type",
+      "description": "Owner type: hyperscaler / consortium / carrier / government",
+      "dtype": "object",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['carrier', 'consortium', 'government', 'hyperscaler']",
+      "missing_count": "0",
+      "valid_range": "categorical",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "retain/audit",
+      "predictor_inclusion_status": "primary predictor",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "rfs_year",
+      "description": "Ready-for-service year (when the cable went live)",
+      "dtype": "int64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['1998', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']",
+      "missing_count": "0",
+      "valid_range": "1998 to 2026",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "exclude from primary model",
+      "predictor_inclusion_status": "excluded",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "age_years",
+      "description": "Cable age that year",
+      "dtype": "int64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['0', '1', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '2', '20', '21', '22', '23', '24', '25', '26', '27', '28', '3', '4', '5', '6', '7', '8', '9']",
+      "missing_count": "0",
+      "valid_range": "0 to 28",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "derived",
+      "planned_treatment": "retain/audit",
+      "predictor_inclusion_status": "primary predictor",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "fiber_pairs",
+      "description": "Number of fiber pairs (higher = newer/higher capacity)",
+      "dtype": "int64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '2', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '3', '30', '32', '33', '34', '35', '36', '37', '38']",
+      "missing_count": "0",
+      "valid_range": "2 to 48",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "retain/audit",
+      "predictor_inclusion_status": "primary predictor",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "length_km",
+      "description": "Cable length (km)",
+      "dtype": "float64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['10027.0', '10096.0', '1013.0', '10138.0', '10145.0', '10177.0', '10198.0', '10273.0', '1028.0', '10339.0', '10366.0', '10369.0', '10371.0', '10438.0', '1044.0', '10453.0', '10493.0', '10526.0', '10572.0', '10577.0', '10594.0', '10601.0', '1062.0', '10679.0', '10698.0', '10716.0', '10730.0', '10735.0', '10736.0', '10743.0']",
+      "missing_count": "0",
+      "valid_range": "191.0 to 19976.0",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "retain/audit",
+      "predictor_inclusion_status": "primary predictor",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "n_landing_countries",
+      "description": "Number of countries with landing stations",
+      "dtype": "int64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['10', '11', '2', '3', '4', '5', '6', '7', '8', '9']",
+      "missing_count": "0",
+      "valid_range": "2 to 11",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "retain/audit",
+      "predictor_inclusion_status": "primary predictor",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "chokepoint",
+      "description": "Maritime chokepoint the cable transits (or None)",
+      "dtype": "object",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['Bab-el-Mandeb', 'Hormuz', 'Luzon-Strait', 'Malacca', 'None', 'Panama', 'Suez', 'Taiwan-Strait']",
+      "missing_count": "0",
+      "valid_range": "categorical",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "retain/audit",
+      "predictor_inclusion_status": "primary predictor",
+      "leakage_concern": "none identified",
+      "limitation_note": "Literal category \"None\" is valid and not missing."
+    },
+    {
+      "variable": "design_capacity_tbps",
+      "description": "Design (potential) capacity, Tbps",
+      "dtype": "float64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['100.6', '1005.4', '104.3', '1054.3', '106.3', '108.0', '108.6', '1083.4', '109.7', '1092.0', '111.4', '112.0', '1164.3', '117.7', '1177.1', '118.6', '1200.0', '1216.0', '123.4', '129.1', '1296.0', '1301.1', '134.9', '136.0', '1389.1', '1437.7', '146.0', '149.1', '150.9', '156.0']",
+      "missing_count": "0",
+      "valid_range": "16.0 to 2235.4",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "retain/audit",
+      "predictor_inclusion_status": "primary predictor",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "lit_capacity_tbps",
+      "description": "Lit (active) capacity, Tbps",
+      "dtype": "float64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['100.0', '100.1', '100.2', '100.3', '100.4', '100.5', '100.6', '100.7', '100.9', '1009.0', '1009.2', '101.0', '101.2', '101.4', '101.6', '101.7', '101.8', '101.9', '1012.9', '1014.4', '102.0', '102.1', '102.2', '102.3', '102.4', '102.6', '102.7', '102.9', '1024.9', '103.0']",
+      "missing_count": "0",
+      "valid_range": "16.0 to 1327.0",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "retain/audit",
+      "predictor_inclusion_status": "primary predictor",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "utilization_pct",
+      "description": "Capacity utilization (%)",
+      "dtype": "float64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['1.0', '1.9', '10.0', '10.3', '10.5', '10.6', '10.7', '10.9', '100.0', '11.1', '11.2', '11.4', '11.5', '11.7', '11.9', '12.1', '12.5', '12.6', '12.8', '12.9', '13.0', '13.2', '13.3', '13.4', '13.7', '13.8', '14.0', '14.3', '14.4', '14.5']",
+      "missing_count": "0",
+      "valid_range": "1.0 to 100.0",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "retain/audit",
+      "predictor_inclusion_status": "primary predictor",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "protected_burial",
+      "description": "1 if buried/armored for protection",
+      "dtype": "int64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['0', '1']",
+      "missing_count": "0",
+      "valid_range": "0 to 1",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "retain/audit",
+      "predictor_inclusion_status": "primary predictor",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "design_life_years",
+      "description": "Engineered design life (~25y)",
+      "dtype": "int64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['25']",
+      "missing_count": "0",
+      "valid_range": "25 to 25",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "exclude from primary model",
+      "predictor_inclusion_status": "excluded",
+      "leakage_concern": "none identified",
+      "limitation_note": "Constant at 25; retained for audit, excluded from predictors."
+    },
+    {
+      "variable": "route_redundancy",
+      "description": "Number of cables sharing that route-year",
+      "dtype": "int64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '47', '48', '49', '50', '51', '52', '53', '54', '58', '59', '60']",
+      "missing_count": "0",
+      "valid_range": "27 to 77",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "derived",
+      "planned_treatment": "retain/audit",
+      "predictor_inclusion_status": "primary predictor",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "is_low_redundancy",
+      "description": "1 if route is in the bottom-quartile of redundancy",
+      "dtype": "int64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['0', '1']",
+      "missing_count": "0",
+      "valid_range": "0 to 1",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "derived",
+      "planned_treatment": "exclude from primary model",
+      "predictor_inclusion_status": "excluded",
+      "leakage_concern": "none identified",
+      "limitation_note": "Verified equivalent to route_redundancy < 40; excluded when continuous feature retained."
+    },
+    {
+      "variable": "vulnerability_index",
+      "description": "COMPUTED analytical exposure index (0-100)",
+      "dtype": "float64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['0.0', '1.6', '100.0', '11.1', '11.9', '12.7', '13.5', '14.3', '15.1', '15.9', '16.7', '17.5', '18.3', '19.0', '19.8', '20.6', '21.4', '22.2', '23.0', '23.8', '24.6', '25.4', '26.2', '27.0', '27.8', '28.6', '29.4', '3.2', '30.2', '31.0']",
+      "missing_count": "0",
+      "valid_range": "0.0 to 100.0",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "exclude from primary model",
+      "predictor_inclusion_status": "excluded",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "fault_cause",
+      "description": "Cause if a fault occurred (fishing_anchor / natural_hazard / equipment / suspected_external / none)",
+      "dtype": "object",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['equipment', 'fishing_anchor', 'natural_hazard', 'none', 'suspected_external']",
+      "missing_count": "0",
+      "valid_range": "categorical",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "exclude from primary model",
+      "predictor_inclusion_status": "excluded",
+      "leakage_concern": "May encode contemporaneous fault mechanism; excluded.",
+      "limitation_note": ""
+    },
+    {
+      "variable": "fault_this_year",
+      "description": "1 if the cable had a fault that year",
+      "dtype": "int64",
+      "role": "predictor/audit",
+      "units": "as supplied",
+      "allowed_observed_values": "['0', '1']",
+      "missing_count": "0",
+      "valid_range": "0 to 1",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "retain/audit",
+      "predictor_inclusion_status": "primary predictor",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    },
+    {
+      "variable": "fault_next_year",
+      "description": "ML TARGET (forward-looking): 1 if a fault occurs next year; NaN for 2026",
+      "dtype": "float64",
+      "role": "target",
+      "units": "as supplied",
+      "allowed_observed_values": "['0.0', '1.0']",
+      "missing_count": "500",
+      "valid_range": "0.0 to 1.0",
+      "source": "undersea_cables_master.csv",
+      "derived_status": "source field",
+      "planned_treatment": "exclude from primary model",
+      "predictor_inclusion_status": "excluded",
+      "leakage_concern": "none identified",
+      "limitation_note": ""
+    }
+  ],
+  "splits": [
+    {
+      "partition": "train",
+      "min_year": 2015,
+      "max_year": 2022,
+      "rows": 2960,
+      "unique_cables": 427,
+      "positives": 570,
+      "negatives": 2390,
+      "prevalence": 0.19256756756756757
+    },
+    {
+      "partition": "validation",
+      "min_year": 2023,
+      "max_year": 2024,
+      "rows": 891,
+      "unique_cables": 460,
+      "positives": 170,
+      "negatives": 721,
+      "prevalence": 0.19079685746352412
+    },
+    {
+      "partition": "final_test",
+      "min_year": 2025,
+      "max_year": 2025,
+      "rows": 464,
+      "unique_cables": 464,
+      "positives": 78,
+      "negatives": 386,
+      "prevalence": 0.16810344827586207
+    }
+  ],
+  "models": [
+    {
+      "id": "dummy_baseline",
+      "selected": false,
+      "validation": {
+        "accuracy": 0.8092031425364759,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.19079685746352412,
+        "roc_auc": 0.5,
+        "TN": 721,
+        "FP": 0,
+        "FN": 170,
+        "TP": 0
+      },
+      "parameters": {
+        "constant": null,
+        "random_state": null,
+        "strategy": "prior"
+      },
+      "final_test": null
+    },
+    {
+      "id": "logistic_regression",
+      "selected": false,
+      "validation": {
+        "accuracy": 0.6161616161616161,
+        "precision": 0.25287356321839083,
+        "recall": 0.5176470588235295,
+        "f1": 0.33976833976833976,
+        "pr_auc": 0.31051163787969654,
+        "roc_auc": 0.6249979603491882,
+        "TN": 461,
+        "FP": 260,
+        "FN": 82,
+        "TP": 88
+      },
+      "parameters": {
+        "C": 1.0,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 2000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 42,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "final_test": null
+    },
+    {
+      "id": "decision_tree",
+      "selected": false,
+      "validation": {
+        "accuracy": 0.590347923681257,
+        "precision": 0.24274406332453827,
+        "recall": 0.5411764705882353,
+        "f1": 0.33515482695810567,
+        "pr_auc": 0.23920385797978969,
+        "roc_auc": 0.5800970873786409,
+        "TN": 434,
+        "FP": 287,
+        "FN": 78,
+        "TP": 92
+      },
+      "parameters": {
+        "ccp_alpha": 0.0,
+        "class_weight": "balanced",
+        "criterion": "gini",
+        "max_depth": 6,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 10,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "random_state": 42,
+        "splitter": "best"
+      },
+      "final_test": null
+    },
+    {
+      "id": "random_forest",
+      "selected": true,
+      "validation": {
+        "accuracy": 0.7048260381593715,
+        "precision": 0.2987012987012987,
+        "recall": 0.40588235294117647,
+        "f1": 0.34413965087281795,
+        "pr_auc": 0.31714871462814154,
+        "roc_auc": 0.6359223300970874,
+        "TN": 559,
+        "FP": 162,
+        "FN": 101,
+        "TP": 69
+      },
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": "balanced",
+        "criterion": "gini",
+        "max_depth": 10,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 3,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 250,
+        "n_jobs": -1,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "final_test": {
+        "partition": "final_test",
+        "model": "random_forest",
+        "rows": 464,
+        "predictor_min_year": 2025,
+        "predictor_max_year": 2025,
+        "positives": 78,
+        "prevalence": 0.16810344827586207,
+        "accuracy": 0.7478448275862069,
+        "precision": 0.29896907216494845,
+        "recall": 0.3717948717948718,
+        "f1": 0.3314285714285714,
+        "TN": 318,
+        "FP": 68,
+        "FN": 49,
+        "TP": 29,
+        "roc_auc": 0.6410588547894247,
+        "pr_auc": 0.2876512201357851
+      }
+    }
+  ],
+  "partition_metrics": [
+    {
+      "partition": "train",
+      "model": "random_forest",
+      "rows": 2960,
+      "predictor_min_year": "2015",
+      "predictor_max_year": "2022",
+      "positives": "570",
+      "prevalence": "0.19256756756756757",
+      "accuracy": 0.8591216216216216,
+      "precision": 0.592057761732852,
+      "recall": 0.8631578947368421,
+      "f1": 0.702355460385439,
+      "TN": 2051,
+      "FP": 339,
+      "FN": 78,
+      "TP": 492,
+      "roc_auc": 0.937957131322029,
+      "pr_auc": 0.7806147380476189
+    },
+    {
+      "partition": "validation",
+      "model": "random_forest",
+      "rows": 891,
+      "predictor_min_year": "2023",
+      "predictor_max_year": "2024",
+      "positives": "170",
+      "prevalence": "0.19079685746352412",
+      "accuracy": 0.7048260381593715,
+      "precision": 0.2987012987012987,
+      "recall": 0.40588235294117647,
+      "f1": 0.34413965087281795,
+      "TN": 559,
+      "FP": 162,
+      "FN": 101,
+      "TP": 69,
+      "roc_auc": 0.6359223300970874,
+      "pr_auc": 0.31714871462814154
+    },
+    {
+      "partition": "final_test",
+      "model": "random_forest",
+      "rows": 464,
+      "predictor_min_year": "2025",
+      "predictor_max_year": "2025",
+      "positives": "78",
+      "prevalence": "0.16810344827586207",
+      "accuracy": 0.7478448275862069,
+      "precision": 0.29896907216494845,
+      "recall": 0.3717948717948718,
+      "f1": 0.3314285714285714,
+      "TN": 318,
+      "FP": 68,
+      "FN": 49,
+      "TP": 29,
+      "roc_auc": 0.6410588547894247,
+      "pr_auc": 0.2876512201357851
+    }
+  ],
+  "importance_encoded": [
+    {
+      "feature": "numeric__length_km",
+      "importance": 0.13168260905082252
+    },
+    {
+      "feature": "numeric__utilization_pct",
+      "importance": 0.11692828188972894
+    },
+    {
+      "feature": "numeric__lit_capacity_tbps",
+      "importance": 0.0959324194672214
+    },
+    {
+      "feature": "numeric__age_years",
+      "importance": 0.09242799861106522
+    },
+    {
+      "feature": "numeric__route_redundancy",
+      "importance": 0.0824293891501026
+    },
+    {
+      "feature": "numeric__design_capacity_tbps",
+      "importance": 0.07719442823920214
+    },
+    {
+      "feature": "numeric__n_landing_countries",
+      "importance": 0.06110527366304831
+    },
+    {
+      "feature": "numeric__fiber_pairs",
+      "importance": 0.05871305535729009
+    },
+    {
+      "feature": "numeric__fault_this_year",
+      "importance": 0.052859100756697704
+    },
+    {
+      "feature": "categorical__chokepoint_None",
+      "importance": 0.03894644405524131
+    },
+    {
+      "feature": "numeric__protected_burial",
+      "importance": 0.03487927741695859
+    },
+    {
+      "feature": "categorical__operator_type_consortium",
+      "importance": 0.01527767258418303
+    },
+    {
+      "feature": "categorical__operator_type_carrier",
+      "importance": 0.013905938735349595
+    },
+    {
+      "feature": "categorical__ocean_route_Intra-Europe",
+      "importance": 0.012470171032724848
+    },
+    {
+      "feature": "categorical__ocean_route_Americas",
+      "importance": 0.01212013561390322
+    },
+    {
+      "feature": "categorical__operator_type_hyperscaler",
+      "importance": 0.012006136043497767
+    },
+    {
+      "feature": "categorical__ocean_route_Trans-Atlantic",
+      "importance": 0.011196096863932074
+    },
+    {
+      "feature": "categorical__ocean_route_EMEA-Asia",
+      "importance": 0.008626848883204
+    },
+    {
+      "feature": "categorical__operator_type_government",
+      "importance": 0.007605918469309418
+    },
+    {
+      "feature": "categorical__ocean_route_Indian-Ocean",
+      "importance": 0.007198045963759248
+    },
+    {
+      "feature": "categorical__ocean_route_Africa-Coastal",
+      "importance": 0.007191032074647687
+    },
+    {
+      "feature": "categorical__chokepoint_Panama",
+      "importance": 0.0071267250034703885
+    },
+    {
+      "feature": "categorical__chokepoint_Malacca",
+      "importance": 0.00683452420268431
+    },
+    {
+      "feature": "categorical__ocean_route_Intra-Asia",
+      "importance": 0.006770464594645143
+    },
+    {
+      "feature": "categorical__ocean_route_Trans-Pacific",
+      "importance": 0.00671183317875073
+    },
+    {
+      "feature": "categorical__chokepoint_Suez",
+      "importance": 0.005593238183828499
+    },
+    {
+      "feature": "categorical__ocean_route_Intra-Pacific-Islands",
+      "importance": 0.004738400378333283
+    },
+    {
+      "feature": "categorical__chokepoint_Bab-el-Mandeb",
+      "importance": 0.0032844222805924507
+    },
+    {
+      "feature": "categorical__chokepoint_Luzon-Strait",
+      "importance": 0.00301231635830466
+    },
+    {
+      "feature": "categorical__chokepoint_Hormuz",
+      "importance": 0.0027681895288861375
+    },
+    {
+      "feature": "categorical__chokepoint_Taiwan-Strait",
+      "importance": 0.002463612368614683
+    }
+  ],
+  "importance_grouped": [
+    {
+      "feature": "length_km",
+      "importance": 0.13168260905082252
+    },
+    {
+      "feature": "utilization_pct",
+      "importance": 0.11692828188972894
+    },
+    {
+      "feature": "lit_capacity_tbps",
+      "importance": 0.0959324194672214
+    },
+    {
+      "feature": "age_years",
+      "importance": 0.09242799861106522
+    },
+    {
+      "feature": "route_redundancy",
+      "importance": 0.0824293891501026
+    },
+    {
+      "feature": "design_capacity_tbps",
+      "importance": 0.07719442823920214
+    },
+    {
+      "feature": "ocean_route",
+      "importance": 0.07702302858390023
+    },
+    {
+      "feature": "chokepoint",
+      "importance": 0.07002947198162245
+    },
+    {
+      "feature": "n_landing_countries",
+      "importance": 0.06110527366304831
+    },
+    {
+      "feature": "fiber_pairs",
+      "importance": 0.05871305535729009
+    },
+    {
+      "feature": "fault_this_year",
+      "importance": 0.052859100756697704
+    },
+    {
+      "feature": "operator_type",
+      "importance": 0.04879566583233981
+    },
+    {
+      "feature": "protected_burial",
+      "importance": 0.03487927741695859
+    }
+  ],
+  "context": [
+    {
+      "metric_id": "traffic_share_international",
+      "metric": "International data traffic carried by submarine cables",
+      "value": 99.0,
+      "unit": "percent",
+      "scope": "global",
+      "reference_period": "2025-2026",
+      "source_organization": "ITU",
+      "source_title": "Strengthening the world's digital backbone",
+      "source_url": "https://www.itu.int/hub/2025/02/strengthening-the-worlds-digital-backbone/",
+      "accessed_date": "2026-09-16",
+      "source_note": "ITU states submarine cables carry 99 percent of the world's international data traffic; context only."
+    },
+    {
+      "metric_id": "fault_share_human_activity",
+      "metric": "Faults attributed to human activities such as fishing and anchoring",
+      "value": 86.0,
+      "unit": "percent",
+      "scope": "global",
+      "reference_period": "2025",
+      "source_organization": "ITU",
+      "source_title": "Global Connectivity Report 2025 chapter 3",
+      "source_url": "https://www.itu.int/itu-d/reports/statistics/2025/11/17/gcr-2025-chapter-3/",
+      "accessed_date": "2026-09-16",
+      "source_note": "Reported by ITU; not a rate for the project's synthetic panel."
+    },
+    {
+      "metric_id": "annual_faults_estimate",
+      "metric": "Approximate submarine cable faults per year",
+      "value": 200.0,
+      "unit": "faults_per_year",
+      "scope": "global",
+      "reference_period": "recent estimate",
+      "source_organization": "TeleGeography",
+      "source_title": "Written testimony on submarine cable security",
+      "source_url": "https://resources.telegeography.com/hubfs/Tim%20Stronge%20Written%20Congressional%20Testimony%20%7C%20TeleGeography.pdf",
+      "accessed_date": "2026-09-16",
+      "source_note": "TeleGeography testimony describes roughly 200 faults each year and attributes its cause chart to ICPC Global Cable Repair Data Analysis 2025."
+    },
+    {
+      "metric_id": "repairs_2025_lower_bound",
+      "metric": "Worldwide cable repairs reported",
+      "value": 170.0,
+      "unit": "repairs_lower_bound",
+      "scope": "global",
+      "reference_period": "2025",
+      "source_organization": "ITU",
+      "source_title": "Submarine cable resilience backgrounder",
+      "source_url": "https://www.itu.int/en/mediacentre/backgrounders/Pages/submarine-cable-resilience.aspx",
+      "accessed_date": "2026-09-16",
+      "source_note": "ITU reports over 170 repairs in 2025; 170 is stored as a documented lower bound, not an exact count."
+    },
+    {
+      "metric_id": "fishing_fault_share_historical",
+      "metric": "Fishing share of cable faults",
+      "value": 67.0,
+      "unit": "percent",
+      "scope": "global",
+      "reference_period": "through 2006",
+      "source_organization": "ICPC",
+      "source_title": "Damage to submarine cables caused by anchors",
+      "source_url": "https://www.iscpc.org/documents/?id=139",
+      "accessed_date": "2026-09-16",
+      "source_note": "ICPC historical Table 1; do not generalize to current global faults."
+    },
+    {
+      "metric_id": "anchor_fault_share_historical",
+      "metric": "Anchor share of cable faults",
+      "value": 8.0,
+      "unit": "percent",
+      "scope": "global",
+      "reference_period": "through 2006",
+      "source_organization": "ICPC",
+      "source_title": "Damage to submarine cables caused by anchors",
+      "source_url": "https://www.iscpc.org/documents/?id=139",
+      "accessed_date": "2026-09-16",
+      "source_note": "ICPC historical Table 1; do not generalize to current global faults."
+    },
+    {
+      "metric_id": "fishing_fault_share_uk",
+      "metric": "Fishing share of cable faults",
+      "value": 33.0,
+      "unit": "percent",
+      "scope": "UK waters",
+      "reference_period": "2007-2008",
+      "source_organization": "ICPC",
+      "source_title": "Damage to submarine cables caused by anchors",
+      "source_url": "https://www.iscpc.org/documents/?id=139",
+      "accessed_date": "2026-09-16",
+      "source_note": "ICPC Table 2; local period-specific distribution."
+    },
+    {
+      "metric_id": "anchor_fault_share_uk",
+      "metric": "Anchor share of cable faults",
+      "value": 48.0,
+      "unit": "percent",
+      "scope": "UK waters",
+      "reference_period": "2007-2008",
+      "source_organization": "ICPC",
+      "source_title": "Damage to submarine cables caused by anchors",
+      "source_url": "https://www.iscpc.org/documents/?id=139",
+      "accessed_date": "2026-09-16",
+      "source_note": "ICPC Table 2; local period-specific distribution."
+    },
+    {
+      "metric_id": "design_life_typical",
+      "metric": "Submarine system design life",
+      "value": 25.0,
+      "unit": "years",
+      "scope": "typical engineering specification",
+      "reference_period": "2005",
+      "source_organization": "ITU",
+      "source_title": "ITU-T G Supplement 41 design guidelines",
+      "source_url": "https://www.itu.int/rec/dologin_pub.asp?id=T-REC-G.Sup41-200505-S%21%21PDF-E&lang=e&type=items",
+      "accessed_date": "2026-09-16",
+      "source_note": "ITU-T guideline states a submarine system has a design life of 25 years; individual economic/service life may differ."
+    },
+    {
+      "metric_id": "new_cable_length_2024",
+      "metric": "New submarine cable length installed",
+      "value": 200000.0,
+      "unit": "km",
+      "scope": "global",
+      "reference_period": "2024",
+      "source_organization": "ITU",
+      "source_title": "Submarine cable resilience backgrounder",
+      "source_url": "https://www.itu.int/en/mediacentre/backgrounders/Pages/submarine-cable-resilience.aspx",
+      "accessed_date": "2026-09-16",
+      "source_note": "ITU estimate; stored as approximately 200000 km for context."
+    },
+    {
+      "metric_id": "bandwidth_growth_since_2021",
+      "metric": "Submarine bandwidth growth",
+      "value": 22.0,
+      "unit": "percent_per_year",
+      "scope": "global",
+      "reference_period": "since 2021",
+      "source_organization": "ITU",
+      "source_title": "Global Connectivity Report 2025 chapter 3",
+      "source_url": "https://www.itu.int/itu-d/reports/statistics/2025/11/17/gcr-2025-chapter-3/",
+      "accessed_date": "2026-09-16",
+      "source_note": "ITU reports bandwidth growing 22 percent annually since 2021; this is not the panel's lit_capacity trend."
+    }
+  ],
+  "incidents": [
+    {
+      "incident_id": "ANCHOR-2002-US-EAST",
+      "incident_date": "2002",
+      "location": "U.S. East Coast (Philadelphia to New York)",
+      "vessel_or_description": "Aconcagua",
+      "cause_summary": "Anchor dragged in a gale after improper stowage",
+      "telecom_cables_damaged": 3,
+      "other_assets_damaged": "",
+      "source_organization": "TeleGeography",
+      "source_title": "Written testimony on submarine cable security",
+      "source_url": "https://resources.telegeography.com/hubfs/Tim%20Stronge%20Written%20Congressional%20Testimony%20%7C%20TeleGeography.pdf",
+      "accessed_date": "2026-09-16"
+    },
+    {
+      "incident_id": "ANCHOR-2008-SICILY",
+      "incident_date": "2008",
+      "location": "Off Sicily Italy",
+      "vessel_or_description": "Unnamed large oil tanker",
+      "cause_summary": "Anchor dragged for about 300 km",
+      "telecom_cables_damaged": 6,
+      "other_assets_damaged": "",
+      "source_organization": "TeleGeography",
+      "source_title": "Written testimony on submarine cable security",
+      "source_url": "https://resources.telegeography.com/hubfs/Tim%20Stronge%20Written%20Congressional%20Testimony%20%7C%20TeleGeography.pdf",
+      "accessed_date": "2026-09-16"
+    },
+    {
+      "incident_id": "ANCHOR-2008-NORTH-CHANNEL",
+      "incident_date": "2008",
+      "location": "North Channel Irish Sea (UK)",
+      "vessel_or_description": "MV Mornes",
+      "cause_summary": "Anchor dragged for at least 50 km",
+      "telecom_cables_damaged": 2,
+      "other_assets_damaged": "2 power cables and 1 pipeline",
+      "source_organization": "TeleGeography",
+      "source_title": "Written testimony on submarine cable security",
+      "source_url": "https://resources.telegeography.com/hubfs/Tim%20Stronge%20Written%20Congressional%20Testimony%20%7C%20TeleGeography.pdf",
+      "accessed_date": "2026-09-16"
+    },
+    {
+      "incident_id": "ANCHOR-2012-RED-SEA",
+      "incident_date": "2012",
+      "location": "Red Sea",
+      "vessel_or_description": "Blue Princess",
+      "cause_summary": "AIS documented anchor dragging over 12 hours",
+      "telecom_cables_damaged": 3,
+      "other_assets_damaged": "",
+      "source_organization": "TeleGeography",
+      "source_title": "Written testimony on submarine cable security",
+      "source_url": "https://resources.telegeography.com/hubfs/Tim%20Stronge%20Written%20Congressional%20Testimony%20%7C%20TeleGeography.pdf",
+      "accessed_date": "2026-09-16"
+    },
+    {
+      "incident_id": "ANCHOR-2016-SCILLY",
+      "incident_date": "2016-03",
+      "location": "Isles of Scilly UK",
+      "vessel_or_description": "Unnamed vessel",
+      "cause_summary": "Anchor drag damaged telecommunications and power cables",
+      "telecom_cables_damaged": null,
+      "other_assets_damaged": "Telecom and power cables",
+      "source_organization": "TeleGeography",
+      "source_title": "Written testimony on submarine cable security",
+      "source_url": "https://resources.telegeography.com/hubfs/Tim%20Stronge%20Written%20Congressional%20Testimony%20%7C%20TeleGeography.pdf",
+      "accessed_date": "2026-09-16"
+    },
+    {
+      "incident_id": "ANCHOR-2017-LANDS-END",
+      "incident_date": "2017-03",
+      "location": "Land's End UK",
+      "vessel_or_description": "Romy Trader",
+      "cause_summary": "Anchor dragged while underway for at least 25 km",
+      "telecom_cables_damaged": 4,
+      "other_assets_damaged": "1 power cable",
+      "source_organization": "TeleGeography",
+      "source_title": "Written testimony on submarine cable security",
+      "source_url": "https://resources.telegeography.com/hubfs/Tim%20Stronge%20Written%20Congressional%20Testimony%20%7C%20TeleGeography.pdf",
+      "accessed_date": "2026-09-16"
+    },
+    {
+      "incident_id": "ANCHOR-2025-BALTIC",
+      "incident_date": "2025-01",
+      "location": "Baltic Sea off Gotland Sweden",
+      "vessel_or_description": "Vezhen",
+      "cause_summary": "Anchor drag after safety-device failures in bad weather",
+      "telecom_cables_damaged": 1,
+      "other_assets_damaged": "",
+      "source_organization": "TeleGeography",
+      "source_title": "Written testimony on submarine cable security",
+      "source_url": "https://resources.telegeography.com/hubfs/Tim%20Stronge%20Written%20Congressional%20Testimony%20%7C%20TeleGeography.pdf",
+      "accessed_date": "2026-09-16"
+    }
+  ],
+  "source_sha256": {
+    "UnderseaCableRisk/undersea_cables_master.csv": "091dc4ae90f0d7dd615318bc58f002542addc3bff2e4c09ca3f4e5a7498a41b4",
+    "data/model_ready/model_ready_supervised.csv": "3f3aa869d6c20e35015d95e1f7e5c0c18becae364698980df8122dbb3267952a",
+    "outputs/tables/final_data_dictionary.csv": "143c15f696baf7bac879647ff7310361d88bb02f5cde04e68cea22503ae50aa5",
+    "outputs/tables/model_comparison_validation.csv": "fea272276081897bd3760b12c08556daa70ebc3cd631c2d2cb6d5b76735fd531",
+    "outputs/tables/model_interpretation/random_forest_feature_importance.csv": "f41e5390638fff9acc1abc215ea9d9942484572c5f868bc8cce20782dc327adc",
+    "outputs/tables/indicator_analysis/indicator_registry.csv": "93819eec180f44f54a0e85b37be2128c0e6cf92ba5edeb800b81049d62fbbb88",
+    "outputs/tables/data_split_summary.csv": "0f7e808f101e4d72a1cf57876d37b66bd3546d89814f0c7f0adb491918a34825",
+    "data/external/context_indicators.csv": "b5c0fccf96bdac64ad76fcf87405c31afa228858a587594f6516bea270726e22",
+    "data/external/historical_incidents.csv": "2ff308b17883034485fa9dc4e93c3c25558e456a9e1c5f141beebf5a928ac3b1",
+    "outputs/final_evaluation_2026-11-02/evaluation_record.json": "d26ac71030c90b506afbc2de89b57a5dda277fad95f5ecaadba36561775609fa",
+    "outputs/final_evaluation_2026-11-02/partition_metrics.csv": "448a452a64553d1b63a0ffa4b5859afca906c499f57c7626a57b2099a195dbe1"
+  },
+  "example": {
+    "ocean_route": "Africa-Coastal",
+    "operator_type": "carrier",
+    "chokepoint": "None",
+    "age_years": 3,
+    "fiber_pairs": 39,
+    "length_km": 14098.0,
+    "n_landing_countries": 5,
+    "design_capacity_tbps": 1092.0,
+    "lit_capacity_tbps": 487.2,
+    "utilization_pct": 41.7,
+    "protected_burial": 1,
+    "route_redundancy": 36,
+    "fault_this_year": 0
+  },
+  "example_source": {
+    "cable_id": "CAB0001",
+    "year": 2015,
+    "partition": "train"
+  }
+}

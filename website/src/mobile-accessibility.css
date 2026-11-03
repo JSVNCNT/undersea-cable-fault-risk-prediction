@@ -1,0 +1,23 @@
+/* Keep off-canvas links out of keyboard and accessibility navigation while closed. */
+@media (max-width: 991px) {
+  .sidebar {
+    visibility: hidden;
+  }
+  .sidebar.is-open {
+    visibility: visible;
+  }
+}
+
+@media (max-width: 380px) {
+  .release-status {
+    font-size: 0;
+  }
+  .breadcrumb {
+    min-width: 0;
+  }
+  .breadcrumb strong {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
