@@ -1791,6 +1791,21 @@ tbody tr:last-child th {
     font-size: 12px !important;
   }
 }
+.data-origin-note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 12px;
+  margin-top: 20px;
+  color: #a8b7cb;
+  font-size: 11px;
+  line-height: 1.7;
+}
+.data-origin-note a {
+  color: #8edfe1;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

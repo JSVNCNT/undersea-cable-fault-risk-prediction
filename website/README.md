@@ -1,6 +1,6 @@
 # Undersea Research Analytics
 
-A React/TypeScript research dashboard and Python prediction demonstrator for Group 5's Introduction to Data Science study:
+A React/TypeScript research dashboard and Python prediction demonstrator for Group 5 xam.py's Introduction to Data Science study:
 
 **Predicting Next-Year Fault Occurrence in Global Undersea Cable Systems Using Infrastructure and Operational Indicators**
 
@@ -90,6 +90,13 @@ Follow [DEPLOYMENT.md](DEPLOYMENT.md) for the exact steps on your end, SQL to pa
 | `ALLOWED_ORIGINS`               | Backend-only comma-separated exact frontend origins; default allows local port 5173 |
 
 All `VITE_*` values become public browser assets. Never put a Supabase secret, service-role key, database password, or private API credential there.
+
+For convenient local setup, fill the two ignored files separately:
+
+- Repository-root `.supabase-admin.local.env`: `SUPABASE_URL` and `SUPABASE_SECRET_KEY`, read only by the administrator importer. This file takes precedence over old PowerShell values. If missing, create it from `.supabase-admin.local.env.example`.
+- `website/.env.local`: `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` only. After a successful import, set `VITE_DATA_MODE=supabase` and restart Vite. Its initial bundled mode preserves the working preview until data is ready.
+
+From the repository root, run `python website/scripts/import_supabase.py --check-config` to check settings without displaying credentials or connecting. Use `--publish` only when you intend to import. Git-ignore prevents normal Git staging, not local plaintext access; keep the admin file private. Neither real file belongs in a commit, and no secret belongs in `.env.example`.
 
 ## Files to open when explaining the implementation
 

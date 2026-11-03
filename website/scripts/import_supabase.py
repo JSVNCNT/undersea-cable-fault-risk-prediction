@@ -1,7 +1,8 @@
 """Admin-only publication of the EXISTING generated website export.
 
-Default is a local dry run. --publish needs SUPABASE_URL and SUPABASE_SECRET_KEY
-in process environment; secrets are never CLI arguments, files, or output.
+Default is a local dry run. --publish reads SUPABASE_URL and SUPABASE_SECRET_KEY
+from the Git-ignored repository-root .supabase-admin.local.env, or from process
+environment if that file is absent. Secrets are never CLI arguments or output.
 No training, inference, fabricated seed rows, remote deletes, or overwrite of
 an already-published release. An interrupted UNPUBLISHED import is resumable.
 """
@@ -15,6 +16,50 @@ from urllib.parse import quote, urlparse
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
+ADMIN_ENV_PATH = ROOT.parent / ".supabase-admin.local.env"
+
+
+def load_admin_credentials(env_path=None, environ=None):
+    """Read only the two supported admin settings, without executing dotenv text.
+
+    A present local file is authoritative, including blank/missing values, so
+    stale PowerShell credentials cannot accidentally override a newly edited file.
+    No interpolation, shell commands, frontend settings, or value logging.
+    """
+    env_path = ADMIN_ENV_PATH if env_path is None else Path(env_path)
+    environ = os.environ if environ is None else environ
+    allowed = {"SUPABASE_URL", "SUPABASE_SECRET_KEY"}
+    if env_path.is_file():
+        settings = {}
+        for number, raw in enumerate(env_path.read_text(encoding="utf-8-sig").splitlines(), 1):
+            line = raw.strip()
+            if not line or line.startswith("#"):
+                continue
+            name, separator, value = line.partition("=")
+            name, value = name.strip(), value.strip()
+            if not separator or name not in allowed:
+                raise ValueError(f"Invalid admin configuration on line {number}. Use only SUPABASE_URL=value and SUPABASE_SECRET_KEY=value; do not paste PowerShell commands.")
+            if name in settings:
+                raise ValueError(f"Duplicate admin configuration on line {number}. Keep each setting once.")
+            if value.startswith(("'", '"')):
+                if len(value) < 2 or value[-1] != value[0]:
+                    raise ValueError(f"Unclosed quote in admin configuration on line {number}.")
+                value = value[1:-1].strip()
+            settings[name] = value
+    else:
+        settings = {name: environ.get(name, "").strip() for name in allowed}
+    url = settings.get("SUPABASE_URL", "").strip().rstrip("/")
+    key = settings.get("SUPABASE_SECRET_KEY", "").strip()
+    if not url:
+        raise ValueError("Missing SUPABASE_URL. Fill the Git-ignored repository-root .supabase-admin.local.env file.")
+    parsed = urlparse(url)
+    if parsed.scheme != "https" or not parsed.hostname or parsed.username or parsed.password or parsed.path not in ("", "/") or parsed.query or parsed.fragment or any(char.isspace() for char in url):
+        raise ValueError("SUPABASE_URL must be a plain HTTPS project origin, such as https://PROJECT-REFERENCE.supabase.co; not a dashboard, /rest/v1, or database URL.")
+    if not key:
+        raise ValueError("Missing SUPABASE_SECRET_KEY. Fill the blank secret-key line in .supabase-admin.local.env; do not use .env.example or a VITE_* setting.")
+    if key.startswith(("sb_publishable_", "http://", "https://", "postgres://", "postgresql://")):
+        raise ValueError("SUPABASE_SECRET_KEY must be an admin/secret key, not a publishable key, project URL, or database URL.")
+    return url, key
 
 
 def load_publication():
@@ -66,8 +111,14 @@ def request(url, key, path, method="GET", body=None, headers=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--publish", action="store_true", help="Authorize writing and publishing this release in the configured Supabase project.")
+    actions = parser.add_mutually_exclusive_group()
+    actions.add_argument("--publish", action="store_true", help="Authorize writing and publishing this release in the configured Supabase project.")
+    actions.add_argument("--check-config", action="store_true", help="Validate local admin configuration without printing credentials or making network requests.")
     args = parser.parse_args()
+    if args.check_config:
+        load_admin_credentials()
+        print("Admin URL and key are configured. Local format checks only; key authentication was not tested. No credentials printed and no network requests made.")
+        return
     research, tables = load_publication()
     print("Release:", research["release_id"])
     for table, records in tables.items():
@@ -75,12 +126,7 @@ def main():
     if not args.publish:
         print("Dry run only. No network requests or database writes.")
         return
-    url, key = os.getenv("SUPABASE_URL", "").rstrip("/"), os.getenv("SUPABASE_SECRET_KEY", "")
-    parsed = urlparse(url)
-    if parsed.scheme != "https" or not parsed.hostname or parsed.username or parsed.password or parsed.path not in ("", "/") or parsed.query or parsed.fragment:
-        raise ValueError("SUPABASE_URL must be a plain HTTPS project origin.")
-    if not key or key.startswith("sb_publishable_"):
-        raise ValueError("Use a secret/admin key in SUPABASE_SECRET_KEY, never a browser publishable key.")
+    url, key = load_admin_credentials()
     query = "id=eq." + quote(research["release_id"], safe="")
     existing, _ = request(url,key,"dataset_versions?" + query + "&select=id,published,payload")
     if existing and existing[0]["published"]:

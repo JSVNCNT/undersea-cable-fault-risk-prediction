@@ -32,6 +32,7 @@ import {
   Summary,
 } from './pages';
 import { Button } from './components/ui/button';
+import { GROUP_NAME } from './lib/presentation';
 
 const navigation = [
   { path: '/', label: 'Overview', icon: LayoutDashboard },
@@ -83,7 +84,7 @@ export default function App() {
   useEffect(() => {
     setOpen(false);
     window.scrollTo({ top: 0, behavior: 'instant' });
-    document.title = `${current?.label || 'Not found'} | Undersea Research`;
+    document.title = `${current?.label || 'Not found'} | ${GROUP_NAME} | Undersea Research`;
     document.getElementById('main-content')?.focus();
   }, [location.pathname, current?.label]);
   useEffect(() => {
@@ -158,7 +159,7 @@ export default function App() {
             <div className="group-mark">
               <span className="group-avatar">G5</span>
               <div>
-                <strong>Group 5</strong>
+                <strong>{GROUP_NAME}</strong>
                 <small>Introduction to Data Science</small>
               </div>
             </div>
@@ -251,7 +252,7 @@ export default function App() {
             )}
           </main>
           <footer className="footer">
-            <span>Undersea Research · Group 5</span>
+            <span>Undersea Research · {GROUP_NAME}</span>
             <span>
               Research evidence, with its limitations.
               <Link to="/about">

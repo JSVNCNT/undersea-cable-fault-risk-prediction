@@ -1,6 +1,6 @@
 # Project team and contribution roles
 
-Introduction to Data Science — Group 5.
+Introduction to Data Science — Group 5 xam.py.
 
 The following roles were confirmed by the project owner when preparing the repository commits. They describe contribution areas, not equal line counts or a claim that each person independently pushed the repository.
 

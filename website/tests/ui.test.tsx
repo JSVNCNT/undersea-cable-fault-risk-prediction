@@ -18,6 +18,8 @@ import {
 import { researchSchema, observationSchema } from '../src/lib/data';
 import * as data from '../src/lib/data';
 import { checkHealth, predict } from '../src/lib/api';
+import { Tooltip } from 'recharts';
+import { GROUP_NAME, researchTooltipStyles } from '../src/lib/presentation';
 
 vi.mock('../src/lib/api', () => ({ apiConfigured: true, checkHealth: vi.fn(), predict: vi.fn() }));
 // DOM tests validate controls and state; they deliberately do not claim chart rendering QA.
@@ -33,7 +35,7 @@ vi.mock('recharts', () => {
     Bar: Empty,
     Cell: Empty,
     CartesianGrid: Empty,
-    Tooltip: Empty,
+    Tooltip: vi.fn(Empty),
     XAxis: Empty,
     YAxis: Empty,
   };
@@ -53,6 +55,7 @@ beforeEach(() => {
   vi.mocked(checkHealth).mockReset();
   vi.mocked(predict).mockReset();
   vi.mocked(checkHealth).mockResolvedValue();
+  vi.mocked(Tooltip).mockClear();
 });
 afterEach(() => {
   cleanup();
@@ -71,11 +74,42 @@ describe('research page components', () => {
     About,
   })) {
     it(`renders ${name} with a single main heading`, async () => {
-      show(<Page {...bundle} />);
+      const view = show(<Page {...bundle} />);
       expect(screen.getAllByRole('heading', { level: 1 })).toHaveLength(1);
+      expect(view.container.textContent).not.toMatch(/\bsynthetic\b/i);
       if (name === 'Demonstrator') await screen.findByText('Frozen prediction service connected');
     });
   }
+  it('uses a compact source note instead of the large overview warning banner', () => {
+    show(<Overview {...bundle} />);
+    expect(screen.queryByText('Know the boundary.')).toBeNull();
+    expect(screen.getByText('Computer-generated research dataset.')).toBeTruthy();
+    const sourceLink = screen.getByRole('link', { name: 'Data source and study limitations' });
+    expect(sourceLink.getAttribute('href')).toBe('/about');
+    expect(sourceLink.closest('.notice-warning')).toBeNull();
+  });
+  it('uses readable tooltip colors on all three chart pages', () => {
+    for (const Page of [Overview, Models, Interpretation]) {
+      vi.mocked(Tooltip).mockClear();
+      const view = show(<Page {...bundle} />);
+      expect(vi.mocked(Tooltip).mock.calls.length).toBeGreaterThan(0);
+      for (const [props] of vi.mocked(Tooltip).mock.calls) {
+        expect(props.labelStyle).toEqual(researchTooltipStyles.labelStyle);
+        expect(props.itemStyle).toEqual(researchTooltipStyles.itemStyle);
+        expect(props.contentStyle).toEqual(researchTooltipStyles.contentStyle);
+      }
+      view.unmount();
+    }
+  });
+  it('shows the group name on the overview and about pages', () => {
+    const overview = show(<Overview {...bundle} />);
+    expect(screen.getByText(`INTRODUCTION TO DATA SCIENCE / ${GROUP_NAME}`)).toBeTruthy();
+    overview.unmount();
+    show(<About {...bundle} />);
+    expect(
+      screen.getByText(new RegExp(`project by ${GROUP_NAME.replace('.', '\\.')}`)),
+    ).toBeTruthy();
+  });
   it('filters, inspects and exports only matching source records', async () => {
     const user = userEvent.setup();
     const exported = vi.spyOn(data, 'download').mockImplementation(() => {});

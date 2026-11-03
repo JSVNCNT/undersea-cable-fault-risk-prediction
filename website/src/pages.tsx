@@ -45,6 +45,7 @@ import {
 import { apiConfigured, checkHealth, predict } from './lib/api';
 import type { Prediction } from './lib/api';
 import { Button } from './components/ui/button';
+import { GROUP_NAME, readableSourceText, researchTooltipStyles } from './lib/presentation';
 import {
   ClassBalance,
   Empty,
@@ -59,12 +60,6 @@ import {
   SplitTimeline,
 } from './components/shared';
 
-const chartStyle = {
-  backgroundColor: '#142238',
-  border: '1px solid #35475e',
-  color: '#eaf1fb',
-  borderRadius: 10,
-};
 const grid = '#26354a';
 const tick = { fill: '#aab8ca', fontSize: 11 };
 type Props = DataBundle;
@@ -90,7 +85,7 @@ function CoverageChart({ rows }: { rows: Observation[] }) {
             <CartesianGrid stroke={grid} vertical={false} />
             <XAxis dataKey="year" tick={tick} tickLine={false} axisLine={false} />
             <YAxis tick={tick} tickLine={false} axisLine={false} />
-            <Tooltip contentStyle={chartStyle} labelFormatter={(v) => `Predictor year ${v}`} />
+            <Tooltip {...researchTooltipStyles} labelFormatter={(v) => `Predictor year ${v}`} />
             <Area
               type="linear"
               dataKey="rows"
@@ -159,7 +154,7 @@ export function Overview({ research, observations }: Props) {
   return (
     <>
       <PageHeading
-        eyebrow="INTRODUCTION TO DATA SCIENCE / GROUP 5"
+        eyebrow={`INTRODUCTION TO DATA SCIENCE / ${GROUP_NAME}`}
         title="Undersea cable analytics"
         description="Explore how infrastructure and operational indicators relate to next-year fault labels in our research dataset."
         action={
@@ -289,11 +284,10 @@ export function Overview({ research, observations }: Props) {
           </Panel>
         </div>
       </div>
-      <Notice warning>
-        <strong>Know the boundary.</strong> {research.origin} These results demonstrate a
-        data-science method, not an operational cable-warning system. Real-world sector references
-        are kept separate from the model panel.
-      </Notice>
+      <p className="data-origin-note">
+        <span>Computer-generated research dataset.</span>
+        <Link to="/about">Data source and study limitations</Link>
+      </p>
     </>
   );
 }
@@ -555,7 +549,7 @@ export function Dataset({ research, observations }: Props) {
             <div className="dictionary">
               {research.dictionary
                 .filter((d) =>
-                  `${d.variable} ${d.description}`
+                  `${d.variable} ${readableSourceText(d.description)}`
                     .toLowerCase()
                     .includes(dictionarySearch.toLowerCase()),
                 )
@@ -571,7 +565,7 @@ export function Dataset({ research, observations }: Props) {
                             : 'Audit / excluded'}
                       </span>
                     </summary>
-                    <p>{d.description}</p>
+                    <p>{readableSourceText(d.description)}</p>
                     <dl>
                       <dt>Observed range</dt>
                       <dd>{d.valid_range}</dd>
@@ -580,7 +574,7 @@ export function Dataset({ research, observations }: Props) {
                       {d.limitation_note && (
                         <>
                           <dt>Important note</dt>
-                          <dd>{d.limitation_note}</dd>
+                          <dd>{readableSourceText(d.limitation_note)}</dd>
                         </>
                       )}
                       {d.leakage_concern !== 'none identified' && (
@@ -687,7 +681,7 @@ export function Models({ research }: Props) {
                     axisLine={false}
                   />
                   <Tooltip
-                    contentStyle={chartStyle}
+                    {...researchTooltipStyles}
                     formatter={(v) => [Number(v).toFixed(4), metricLabels[metric]]}
                   />
                   <Bar dataKey="value" radius={[0, 5, 5, 0]} barSize={25}>
@@ -836,14 +830,12 @@ export function Interpretation({ research }: Props) {
   const [partition, setPartition] = useState<'validation' | 'final_test'>('final_test');
   const rf = research.models.find((m) => m.selected)!;
   const importance = grouped ? research.importance_grouped : research.importance_encoded;
-  const chart = importance
-    .slice(0, all ? importance.length : 10)
-    .map((r) => ({
-      ...r,
-      label:
-        research.features.find((f) => f.name === r.feature)?.label ||
-        r.feature.replace('numeric__', '').replace('categorical__', ''),
-    }));
+  const chart = importance.slice(0, all ? importance.length : 10).map((r) => ({
+    ...r,
+    label:
+      research.features.find((f) => f.name === r.feature)?.label ||
+      r.feature.replace('numeric__', '').replace('categorical__', ''),
+  }));
   const result = rf[partition]!;
   return (
     <>
@@ -888,7 +880,7 @@ export function Interpretation({ research }: Props) {
                     axisLine={false}
                   />
                   <Tooltip
-                    contentStyle={chartStyle}
+                    {...researchTooltipStyles}
                     formatter={(v) => [Number(v).toFixed(4), 'Importance']}
                   />
                   <Bar dataKey="importance" fill="#69d9dc" radius={[0, 4, 4, 0]} barSize={17} />
@@ -1568,7 +1560,7 @@ export function About({ research }: Props) {
       <PageHeading
         eyebrow="ABOUT / PURPOSE & SOURCES"
         title="Why this research exists"
-        description="An Introduction to Data Science project by Group 5, exploring infrastructure and operational indicators through a reproducible, limited-scope classification study."
+        description={`An Introduction to Data Science project by ${GROUP_NAME}, exploring infrastructure and operational indicators through a reproducible classification study.`}
       />
       <div className="row g-3">
         <div className="col-12 col-lg-8">
@@ -1653,7 +1645,7 @@ export function About({ research }: Props) {
                       </small>
                     </strong>
                     <p>
-                      {c.scope}. {c.source_note}
+                      {c.scope}. {readableSourceText(c.source_note)}
                     </p>
                     <SourceLink href={c.source_url}>{c.source_title}</SourceLink>
                   </article>

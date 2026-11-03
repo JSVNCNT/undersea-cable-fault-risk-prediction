@@ -46,23 +46,28 @@ python website\scripts\import_supabase.py
 
 Expected: 4,315 observations, 21 variable definitions, four models, five performed evaluations, 11 context indicators, and seven selected incidents. A dry run makes no network requests.
 
-When you are ready to write to **your new project**, use process-only environment values. Enter the secret through a masked prompt, not a literal command, file, chat message, or frontend environment variable:
+For the file-based setup, open the Git-ignored **repository-root** `.supabase-admin.local.env`. The URL has been prefilled on this computer; paste your actual administrator key after `SUPABASE_SECRET_KEY=` and save. Use plain `NAME=value` lines, not PowerShell commands. The file should contain:
 
-```powershell
-$env:SUPABASE_URL = Read-Host 'Supabase project URL (https://YOUR-PROJECT.supabase.co)'
-$supabaseSecureKey = Read-Host 'Supabase SECRET/admin key (not publishable)' -AsSecureString
-$supabaseCredential = [System.Net.NetworkCredential]::new('', $supabaseSecureKey)
-$env:SUPABASE_SECRET_KEY = $supabaseCredential.Password
-try {
-    python website\scripts\import_supabase.py --publish
-} finally {
-    Remove-Item Env:SUPABASE_SECRET_KEY -ErrorAction SilentlyContinue
-    $supabaseCredential = $null
-    $supabaseSecureKey = $null
-}
+```dotenv
+SUPABASE_URL=https://YOUR-PROJECT.supabase.co
+SUPABASE_SECRET_KEY=YOUR_ACTUAL_ADMIN_SECRET_KEY
 ```
 
-This is the command that writes the research records. The importer publishes the release only after table counts reconcile. It refuses to overwrite an already published release. If interrupted while unpublished, fix the reported issue and resume the same approved export; do not delete tables or make up missing rows.
+On another checkout, copy `.supabase-admin.local.env.example` to `.supabase-admin.local.env` first. The real file is deliberately outside `website/` and is never loaded by Vite. It takes precedence over older PowerShell environment values. If the file is absent, the importer still supports process environment variables. Git-ignore is not encryption: the file contains plaintext credentials locally, so do not share, upload, or force-add it.
+
+Check configuration without connecting or displaying the key:
+
+```powershell
+python website\scripts\import_supabase.py --check-config
+```
+
+When ready to write to your project:
+
+```powershell
+python website\scripts\import_supabase.py --publish
+```
+
+Only `--publish` writes the research records. The configuration check does not authenticate the key. The importer publishes the release only after table counts reconcile and refuses to overwrite an already published release. If interrupted while unpublished, fix the reported issue and resume the same approved export; do not delete tables or make up missing rows.
 
 Run `website/supabase/002_verify_access.sql` in SQL Editor. Confirm:
 
@@ -73,7 +78,7 @@ Run `website/supabase/002_verify_access.sql` in SQL Editor. Confirm:
 
 ### Connect the frontend
 
-In a local ignored `website/.env.local`, or later in the Render **static site's** environment settings, use:
+Use the separate, Git-ignored `website/.env.local` for the **publishable** key. The local file has the project URL prefilled and initially keeps `VITE_DATA_MODE=bundled` so preview still works while you finish the import. After successful publication, change it to `supabase`. These are also the values to enter later in the Render **static site's** environment settings:
 
 ```dotenv
 VITE_DATA_MODE=supabase
