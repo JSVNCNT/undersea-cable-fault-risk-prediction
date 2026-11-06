@@ -1,0 +1,11 @@
+variable,test,statistic,p_value,median_no_fault,median_fault,n,n_no_fault,n_fault,rank_biserial_fault_higher,independent_rows_assumed,repeated_cable_caution,p_value_holm_13_tests,alpha,evidence_scope
+age_years,Mann-Whitney U,13503.5,0.07188875288854853,12.0,17.0,463,382,81,0.12717342123973885,True,True,0.6469987759969368,0.05,exploratory development association; not independent-row confirmation
+fiber_pairs,Mann-Whitney U,15347.0,0.9099444110940459,8.0,8.0,463,382,81,0.008014995798590885,True,True,1.0,0.05,exploratory development association; not independent-row confirmation
+length_km,Mann-Whitney U,13423.0,0.061221147550337356,5634.5,6695.0,463,382,81,0.13237670480253372,True,True,0.6122114755033735,0.05,exploratory development association; not independent-row confirmation
+n_landing_countries,Mann-Whitney U,15996.0,0.6264857352794733,5.0,5.0,463,382,81,-0.0339344580182277,True,True,1.0,0.05,exploratory development association; not independent-row confirmation
+design_capacity_tbps,Mann-Whitney U,16653.5,0.2798435057416785,233.1,190.0,463,382,81,-0.07643332686962712,True,True,1.0,0.05,exploratory development association; not independent-row confirmation
+lit_capacity_tbps,Mann-Whitney U,16710.5,0.2573143417940983,175.45,140.0,463,382,81,-0.08011763945446315,True,True,1.0,0.05,exploratory development association; not independent-row confirmation
+utilization_pct,Mann-Whitney U,13736.0,0.11262035943420017,66.9,74.0,463,382,81,0.11214530411738088,True,True,0.9009628754736013,0.05,exploratory development association; not independent-row confirmation
+protected_burial,Mann-Whitney U,16243.5,0.41460747130529896,1.0,0.0,463,382,81,-0.04993213108396355,True,True,1.0,0.05,exploratory development association; not independent-row confirmation
+route_redundancy,Mann-Whitney U,18843.0,0.0017814996952704172,49.0,48.0,463,382,81,-0.2179561760713593,True,True,0.02315949603851542,0.05,exploratory development association; not independent-row confirmation
+fault_this_year,Mann-Whitney U,13803.0,0.029925820843082204,0.0,0.0,463,382,81,0.10781462090362615,True,True,0.34410110630841134,0.05,exploratory development association; not independent-row confirmation

@@ -1,0 +1,17 @@
+variable,intentional_blanks,numeric_parse_failures
+year,0,0
+rfs_year,0,0
+age_years,0,0
+fiber_pairs,0,0
+length_km,0,0
+n_landing_countries,0,0
+design_capacity_tbps,0,0
+lit_capacity_tbps,0,0
+utilization_pct,0,0
+protected_burial,0,0
+design_life_years,0,0
+route_redundancy,0,0
+is_low_redundancy,0,0
+vulnerability_index,0,0
+fault_this_year,0,0
+fault_next_year,500,0

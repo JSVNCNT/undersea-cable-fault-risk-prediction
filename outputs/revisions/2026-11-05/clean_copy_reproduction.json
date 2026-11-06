@@ -1,0 +1,24 @@
+{
+  "completed_at_utc": "2026-11-04T19:05:06.077314+00:00",
+  "working_copy": "C:\\Users\\Vincent\\Documents\\undersea-cable-fault-risk-prediction\\tmp\\reproduction_checks\\clean-copy-mln7tzn4",
+  "returncode": 0,
+  "environment": "Existing model-compatible project environment, not a fresh dependency installation",
+  "temporary_development_fits": true,
+  "original_frozen_model_refit": false,
+  "final_test_inference": false,
+  "comparisons": [
+    {
+      "artifact": "outputs/tables/model_comparison_validation.csv",
+      "status": "matches within numerical tolerance"
+    },
+    {
+      "artifact": "outputs/tables/temporal_cv_scores.csv",
+      "status": "matches within numerical tolerance"
+    },
+    {
+      "artifact": "outputs/tables/data_split_summary.csv",
+      "status": "matches within numerical tolerance"
+    }
+  ],
+  "protected_evidence_unchanged": true
+}

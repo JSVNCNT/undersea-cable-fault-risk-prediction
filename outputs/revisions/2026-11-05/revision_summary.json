@@ -1,0 +1,137 @@
+{
+  "record_reconciliation": [
+    {
+      "stage": "raw",
+      "rows": 4821,
+      "distinct_ids": 500,
+      "labeled": 4321,
+      "positives": 820,
+      "negatives": 3501
+    },
+    {
+      "stage": "labeled",
+      "rows": 4321,
+      "distinct_ids": 486,
+      "labeled": 4321,
+      "positives": 820,
+      "negatives": 3501
+    },
+    {
+      "stage": "unlabeled_terminal",
+      "rows": 500,
+      "distinct_ids": 500,
+      "labeled": 0,
+      "positives": 0,
+      "negatives": 0
+    },
+    {
+      "stage": "nonconsecutive_excluded",
+      "rows": 6,
+      "distinct_ids": 6,
+      "labeled": 6,
+      "positives": 2,
+      "negatives": 4
+    },
+    {
+      "stage": "supervised_eligible",
+      "rows": 4315,
+      "distinct_ids": 486,
+      "labeled": 4315,
+      "positives": 818,
+      "negatives": 3497
+    },
+    {
+      "stage": "development_eda",
+      "rows": 3860,
+      "distinct_ids": 463,
+      "labeled": 3857,
+      "positives": 742,
+      "negatives": 3115
+    },
+    {
+      "stage": "development_supervised",
+      "rows": 3851,
+      "distinct_ids": 463,
+      "labeled": 3851,
+      "positives": 740,
+      "negatives": 3111
+    },
+    {
+      "stage": "train",
+      "rows": 2960,
+      "distinct_ids": 427,
+      "labeled": 2960,
+      "positives": 570,
+      "negatives": 2390
+    },
+    {
+      "stage": "validation",
+      "rows": 891,
+      "distinct_ids": 460,
+      "labeled": 891,
+      "positives": 170,
+      "negatives": 721
+    },
+    {
+      "stage": "final_test_existing_partition",
+      "rows": 464,
+      "distinct_ids": 464,
+      "labeled": 464,
+      "positives": 78,
+      "negatives": 386
+    }
+  ],
+  "primary_predictor_missing": 0,
+  "numeric_parse_failures": 0,
+  "development_forward_checkable": 3397,
+  "development_forward_disagreements": 0,
+  "development_unlabeled": 3,
+  "model_diagnostics_performed": true,
+  "latest_record_sensitivity_identifiers": 463,
+  "train_validation_shared_ids": 424,
+  "validation_unique_ids": 460,
+  "synthetic_dataset_acceptance": "Project owner confirmed instructor acceptance on 2026-11-05; approval date/document not supplied",
+  "final_test_acceptance": "Instructor consultation required: user-authorized final run on 2026-11-02 preceded 2026-11-04 memorandum",
+  "original_model_sha256": "4228e0bb067a895e4035229a275d0eb77007afc65c8f832b5ff8461673b56bfb",
+  "new_classifier_fit": false,
+  "new_final_inference": false,
+  "validation_cluster_bootstrap": [
+    {
+      "measure": "AP random_forest",
+      "estimate": 0.31714871462814154,
+      "ci_low": 0.24972832323236682,
+      "ci_high": 0.39059160862372444,
+      "valid_repeats": 1000,
+      "requested_repeats": 1000,
+      "seed": 42
+    },
+    {
+      "measure": "AP logistic_regression",
+      "estimate": 0.31051163787969654,
+      "ci_low": 0.24599712384014533,
+      "ci_high": 0.3887067255803379,
+      "valid_repeats": 1000,
+      "requested_repeats": 1000,
+      "seed": 42
+    },
+    {
+      "measure": "AP random_forest minus logistic_regression",
+      "estimate": 0.006637076748444992,
+      "ci_low": -0.03584327379226576,
+      "ci_high": 0.04404934226563175,
+      "valid_repeats": 1000,
+      "requested_repeats": 1000,
+      "seed": 42
+    }
+  ],
+  "validation_permutation_repeats": 5,
+  "diagnostic_runtime": {
+    "python": "3.13.14",
+    "sklearn": "1.9.1",
+    "joblib": "1.6.0",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3"
+  },
+  "protected_evidence_unchanged": true,
+  "completed_at_utc": "2026-11-04T18:20:14.800113+00:00"
+}

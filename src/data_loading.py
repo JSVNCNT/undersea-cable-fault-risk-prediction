@@ -1,6 +1,7 @@
 from pathlib import Path
 from typing import Dict
 import pandas as pd
+import numpy as np
 
 from . import config
 
@@ -12,15 +13,29 @@ NUMERIC_COLUMNS = [
     "fault_this_year", "fault_next_year",
 ]
 
-def load_csv(path: Path, *, target_nullable: bool = False) -> pd.DataFrame:
-    """Read CSV while preserving literal ``None`` as a category."""
+def load_csv(path: Path, *, target_nullable: bool = False, strict_numeric: bool = True) -> pd.DataFrame:
+    """Preserve literal ``None``; audit parsing separately from intentional blanks.
+
+    Numeric corruption fails closed by default. ``strict_numeric=False`` is for
+    an explicitly inspected audit, never an undocumented modeling fallback.
+    Counts, rather than source values, are attached to ``frame.attrs``.
+    """
     frame = pd.read_csv(path, keep_default_na=False, na_values=[])
+    parsing = []
     for col in frame.columns:
         if col in NUMERIC_COLUMNS:
-            if target_nullable and col == config.TARGET_COLUMN:
-                frame[col] = pd.to_numeric(frame[col].replace({"": pd.NA}), errors="coerce")
-            else:
-                frame[col] = pd.to_numeric(frame[col], errors="coerce")
+            text = frame[col].astype(str).str.strip()
+            converted = pd.to_numeric(text.mask(text.eq("")), errors="coerce")
+            failed = text.ne("") & converted.isna()
+            parsing.append({"variable": col, "intentional_blanks": int(text.eq("").sum()),
+                            "numeric_parse_failures": int(failed.sum())})
+            if strict_numeric and failed.any():
+                raise ValueError(f"Numeric parsing failed in {col}: {int(failed.sum())} nonblank values")
+            frame[col] = converted
+        elif col in config.CATEGORICAL_PREDICTORS:
+            # A genuine blank is missing, unlike the valid literal category None.
+            frame[col] = frame[col].astype(object).where(frame[col].astype(str).str.strip().ne(""), np.nan)
+    frame.attrs["numeric_parsing_audit"] = parsing
     return frame
 
 def load_master_data() -> pd.DataFrame:

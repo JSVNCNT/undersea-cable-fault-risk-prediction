@@ -1,0 +1,4 @@
+variable,design_capacity_tbps,lit_capacity_tbps,utilization_pct
+design_capacity_tbps,1.0,0.8950555482032554,-0.3723009399550867
+lit_capacity_tbps,0.8950555482032554,1.0,-0.19515199469970876
+utilization_pct,-0.3723009399550867,-0.19515199469970876,1.0

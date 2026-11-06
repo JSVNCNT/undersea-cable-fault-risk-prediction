@@ -1,0 +1,11 @@
+stage,rows,distinct_ids,labeled,positives,negatives
+raw,4821,500,4321,820,3501
+labeled,4321,486,4321,820,3501
+unlabeled_terminal,500,500,0,0,0
+nonconsecutive_excluded,6,6,6,2,4
+supervised_eligible,4315,486,4315,818,3497
+development_eda,3860,463,3857,742,3115
+development_supervised,3851,463,3851,740,3111
+train,2960,427,2960,570,2390
+validation,891,460,891,170,721
+final_test_existing_partition,464,464,464,78,386

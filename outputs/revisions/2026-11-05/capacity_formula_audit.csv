@@ -1,0 +1,2 @@
+check,rows,exact_matches,mean_absolute_difference,interpretation
+utilization_equals_100_lit_divided_by_design,3851,273,23.47910484250088,Numerical check only; publisher generation formula remains unknown

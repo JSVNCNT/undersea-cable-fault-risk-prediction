@@ -1,0 +1,5 @@
+variable,meaning,predictor
+next_observed_year,"Next available row year within identifier; audit only, not necessarily t+1",False
+has_consecutive_next_year,Next row is calendar year t+1,False
+label_temporally_valid,Populated target and consecutive successor,False
+exclusion_reason,Unlabeled terminal observation or populated non-consecutive predecessor; mutually exclusive by target presence,False

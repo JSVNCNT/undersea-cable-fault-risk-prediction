@@ -1,10 +1,11 @@
-"""Run all safe development-stage analysis steps.
+"""Reproduce development analysis in a new isolated output scope.
 
-The final 2025 holdout is summarized but never scored unless an explicit,
-separate authorization flag is supplied to a future final-term run.
+The original final evaluation is already exposed and must never be rerun.
+Default execution refuses the completed experiment; --output-root is required
+for separate reproduction. This runner never scores the final partition.
 """
 from __future__ import annotations
-import hashlib, json, platform, sys
+import argparse, hashlib, json, platform, sys
 from datetime import datetime, timezone
 from pathlib import Path
 import pandas as pd
@@ -29,7 +30,8 @@ def write_csv(frame, path):
 
 def clean_data(audited: pd.DataFrame) -> pd.DataFrame:
     out = audited.copy()
-    out["chokepoint"] = out["chokepoint"].astype(str).replace({"": "None"})
+    if out["chokepoint"].dropna().astype(str).str.strip().eq("").any():
+        raise ValueError("Blank chokepoint is not automatically the valid literal None category")
     out["exclusion_reason"] = ""
     out.loc[out[config.TARGET_COLUMN].isna(), "exclusion_reason"] = "unlabeled final observation"
     out.loc[out[config.TARGET_COLUMN].notna() & ~out["has_consecutive_next_year"], "exclusion_reason"] = "unresolved non-consecutive next observation"
@@ -52,7 +54,35 @@ def build_dictionary(raw, cleaned):
         rows.append({"variable":col,"description": supplied.iloc[0] if len(supplied) else "Verified from source audit.","dtype":str(s.dtype),"role":role,"units":"as supplied","allowed_observed_values":str(sorted(s.dropna().astype(str).unique())[:30]),"missing_count":int(s.isna().sum()),"valid_range":f"{s.min()} to {s.max()}" if pd.api.types.is_numeric_dtype(s) else "categorical","source":"undersea_cables_master.csv","derived_status":"derived" if col in {"age_years","route_redundancy","is_low_redundancy"} else "source field","planned_treatment":"retain/audit" if inclusion!="excluded" else "exclude from primary model","predictor_inclusion_status":inclusion,"leakage_concern":leakage,"limitation_note":note})
     return pd.DataFrame(rows)
 
-def main():
+def prepare_output_scope(output_root=None):
+    """Development rebuilding must not overwrite the completed experiment."""
+    completed = ROOT / "outputs/final_evaluation_2026-11-02"
+    if output_root is None:
+        if completed.exists():
+            raise PermissionError("Final evaluation already exists. Use scripts/review_research.py for reporting, or an explicit NEW --output-root for a separate development reproduction. Never rerun the final test.")
+        return ROOT
+    destination = Path(output_root).expanduser().resolve()
+    protected = [ROOT / name for name in ["UnderseaCableRisk", "data", "outputs", "website", "src", "docs", ".git", "scripts", "tests", "notebooks", "deliverables"]]
+    if destination == ROOT or any(destination == p or p in destination.parents or destination in p.parents for p in protected):
+        raise ValueError("Output root overlaps protected project evidence; use a new directory outside the protected trees, for example tmp/development-reproduction")
+    if destination.exists():
+        raise FileExistsError("Output root must be new; prior results are never overwritten")
+    destination.mkdir(parents=True)
+    config.DATA_DIR = destination / "data"
+    config.INTERIM_DIR = config.DATA_DIR / "interim"
+    config.PROCESSED_DIR = config.DATA_DIR / "processed"
+    config.MODEL_READY_DIR = config.DATA_DIR / "model_ready"
+    config.OUTPUT_DIR = destination / "outputs"
+    for attr, suffix in [("FIGURES_DIR", "figures"), ("TABLES_DIR", "tables"), ("METRICS_DIR", "metrics"), ("MODELS_DIR", "models"), ("REPORTS_DIR", "reports")]:
+        setattr(config, attr, config.OUTPUT_DIR / suffix)
+    return destination
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output-root", type=Path, help="New isolated directory for development-only reproduction; never the frozen experiment")
+    args = parser.parse_args(argv)
+    scope_root = prepare_output_scope(args.output_root)
     config.ensure_directories()
     raw = load_all_raw_data(); master = raw["master"]
     # External context/incident files are validated and inventoried, but are
@@ -113,7 +143,7 @@ def main():
     if not cv.empty:
         write_csv(cv.groupby("model", as_index=False).agg(temporal_cv_pr_auc_mean=("pr_auc", "mean"), temporal_cv_pr_auc_sd=("pr_auc", "std"), temporal_cv_f1_mean=("f1", "mean"), temporal_cv_recall_mean=("recall", "mean"), folds=("fold", "count")), config.TABLES_DIR/"temporal_cv_summary.csv")
     selected=select_model(comparison)
-    selection={"selected_model":selected,"selection_date":datetime.now(timezone.utc).isoformat(),"development_partitions":"train 2015-2022; validation 2023-2024","primary_metric":"PR-AUC / average precision due to 18.98% positive prevalence","supporting_metrics":["recall","precision","F1","ROC-AUC","confusion matrix"],"interpretability_consideration":"Prefer simpler model for ties; compare coefficient/tree/importance artifacts.","overfitting_consideration":"Final test not accessed; validation-only comparison.","limitations":"Results describe the supplied synthetic dataset and are not real-world cable evidence."}
+    selection={"selected_model":selected,"selection_date":datetime.now(timezone.utc).isoformat(),"development_partitions":"train 2015-2022; validation 2023-2024","primary_metric":"Average precision (stored as pr_auc) because positive labels are a minority","supporting_metrics":["recall","precision","F1","ROC-AUC","confusion matrix"],"interpretability_consideration":"Prefer simpler model for ties; compare coefficient/tree/importance artifacts.","overfitting_consideration":"Development reproduction only: no final inference in this run. The original final test was already evaluated on 2026-11-02 and is not a new untouched test.","limitations":"Results describe the supplied synthetic dataset and are not real-world cable evidence."}
     (config.METRICS_DIR).mkdir(exist_ok=True); (config.METRICS_DIR/"model_selection.json").write_text(json.dumps(selection,indent=2),encoding="utf-8")
     (config.MODELS_DIR/"model_metadata.json").write_text(json.dumps({"random_seed": config.RANDOM_SEED, "predictors": config.PREDICTORS, "categorical_predictors": config.CATEGORICAL_PREDICTORS, "numeric_predictors": config.NUMERICAL_PREDICTORS, "models": {n: fitted[n].named_steps["model"].get_params() for n in fitted}}, indent=2, default=str), encoding="utf-8")
     # validation error analysis for selected model
@@ -132,7 +162,7 @@ def main():
         names = fitted[model_name].named_steps["preprocess"].get_feature_names_out()
         write_csv(pd.DataFrame({"feature": names, "importance": est.feature_importances_}).sort_values("importance", ascending=False), interp_dir/f"{model_name}_feature_importance.csv")
     write_csv(errors.groupby(["year", "error_type"]).size().rename("count").reset_index(), config.TABLES_DIR/"robustness_by_validation_year.csv")
-    (config.METRICS_DIR/"final_test_status.txt").write_text("Final test evaluation is locked. Enable only for authorized Final-Term evaluation after model selection is frozen.\n", encoding="utf-8")
+    (config.METRICS_DIR/"final_test_status.txt").write_text("Development reproduction only. This run does not score the final partition. The preserved original final evaluation was completed on 2026-11-02; do not treat the same test as newly untouched or repeat inference. Instructor consultation about evaluation timing remains pending.\n", encoding="utf-8")
     # metadata and governance outputs
     versions=[]
     for pkg in ["pandas","numpy","scipy","sklearn","statsmodels","matplotlib","joblib"]:
@@ -140,13 +170,13 @@ def main():
             mod=__import__(pkg); versions.append(f"{pkg}=={getattr(mod,'__version__','unknown')}")
         except Exception: pass
     versions.insert(0,f"python=={platform.python_version()}"); (config.REPORTS_DIR/"environment_versions.txt").write_text("\n".join(versions)+"\n",encoding="utf-8")
-    source=(ROOT/"docs/source_record/dataset_source_record.md"); source.parent.mkdir(parents=True,exist_ok=True); source.write_text(f"""# Dataset source record\n\n- Title: Undersea Cables and Global Digital Infrastructure\n- Kaggle: https://www.kaggle.com/datasets/sergionefedov/undersea-cables-and-global-digital-infrastructure\n- Handle: sergionefedov\n- Access date: 2026-09-16\n- License: CC0 (Public Domain)\n- Status: 100% synthetic, procedurally generated with a fixed seed; not authenticated real cable measurements.\n- Modeling source files: undersea_cables_master.csv, cables_reference.csv, data_dictionary.csv\n- Separate source-backed context files: data/external/context_indicators.csv and data/external/historical_incidents.csv\n- Unit: one cable-year observation; coverage 2015-2026; master rows {len(master)}.\n- SHA-256 master: {sha256(config.MASTER_PATH)}\n- SHA-256 reference: {sha256(config.REFERENCE_PATH)}\n- SHA-256 dictionary: {sha256(config.DICTIONARY_PATH)}\n- Synthetic dataset instructor status: PENDING EXPLICIT CONFIRMATION\n- Redistribution note: CC0 permits reuse; retain accurate attribution and do not imply endorsement.\n- Limitations: six temporally unresolved labels are excluded from supervised analysis; external context/incident files are not row-level joins; external empirical validation is required before any operational use.\n""",encoding="utf-8")
-    dq=ROOT/"docs/data_quality/data_quality_report.md"; dq.parent.mkdir(parents=True,exist_ok=True); dq.write_text(f"""# Data quality report\n\nThe source contains **{len(master):,} rows**, **{len(master.columns)} variables**, **{master.cable_id.nunique()} cables**, and years **{master.year.min()}–{master.year.max()}**. There are {master.fault_next_year.notna().sum():,} labeled rows ({(master.fault_next_year==1).sum():,} positive; {(master.fault_next_year==0).sum():,} negative) and {len(eligible):,} temporally eligible supervised rows after excluding six unresolved predecessors.\n\n- Exact duplicate rows: {master.duplicated().sum()}; duplicate cable-year keys: {master.duplicated(['cable_id','year']).sum()}.\n- `chokepoint` literal `None` count: {(master.chokepoint=='None').sum():,}; these are valid categorical values, not nulls.\n- `design_life_years` is constant; `is_low_redundancy` equals `route_redundancy < 40`.\n- Unresolved labels are preserved in `data/interim/temporally_unresolved_labels.csv`; see `outputs/tables/temporal_gap_audit.csv`.\n- The dataset is synthetic; no result should be interpreted as evidence about real submarine cables.\n\nReproducible summaries: `outputs/tables/raw_data_quality_summary.csv`, `cleaning_summary.csv`, `raw_vs_cleaned_summary.csv`, `final_data_dictionary.csv`.\n""",encoding="utf-8")
+    source=(scope_root/"docs/source_record/dataset_source_record.md"); source.parent.mkdir(parents=True,exist_ok=True); source.write_text(f"""# Dataset source record\n\n- Title: Undersea Cables and Global Digital Infrastructure\n- Kaggle: https://www.kaggle.com/datasets/sergionefedov/undersea-cables-and-global-digital-infrastructure\n- Handle: sergionefedov\n- Access date: 2026-09-16\n- License: CC0 (Public Domain), as recorded in the retained source record.\n- Status: publisher-declared synthetic; not authenticated real cable measurements.\n- Modeling source files: undersea_cables_master.csv, cables_reference.csv, data_dictionary.csv\n- Unit: one cable-year observation; master rows {len(master)}.\n- SHA-256 master: {sha256(config.MASTER_PATH)}\n- Instructor acceptance: project owner confirmed acceptance of clearly disclosed synthetic data on 2026-11-05; original approval date/document not supplied. This is not authorization for final-test unblinding.\n- Source version and exact generation formula: not established by the available project evidence.\n- Separate development reproduction only; original final evidence is unchanged.\n""",encoding="utf-8")
+    dq=scope_root/"docs/data_quality/data_quality_report.md"; dq.parent.mkdir(parents=True,exist_ok=True); dq.write_text(f"""# Data quality report\n\nThe source contains **{len(master):,} rows**, **{len(master.columns)} variables**, **{master.cable_id.nunique()} synthetic identifiers**, and years **{master.year.min()}–{master.year.max()}**. There are {master.fault_next_year.notna().sum():,} labeled rows ({(master.fault_next_year==1).sum():,} positive; {(master.fault_next_year==0).sum():,} negative) and {len(eligible):,} temporally eligible supervised rows. Raw observations and the completed final experiment are not overwritten.\n""",encoding="utf-8")
     trace=pd.DataFrame([{"research_question":"RQ1","evidence":"EDA descriptive_statistics.csv and outputs/figures/eda","artifacts":"03_exploratory_analysis.ipynb"},{"research_question":"RQ2","evidence":"statistics/categorical_associations.csv; numeric_comparisons.csv","artifacts":"04_statistical_analysis.ipynb"},{"research_question":"RQ3","evidence":"model_comparison_validation.csv","artifacts":"06_model_development.ipynb"},{"research_question":"RQ4","evidence":"model_selection.json; validation_error_analysis.csv","artifacts":"07_model_evaluation.ipynb"}]); write_csv(trace,config.TABLES_DIR/"research_question_traceability.csv")
     manifest=[]
     for p in [config.TABLES_DIR/"raw_data_quality_summary.csv",config.TABLES_DIR/"model_comparison_validation.csv",config.METRICS_DIR/"model_selection.json",config.PROCESSED_DIR/"undersea_cables_cleaned.csv",config.EXTERNAL_CONTEXT_PATH,config.EXTERNAL_INCIDENTS_PATH]:
         manifest.append({"artifact":str(p.relative_to(ROOT)),"type":p.suffix.lstrip('.'),"stage":"development","source_notebook_or_script":"scripts/run_pipeline.py","research_question":"RQ1-RQ4","description":"Generated reproducible artifact","generated_at":datetime.now(timezone.utc).isoformat(),"status":"generated"})
     write_csv(pd.DataFrame(manifest),config.REPORTS_DIR/"artifact_manifest.csv")
-    print(f"Safe pipeline complete. Cleaned rows: {len(clean)}; selected model: {selected}. Final test evaluation is locked. Unresolved labels: {len(unresolved)}.")
+    print(f"Isolated development reproduction complete. Cleaned rows: {len(clean)}; selected model: {selected}. No final inference performed; original final results remain preserved. Unresolved labels: {len(unresolved)}.")
 
 if __name__ == "__main__": main()

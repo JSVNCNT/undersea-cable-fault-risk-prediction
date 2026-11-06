@@ -1,0 +1,49 @@
+{
+  "checked_at_utc": "2026-11-04T18:44:22.192444+00:00",
+  "notebooks": [
+    {
+      "notebook": "01_source_and_data_audit.ipynb",
+      "status": "executed without cell errors",
+      "execution_copy": "C:\\Users\\Vincent\\Documents\\undersea-cable-fault-risk-prediction\\tmp\\notebook_verification\\executed-vfjyq3p9\\01_source_and_data_audit.ipynb"
+    },
+    {
+      "notebook": "02_data_cleaning.ipynb",
+      "status": "executed without cell errors",
+      "execution_copy": "C:\\Users\\Vincent\\Documents\\undersea-cable-fault-risk-prediction\\tmp\\notebook_verification\\executed-vfjyq3p9\\02_data_cleaning.ipynb"
+    },
+    {
+      "notebook": "03_exploratory_analysis.ipynb",
+      "status": "executed without cell errors",
+      "execution_copy": "C:\\Users\\Vincent\\Documents\\undersea-cable-fault-risk-prediction\\tmp\\notebook_verification\\executed-vfjyq3p9\\03_exploratory_analysis.ipynb"
+    },
+    {
+      "notebook": "04_statistical_analysis.ipynb",
+      "status": "executed without cell errors",
+      "execution_copy": "C:\\Users\\Vincent\\Documents\\undersea-cable-fault-risk-prediction\\tmp\\notebook_verification\\executed-vfjyq3p9\\04_statistical_analysis.ipynb"
+    },
+    {
+      "notebook": "05_feature_preparation.ipynb",
+      "status": "executed without cell errors",
+      "execution_copy": "C:\\Users\\Vincent\\Documents\\undersea-cable-fault-risk-prediction\\tmp\\notebook_verification\\executed-vfjyq3p9\\05_feature_preparation.ipynb"
+    },
+    {
+      "notebook": "06_model_development.ipynb",
+      "status": "executed without cell errors",
+      "execution_copy": "C:\\Users\\Vincent\\Documents\\undersea-cable-fault-risk-prediction\\tmp\\notebook_verification\\executed-vfjyq3p9\\06_model_development.ipynb"
+    },
+    {
+      "notebook": "07_model_evaluation.ipynb",
+      "status": "executed without cell errors",
+      "execution_copy": "C:\\Users\\Vincent\\Documents\\undersea-cable-fault-risk-prediction\\tmp\\notebook_verification\\executed-vfjyq3p9\\07_model_evaluation.ipynb"
+    },
+    {
+      "notebook": "08_final_analysis.ipynb",
+      "status": "executed without cell errors",
+      "execution_copy": "C:\\Users\\Vincent\\Documents\\undersea-cable-fault-risk-prediction\\tmp\\notebook_verification\\executed-vfjyq3p9\\08_final_analysis.ipynb"
+    }
+  ],
+  "protected_evidence_unchanged": true,
+  "original_classifier_fit": false,
+  "final_test_inference": false,
+  "scope": "Read-only notebook copies; separate development fitting verified by check_reproduction.py"
+}
