@@ -3,10 +3,10 @@
 **Project:** Predicting Next-Year Fault Occurrence in Global Undersea Cable Systems Using Infrastructure and Operational Indicators  
 **Course:** Introduction to Data Science (COPE0683X), Section K44  
 **Specification date:** 2026-09-16  
-**Status:** Planning pass only; no analytical pipeline or model has been implemented  
+**Status:** Historical September planning specification; superseded for execution by the November finals revision below.
 **Controlling evidence reviewed:** the complete current instructor document, the complete revised proposal, the current repository, all three supplied CSV files, and live Kaggle metadata
 
-> **STOP GATE — instructor decision required before Prelim implementation.** The live Kaggle metadata explicitly describes every observation as **100% synthetic** and procedurally generated with a fixed seed. This contradicts any treatment of the records as empirical measurements of real cable systems and materially affects compliance with the course prohibition against generated records presented as real data. The group must obtain written instructor approval to continue as a clearly labeled synthetic-data educational study, or replace the dataset with a legitimate, traceable empirical source and revise the proposal. No statistical or predictive result may be represented as evidence about real cables.
+> **Current status update, 2026-11-05.** The project owner confirmed instructor acceptance of clearly disclosed synthetic data. The implemented primary selection, 4,315 eligible rows and completed user-authorized November 2 frozen evaluation supersede the plans below. The exact instructor treatment of that evaluation sequence still requires consultation. Use `docs/revisions/2026-11-05/execution_guide.md` and the 320-item compliance matrix. Earlier projected counts, tuning/refitting plans and locked-test wording below are historical intentions, not claims of completed implementation. Never rerun the exposed final test or present the generated records as authenticated real-cable evidence.
 
 ## 1. Project summary
 

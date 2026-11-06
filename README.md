@@ -11,7 +11,25 @@ This repository contains the code, notebooks, documentation, and reproducible an
 
 The project investigates whether infrastructure and operational information available at the end of an observation year can distinguish cable-year records that experience a fault in the following year from those that do not.
 
-The study is designed as a data-science classification project, not an engineering-diagnosis or operational warning system.
+The study is an experimental classification workflow using a publisher-declared **synthetic cable-year dataset**, not authenticated real-cable failure measurements or an operational warning system. The project owner confirmed instructor acceptance of clearly disclosed synthetic data on 5 November 2026; final-test authorization is a separate issue.
+
+## Current finals revision
+
+See [the execution guide](docs/revisions/2026-11-05/execution_guide.md),
+[the 320-item correction matrix](docs/revisions/2026-11-05/compliance_matrix.csv),
+and [the access-history record](docs/revisions/2026-11-05/final_test_access_record.md).
+New supplementary reports are in `outputs/revisions/2026-11-05/`.
+The original frozen forest and completed 2 November final evidence are unchanged.
+Do not run the final-evaluation script again. Instructor treatment of that earlier
+user-authorized run remains consultation, not an inferred instructor approval.
+
+`python scripts/review_research.py --output-root outputs/revisions/my-new-review`
+rebuilds audit/reporting evidence in a **new** directory without loading models.
+Use `--model-diagnostics` only for documented validation-only diagnostics in the
+compatible environment. The original development runner now refuses default
+execution over the completed experiment; separate reproduction requires a new
+`--output-root`. No commit, push, hosted import, or deployment is needed to inspect
+the local revision. `requirements-research-frozen.txt` records model-compatible pins.
 
 ## Dataset Source
 
@@ -23,10 +41,10 @@ development-only comparison of separate versus combined feature groups are
 documented in [the indicator framework](docs/methodology/indicator_framework.md).
 Reproduce the supplementary comparison with
 `python scripts/analyze_indicator_groups.py`. Results are saved in
-`outputs/tables/indicator_analysis/`; the primary model selection and locked
-final test are preserved.
+`outputs/tables/indicator_analysis/`; the original selection and completed
+final-test evidence are preserved. Do not use this to reselect on the exposed test.
 
-The revised paper copies can be rebuilt with
+Historical indicator-stage paper copies can be rebuilt with
 `python scripts/revise_indicator_documents.py build`. The document dependencies
 are listed in `requirements-documents.txt`; test dependencies are in
 `requirements-dev.txt`. The builder preserves the established formatted papers
@@ -59,7 +77,7 @@ The working dataset is **Undersea Cables and Global Digital Infrastructure**, ob
 - Negative next-year fault labels: 3,501
 - Target variable: `fault_next_year`
 
-`fault_next_year = 1` indicates that a fault occurs in the following observed cable-year, while `0` indicates no following-year fault.
+`fault_next_year = 1` is the supplied positive label for calendar year t+1. Supervised use requires an observed consecutive-year successor. It is not a verified real-cable fault event.
 
 The final observation for each cable has no forward label and is excluded from supervised model training and evaluation while being preserved separately.
 
@@ -67,7 +85,7 @@ The final observation for each cable has no forward label and is excluded from s
 
 The supplied data dictionary describes `cable_id` as a **synthetic cable system ID**.
 
-Kaggle metadata verifies that every observation is synthetic and procedurally generated with a fixed seed. The records are not authenticated measurements of real submarine cable systems. CC0 permits reuse with accurate attribution and no implied endorsement; instructor approval for synthetic-data use remains pending.
+The retained publisher/source record describes synthetic, procedurally generated observations, not authenticated measurements of real submarine cable systems. The source record records CC0 reuse status and file hashes. The exact dataset version and complete generation formula are not established. The project owner confirmed instructor acceptance of clearly disclosed synthetic data; no original approval date or written decision is invented.
 
 ## Research Questions
 
@@ -76,7 +94,7 @@ Kaggle metadata verifies that every observation is synthetic and procedurally ge
 3. How well do a majority-class baseline, logistic regression, decision tree, and random forest predict next-year fault occurrence using only information available before the held-out prediction year?
 4. Which candidate model provides the most appropriate balance of predictive performance, stability, interpretability, and fault-class detection?
 
-## Planned Analytical Workflow
+## Implemented Analytical Workflow
 
 1. Preserve and document the original source files.
 2. Audit data types, ranges, duplicates, missing values, and data quality.
@@ -85,15 +103,15 @@ Kaggle metadata verifies that every observation is synthetic and procedurally ge
 5. Perform exploratory data analysis and statistical association testing.
 6. Prepare categorical and numeric predictors using reproducible preprocessing pipelines.
 7. Train a majority-class baseline.
-8. Train and tune candidate classification models.
-9. Evaluate all models on chronologically held-out data.
+8. Compare fixed candidate configurations; no hyperparameter-search history is claimed.
+9. Compare all candidates on validation; retain the completed frozen-forest final evaluation only.
 10. Interpret results, errors, uncertainty, limitations, and responsible-use boundaries.
 
-## Planned Models
+## Candidate Models
 
 ### Majority-Class Baseline
 
-A `DummyClassifier` will provide the minimum benchmark by predicting the most common class.
+A `DummyClassifier` provides training-prior scores and majority-class predictions.
 
 ### Logistic Regression
 
@@ -113,7 +131,7 @@ No model is assumed to be the best in advance.
 
 The project uses **chronological validation** rather than random splitting.
 
-Planned starting split:
+Recorded predictor-year split:
 
 - Training: 2015â€“2022
 - Validation/model selection: 2023â€“2024
@@ -123,21 +141,21 @@ All preprocessing, including encoding, scaling, imputation, and any class-imbala
 
 ## Evaluation Metrics
 
-The project will report:
+The project reports:
 
 - Precision
 - Recall
 - F1-score
 - Confusion matrix
 - ROC-AUC
-- PR-AUC
+- Average precision (AP; internal field `pr_auc`, not trapezoidal PR area)
 - Accuracy as a secondary metric
 
 Accuracy will not be used alone because the target is imbalanced.
 
 ## Main Variables Under Review
 
-Important proposed predictors include:
+The 13 primary predictors are:
 
 - `ocean_route`
 - `operator_type`
@@ -151,11 +169,11 @@ Important proposed predictors include:
 - `utilization_pct`
 - `protected_burial`
 - `route_redundancy`
-- `is_low_redundancy`
-- `vulnerability_index`
 - `fault_this_year`
 
-Derived or redundant variables will be audited before modeling.
+Identifiers, year, the constant design-life field, duplicate low-redundancy flag,
+ready-for-service year, undocumented vulnerability index, and fault cause are
+excluded from primary inputs with documented timing/redundancy reasons.
 
 ## Repository Structure
 
@@ -174,9 +192,16 @@ undersea-cable-fault-risk-prediction/
 â”œâ”€â”€ requirements.txt
 â”œâ”€â”€ .gitignore
 â””â”€â”€ README.md
+```
+
 ## Reproducible implementation (current)
 
-Kaggle metadata verifies that the supplied observations are 100% synthetic and procedurally generated with a fixed seed; they are not authenticated measurements of real submarine cable systems. Instructor approval for a clearly labeled synthetic-data educational study remains pending. Run `python scripts/run_pipeline.py` after installing `requirements.txt`. The safe runner creates audit, cleaning, EDA, statistical, model-comparison, and governance artifacts, uses chronological 2015–2022/2023–2024 development partitions, excludes six unresolved temporal labels, and keeps the 2025 final test locked until authorized Final-Term evaluation.
+Use the current revision execution guide above. The 2025 predictor-year test was
+evaluated once on 2 November and is now exposed. Reporting must read saved final
+predictions/metrics, not run final inference again. Separate development
+reproduction uses a new isolated output scope. The supplementary revision checks
+preserve the original data, model and results and do not turn synthetic records
+into empirical evidence.
 
 The implementation also materializes a separate engineered-feature sensitivity
 dataset with causal lag/trend and capacity-headroom features. These features are

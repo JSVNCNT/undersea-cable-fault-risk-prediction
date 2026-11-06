@@ -1,0 +1,19 @@
+{
+  "items": 320,
+  "source_pdf_sha256": "6592bd10e0b2dac3367dd8658bfa0521ed8040ed7461b8e700d4d177979fa277",
+  "feedback_source": "C:\\Users\\Vincent\\Downloads\\Predicting Next-Year Fault Occurrence in Global Undersea Cable Systems.pdf",
+  "generated_date": "2026-11-05",
+  "all_items_signed_off": false,
+  "reported_dataset_acceptance": true,
+  "final_test_instructor_acceptance": false,
+  "statuses": {
+    "Addressed in revision; group verification pending": 294,
+    "Addressed with historical disclosure; consultation pending": 12,
+    "Clean working-copy reproduction verified": 1,
+    "Conditional extension not adopted": 2,
+    "Correction record populated; member verification pending": 1,
+    "Repository prepared; submission pending": 1,
+    "Source limitation documented": 8,
+    "Working-copy reproduction verified; fresh environment not verified": 1
+  }
+}

@@ -1,0 +1,4 @@
+member,review_assignment,actual_work_date,evidence_to_verify,review_status,signature
+Bayoguing Jose Vincent III,Coordinate feedback and final-test consultation,,compliance_matrix.csv; final_test_access_record.md,Pending member verification,
+Cruz Aurum Fuego,Review website explanations and responsive presentation,,website/src/components/revision-evidence.tsx; website tests,Pending member verification,
+Sapio John Rey,Review Python safeguards and analytical interpretation,,tests/test_revision_safeguards.py; revision reports,Pending member verification,

@@ -26,7 +26,10 @@ the preserved source, applies the existing temporal-label audit, and fits fixed
 logistic-regression and random-forest models to each of three feature blocks:
 infrastructure, operational, and combined. Training remains 2015–2022 (2,960
 rows), with validation in 2023–2024 (891 rows, 170 positives). Imputation and
-encoding fit only training rows. The final 2025 holdout remains locked.
+encoding fit only training rows. This comparison was development-only. The final
+2025 partition was subsequently evaluated once on 2026-11-02 and is now exposed;
+use its saved results, not a repeat evaluation. The 2026-11-05 revision provides
+additional validation-only diagnostics without replacing the original selection.
 
 The report calls average precision `pr_auc` to match the existing repository.
 All comparisons use the same observations, estimator parameters, seed, and
