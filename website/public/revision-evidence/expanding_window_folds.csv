@@ -1,0 +1,5 @@
+fold,train_max_year,validation_year,n_train,n_validation,train_min_year
+through_2018_to_2019,2018,2019,1342,378,2015
+through_2019_to_2020,2019,2020,1720,397,2015
+through_2020_to_2021,2020,2021,2117,416,2015
+through_2021_to_2022,2021,2022,2533,427,2015

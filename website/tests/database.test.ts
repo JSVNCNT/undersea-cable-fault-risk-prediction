@@ -91,6 +91,17 @@ it('executes the Supabase schema and enforces published-only, read-only access i
         )
       ).rows[0].n,
     ).toBeGreaterThan(0);
+    await db.exec('reset role;');
+    const verification = await db.exec(
+      readFileSync(new URL('../supabase/003_verify_revision_evidence.sql', import.meta.url), 'utf8'),
+    );
+    // This fixture intentionally contains no evaluations: the script must detect
+    // that incomplete import while confirming the genuine observation counts.
+    const verificationRows = verification.flatMap(result => result.rows as Record<string, unknown>[]);
+    expect(verificationRows.filter(r => 'passed' in r).map(r => r.passed)).toEqual([true, true, true]);
+    expect(verificationRows.find(r => 'eligible_counts_passed' in r)?.eligible_counts_passed).toBe(true);
+    expect(verificationRows.find(r => 'existing_evaluation_count_passed' in r)?.existing_evaluation_count_passed).toBe(false);
+    await db.exec('set role anon;');
     for (const table of [
       'dataset_versions',
       'cable_year_observations',

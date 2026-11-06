@@ -1,0 +1,179 @@
+{
+  "revision_date": "2026-11-05",
+  "release_id": "final-2026-11-02-56200c1c9706",
+  "model_sha256": "4228e0bb067a895e4035229a275d0eb77007afc65c8f832b5ff8461673b56bfb",
+  "scope": "Supplementary development evidence; original published release and frozen final results unchanged",
+  "reconciliation": [
+    {
+      "stage": "raw",
+      "rows": 4821,
+      "distinct_ids": 500,
+      "labeled": 4321,
+      "positives": 820,
+      "negatives": 3501
+    },
+    {
+      "stage": "labeled",
+      "rows": 4321,
+      "distinct_ids": 486,
+      "labeled": 4321,
+      "positives": 820,
+      "negatives": 3501
+    },
+    {
+      "stage": "unlabeled_terminal",
+      "rows": 500,
+      "distinct_ids": 500,
+      "labeled": 0,
+      "positives": 0,
+      "negatives": 0
+    },
+    {
+      "stage": "nonconsecutive_excluded",
+      "rows": 6,
+      "distinct_ids": 6,
+      "labeled": 6,
+      "positives": 2,
+      "negatives": 4
+    },
+    {
+      "stage": "supervised_eligible",
+      "rows": 4315,
+      "distinct_ids": 486,
+      "labeled": 4315,
+      "positives": 818,
+      "negatives": 3497
+    },
+    {
+      "stage": "development_eda",
+      "rows": 3860,
+      "distinct_ids": 463,
+      "labeled": 3857,
+      "positives": 742,
+      "negatives": 3115
+    },
+    {
+      "stage": "development_supervised",
+      "rows": 3851,
+      "distinct_ids": 463,
+      "labeled": 3851,
+      "positives": 740,
+      "negatives": 3111
+    },
+    {
+      "stage": "train",
+      "rows": 2960,
+      "distinct_ids": 427,
+      "labeled": 2960,
+      "positives": 570,
+      "negatives": 2390
+    },
+    {
+      "stage": "validation",
+      "rows": 891,
+      "distinct_ids": 460,
+      "labeled": 891,
+      "positives": 170,
+      "negatives": 721
+    },
+    {
+      "stage": "final_test_existing_partition",
+      "rows": 464,
+      "distinct_ids": 464,
+      "labeled": 464,
+      "positives": 78,
+      "negatives": 386
+    }
+  ],
+  "intervals": [
+    {
+      "measure": "AP random_forest",
+      "estimate": 0.31714871462814154,
+      "ci_low": 0.24972832323236682,
+      "ci_high": 0.39059160862372444,
+      "valid_repeats": 1000,
+      "requested_repeats": 1000,
+      "seed": 42
+    },
+    {
+      "measure": "AP logistic_regression",
+      "estimate": 0.31051163787969654,
+      "ci_low": 0.24599712384014533,
+      "ci_high": 0.3887067255803379,
+      "valid_repeats": 1000,
+      "requested_repeats": 1000,
+      "seed": 42
+    },
+    {
+      "measure": "AP random_forest minus logistic_regression",
+      "estimate": 0.006637076748444992,
+      "ci_low": -0.03584327379226576,
+      "ci_high": 0.04404934226563175,
+      "valid_repeats": 1000,
+      "requested_repeats": 1000,
+      "seed": 42
+    }
+  ],
+  "forward_checkable": 3397,
+  "forward_disagreements": 0,
+  "numeric_parse_failures": 0,
+  "shared_validation_ids": 424,
+  "validation_ids": 460,
+  "files": [
+    {
+      "name": "record_reconciliation.csv",
+      "href": "/revision-evidence/record_reconciliation.csv",
+      "sha256": "cfb10c1c343ee49133d28c39379308e30f2301a18558e9fff3d88ddd9646352d"
+    },
+    {
+      "name": "validation_subgroup_errors.csv",
+      "href": "/revision-evidence/validation_subgroup_errors.csv",
+      "sha256": "158784eaaeeb22b30ac32d1ce0fd59e71564c21545923ee6a20a71094f0ebca1"
+    },
+    {
+      "name": "validation_cluster_bootstrap.csv",
+      "href": "/revision-evidence/validation_cluster_bootstrap.csv",
+      "sha256": "70ea61ce97e73c88c558a23559dc1a39eac189b29515b0240c9de9b2310c0b03"
+    },
+    {
+      "name": "original_predictor_importance.csv",
+      "href": "/revision-evidence/original_predictor_importance.csv",
+      "sha256": "49bc240ff857c572954f014a72b7fdecbe65f694c62c818da40a037b73c486ac"
+    },
+    {
+      "name": "validation_permutation_importance.csv",
+      "href": "/revision-evidence/validation_permutation_importance.csv",
+      "sha256": "e0f52a3c304d77accf593bc4f3a2f69c4618bb2d39d02d9c38b0c954484767e8"
+    },
+    {
+      "name": "annual_panel_coverage.csv",
+      "href": "/revision-evidence/annual_panel_coverage.csv",
+      "sha256": "6b4d392acab011980edd13bd0aa9168978051f54f1d9d3232db8a280652a1aa1"
+    },
+    {
+      "name": "expanding_window_folds.csv",
+      "href": "/revision-evidence/expanding_window_folds.csv",
+      "sha256": "e91ca2ca5024a1aeabb042729bc8abed28e13e345d63c7e005c34a77770c93d4"
+    },
+    {
+      "name": "final_data_dictionary.csv",
+      "href": "/revision-evidence/final_data_dictionary.csv",
+      "sha256": "dfa3047da0ffbdc5fc97245127f762e29c177901c552e58ce0d0e8415e3dd81a"
+    },
+    {
+      "name": "added_audit_dictionary.csv",
+      "href": "/revision-evidence/added_audit_dictionary.csv",
+      "sha256": "da7e996e42d4efd575f9b4e1b96382053c0d265f6ba5800ba3fde52c11604f63"
+    },
+    {
+      "name": "numeric_associations_holm.csv",
+      "href": "/revision-evidence/numeric_associations_holm.csv",
+      "sha256": "fcbd26843803fb86a04d41283c9dec19f66cec4586c0845e24a6beef88aa5065"
+    },
+    {
+      "name": "categorical_associations_holm.csv",
+      "href": "/revision-evidence/categorical_associations_holm.csv",
+      "sha256": "3972a02f787bdd6b28f9f9f6e1badfce30932a06a1dbb47bd772feaeb8162412"
+    }
+  ]
+}

@@ -150,7 +150,7 @@ export default function App() {
               <div>
                 <strong>Academic demonstration</strong>
                 <p>
-                  Computer-generated dataset.
+                  Synthetic research dataset.
                   <br />
                   Not a live fault alert service.
                 </p>

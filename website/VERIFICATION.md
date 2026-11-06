@@ -1,4 +1,16 @@
-# Local verification — 3 November 2026
+# Local verification
+
+## Revision checks on 5 November 2026
+
+- 83 Python research/document/API/publication tests passed. One non-failing Starlette/AnyIO deprecation warning remains.
+- 32 frontend/database tests passed, including explicit synthetic provenance, supplementary view controls, and SELECT-only SQL 003 detecting an incomplete evaluation fixture correctly.
+- TypeScript/Vite production build passed. Existing third-party Zod annotation warnings remain non-failing.
+- Removed deprecated `baseUrl` from `tsconfig.app.json`; the relative `@/*` path mapping and Vite alias remain. TypeScript checking, the production build and all 32 frontend/database tests passed again after this configuration change.
+- A fresh temporary working-copy development run reproduced the original validation metrics, temporal CV and split summaries within numerical tolerance. Only temporary fixed candidates were fitted; the original frozen model and final predictions were unchanged.
+- New paired identifier-bootstrap, permutation and subgroup reports use validation only. Original source/results/model and the Supabase research release remain fingerprint-identical.
+- No Supabase SQL, import, cloud deployment, commit or push was performed. Browser/mobile visual review is reported separately; DOM tests still mock charts.
+
+## Historical local verification on 3 November 2026
 
 ## Passed
 

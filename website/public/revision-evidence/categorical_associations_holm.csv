@@ -1,0 +1,4 @@
+variable,test,statistic,df,p_value,cramers_v,n,n_no_fault,n_fault,minimum_expected_count,expected_cells_below_5,independent_rows_assumed,repeated_cable_caution,p_value_holm_13_tests,alpha,evidence_scope
+ocean_route,chi-square,93.09300816850644,8,1.0937011264498215e-16,0.15547901219308888,3851,3111,740,63.412100753051156,0,True,True,1.3124413517397858e-15,0.05,exploratory development association; not independent-row confirmation
+operator_type,chi-square,2.6480634975981436,3,0.4491256302937039,0.026222701909895625,3851,3111,740,67.6395741365879,0,True,True,0.7471416971373779,0.05,exploratory development association; not independent-row confirmation
+chokepoint,chi-square,81.75901973627913,7,6.02767581663232e-15,0.14570722213486512,3851,3111,740,8.839262529213192,0,True,True,6.630443398295552e-14,0.05,exploratory development association; not independent-row confirmation

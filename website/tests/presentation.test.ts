@@ -5,15 +5,15 @@ describe('readable research presentation', () => {
   it('uses the confirmed group name', () => {
     expect(GROUP_NAME).toBe('Group 5 xam.py');
   });
-  it('rewords the term without hiding the generated origin or changing the source', () => {
+  it('preserves explicit synthetic provenance without changing the source', () => {
     const source = 'Synthetic cable system id';
-    expect(readableSourceText(source)).toBe('computer-generated cable system id');
+    expect(readableSourceText(source)).toBe('Synthetic cable system id');
     expect(source).toBe('Synthetic cable system id');
   });
-  it('avoids repeating the same definition in parentheses', () => {
+  it('retains the publisher qualification including parentheses', () => {
     expect(
       readableSourceText('100% computer-generated (synthetic) dataset; not a verified registry.'),
-    ).toBe('100% computer-generated dataset; not a verified registry.');
+    ).toBe('100% computer-generated (synthetic) dataset; not a verified registry.');
   });
   it('gives tooltip headers and values high contrast on the dark surface', () => {
     const luminance = (hex: string) => {

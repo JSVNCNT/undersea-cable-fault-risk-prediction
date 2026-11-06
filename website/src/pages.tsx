@@ -46,6 +46,7 @@ import { apiConfigured, checkHealth, predict } from './lib/api';
 import type { Prediction } from './lib/api';
 import { Button } from './components/ui/button';
 import { GROUP_NAME, readableSourceText, researchTooltipStyles } from './lib/presentation';
+import { RevisionEvidence } from './components/revision-evidence';
 import {
   ClassBalance,
   Empty,
@@ -156,7 +157,7 @@ export function Overview({ research, observations }: Props) {
       <PageHeading
         eyebrow={`INTRODUCTION TO DATA SCIENCE / ${GROUP_NAME}`}
         title="Undersea cable analytics"
-        description="Explore how infrastructure and operational indicators relate to next-year fault labels in our research dataset."
+        description="Explore infrastructure and operational indicators in a synthetic cable-year dataset. This experiment classifies generated next-year labels, not verified real-cable failures."
         action={
           <Button asChild>
             <Link to="/predict">
@@ -1033,6 +1034,7 @@ export function Methodology({ research }: Props) {
         title="From source data to saved results"
         description="A traceable workflow that preserves original records, keeps preprocessing inside the model pipeline, and separates model development from final evaluation."
       />
+      <RevisionEvidence research={research} />
       <Panel
         title="Chronological partitions"
         subtitle="Counts refer to eligible supervised cable-years, not unique real cables."
@@ -1447,7 +1449,7 @@ export function Demonstrator({ research }: Props) {
 export function Summary({ research }: Props) {
   const test = research.models.find((m) => m.selected)!.final_test!;
   const [copied, setCopied] = useState('');
-  const brief = `Our research studies whether nine infrastructure and four operational indicators can classify next-year fault labels in a publisher-declared computer-generated cable-year panel. We retained ${num(research.counts.eligible)} temporally eligible observations and used chronological training, validation, and final-test periods. Random Forest led the original candidate comparison by validation average precision. Its one-time final test on 464 rows detected ${test.TP} of ${test.TP + test.FN} positives, with ${test.FP} false alarms and ${test.FN} missed positives. Final average precision was ${test.pr_auc.toFixed(4)}. The results demonstrate a reproducible workflow, not operational reliability or causal effects.`;
+  const brief = `Our research studies whether nine infrastructure and four operational indicators can classify next-year fault labels in a publisher-declared synthetic cable-year panel. We retained ${num(research.counts.eligible)} temporally eligible observations and used chronological training, validation, and final-test periods. Random Forest led the original candidate comparison by validation average precision. Its one-time final test on 464 rows detected ${test.TP} of ${test.TP + test.FN} positives, with ${test.FP} false alarms and ${test.FN} missed positives. Final average precision was ${test.pr_auc.toFixed(4)}. The results demonstrate a reproducible workflow, not operational reliability or causal effects.`;
   const answers = [
     [
       'Why research undersea cables?',
@@ -1577,6 +1579,7 @@ export function About({ research }: Props) {
               comparison, and classification errors so readers can judge the evidence themselves.
             </p>
             <h3 className="research-title">{research.title}</h3>
+            <p>Synthetic cable-year classification experiment. The publisher identifiers are not a verified inventory of real cable systems. Acceptance of the dataset does not authenticate its measurements or validate real-world failure probabilities.</p>
             <SourceLink href={research.source_url}>
               Original Kaggle dataset and publisher
             </SourceLink>

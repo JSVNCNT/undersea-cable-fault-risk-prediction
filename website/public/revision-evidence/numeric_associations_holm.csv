@@ -1,0 +1,11 @@
+variable,test,statistic,p_value,median_no_fault,median_fault,n,n_no_fault,n_fault,rank_biserial_fault_higher,independent_rows_assumed,repeated_cable_caution,p_value_holm_13_tests,alpha,evidence_scope
+age_years,Mann-Whitney U,1000746.0,3.119251490286255e-08,10.0,13.0,3851,3111,740,0.13059501159790454,True,True,2.495401192229004e-07,0.05,exploratory development association; not independent-row confirmation
+fiber_pairs,Mann-Whitney U,1175207.0,0.37357084856868894,8.0,8.0,3851,3111,740,-0.02096918519290747,True,True,0.7471416971373779,0.05,exploratory development association; not independent-row confirmation
+length_km,Mann-Whitney U,971380.0,3.8415129076297344e-11,5630.0,6810.5,3851,3111,740,0.15610692659872982,True,True,3.8415129076297343e-10,0.05,exploratory development association; not independent-row confirmation
+n_landing_countries,Mann-Whitney U,1110404.5,0.12903547320250341,5.0,5.0,3851,3111,740,0.03532843354444126,True,True,0.4413877298726145,0.05,exploratory development association; not independent-row confirmation
+design_capacity_tbps,Mann-Whitney U,1245506.5,0.0005125096490203032,196.6,168.0,3851,3111,740,-0.08204236058623726,True,True,0.002562548245101516,0.05,exploratory development association; not independent-row confirmation
+lit_capacity_tbps,Mann-Whitney U,1194473.0,0.11034693246815362,128.1,115.45,3851,3111,740,-0.03770665554657837,True,True,0.4413877298726145,0.05,exploratory development association; not independent-row confirmation
+utilization_pct,Mann-Whitney U,1034164.5,1.6965344099914213e-05,60.2,64.95,3851,3111,740,0.10156245927702046,True,True,0.00010179206459948528,0.05,exploratory development association; not independent-row confirmation
+protected_burial,Mann-Whitney U,1286161.0,9.18533580386984e-09,1.0,0.0,3851,3111,740,-0.11736123780482499,True,True,8.266802223482857e-08,0.05,exploratory development association; not independent-row confirmation
+route_redundancy,Mann-Whitney U,1272060.5,8.389602287703377e-06,44.0,41.0,3851,3111,740,-0.10511133119619132,True,True,5.872721601392364e-05,0.05,exploratory development association; not independent-row confirmation
+fault_this_year,Mann-Whitney U,981189.5,6.058844315680803e-20,0.0,0.0,3851,3111,740,0.1475848558297932,True,True,7.876497610385044e-19,0.05,exploratory development association; not independent-row confirmation

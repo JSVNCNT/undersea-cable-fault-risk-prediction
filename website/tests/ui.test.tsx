@@ -63,6 +63,16 @@ afterEach(() => {
 });
 
 describe('research page components', () => {
+  it('shows explicit provenance and switches supplementary revision evidence', async () => {
+    const user = userEvent.setup();
+    show(<Methodology {...bundle} />);
+    expect(screen.getByText(/experiment using synthetic cable-year records/)).toBeTruthy();
+    expect(screen.getByRole('button', { name: 'Record reconciliation' }).getAttribute('aria-pressed')).toBe('true');
+    await user.click(screen.getByRole('button', { name: 'Validation uncertainty' }));
+    expect(screen.getByText('AP random forest minus logistic regression')).toBeTruthy();
+    expect(screen.getByText('-0.0358')).toBeTruthy();
+    expect(screen.getByText(/424 of 460 validation identifiers/)).toBeTruthy();
+  });
   for (const [name, Page] of Object.entries({
     Overview,
     Dataset,
@@ -76,7 +86,9 @@ describe('research page components', () => {
     it(`renders ${name} with a single main heading`, async () => {
       const view = show(<Page {...bundle} />);
       expect(screen.getAllByRole('heading', { level: 1 })).toHaveLength(1);
-      expect(view.container.textContent).not.toMatch(/\bsynthetic\b/i);
+      if (['Overview', 'Methodology', 'Summary', 'About'].includes(name)) {
+        expect(view.container.textContent).toMatch(/\bsynthetic\b/i);
+      }
       if (name === 'Demonstrator') await screen.findByText('Frozen prediction service connected');
     });
   }

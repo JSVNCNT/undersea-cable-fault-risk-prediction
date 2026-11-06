@@ -2,7 +2,8 @@
 export const GROUP_NAME = 'Group 5 xam.py';
 
 export function readableSourceText(text: string) {
-  return text.replace(/\s*\(synthetic\)/gi, '').replace(/\bsynthetic\b/gi, 'computer-generated');
+  // Preserve provenance terminology, including the instructor-required word.
+  return text;
 }
 
 export const researchTooltipStyles = {
