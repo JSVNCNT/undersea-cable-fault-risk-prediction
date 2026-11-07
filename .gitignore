@@ -21,3 +21,13 @@ deliverables/
 
 # Local administrator credentials (outside the frontend application)
 /.supabase-admin.local.env
+
+# External acquisition credentials and large immutable download caches
+/.external-data.local.env
+/.env
+/.env.*
+!/.env.example
+/data/external/world_bank/raw/
+/data/external/global_fishing_watch/raw/
+/data/external/open_undersea_cable_map/raw/
+/data/external/ofca/raw/

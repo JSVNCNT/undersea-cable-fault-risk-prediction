@@ -27,7 +27,7 @@ from build_finals_revision import outline_map, roman, set_text
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from src.evidence import protected_fingerprints
+from src.evidence import protected_fingerprints, verify_historical_evidence
 
 SOURCE = ROOT / 'deliverables/final_research_paper_2026-11-05/Undersea_Cable_Fault_Research_FINAL_REVISED.docx'
 SOURCE_SHA = 'c3a06131036ad6e55e3694c95eb365373ed1cc0ac9d83e2b242c55315d707ea4'
@@ -276,7 +276,7 @@ def verify(render, visual=False, deliver=False):
     source, doc = Document(SOURCE), Document(PAPER)
     manifest = json.loads((BUILD / 'manifest.json').read_text())
     protocol = json.loads((ROOT / 'outputs/revisions/2026-11-05/revision_protocol.json').read_text())
-    assert protected_fingerprints() == protocol['protected_sha256']
+    assert verify_historical_evidence(protocol['protected_sha256'])
     with ZipFile(SOURCE) as old, ZipFile(PAPER) as new:
         assert old.namelist() == new.namelist()
         changed = [n for n in old.namelist() if old.read(n) != new.read(n)]

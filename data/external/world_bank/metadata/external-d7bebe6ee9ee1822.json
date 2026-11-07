@@ -1,0 +1,24 @@
+{
+  "release_id": "external-d7bebe6ee9ee1822",
+  "source": {
+    "source_id": "world_bank",
+    "source_name": "World Development Report 2021 - Maps O.4 and 5.1",
+    "publisher": "World Bank",
+    "source_url": "https://datacatalog.worldbank.org/search/dataset/0037968/world-development-report-2021-maps-o-4-and-5-1",
+    "license": "Creative Commons Attribution 4.0",
+    "file_or_endpoint": "https://datacatalog.worldbank.org/search/dataset/0037968/world-development-report-2021-maps-o-4-and-5-1",
+    "version": "Retained HTML checksum; infrastructure version not established",
+    "original_format": "HTML with embedded public resource metadata",
+    "license_url": "https://datacatalog.worldbank.org/public-licenses?fragment=cc",
+    "metadata_updated": "2023-01-31",
+    "coverage": "Global catalog scope; actual infrastructure coverage not yet verified",
+    "period": "Infrastructure observation date not established",
+    "purpose": "Infrastructure source discovery; scraped rows are RESOURCE METADATA, not cable observations",
+    "limitations": "Third-party cable geometry/license not established. Catalog update is not an infrastructure observation date.",
+    "access_date": "2026-11-07T15:57:56.013377+00:00",
+    "status": "metadata_only"
+  },
+  "observation_rows": 0,
+  "observations_available": false,
+  "processed_sha256": "75c6e1f457e45c60741a06bb6f0e8889637702dfde26e8f66f81c64c24ad1fce"
+}

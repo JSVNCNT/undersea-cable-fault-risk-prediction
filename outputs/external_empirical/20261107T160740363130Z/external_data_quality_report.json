@@ -1,0 +1,54 @@
+{
+  "release_id": "external-9207320316a73921",
+  "counts": {
+    "catalog_resources": 3,
+    "infrastructure": 1414,
+    "activity": 0,
+    "geographies": 0,
+    "cable_systems": 521,
+    "cable_landings": 2378,
+    "html_observations": 13
+  },
+  "analysis_available": false,
+  "raw_hashes_verified": true,
+  "duplicate_policy": "Reject ambiguous duplicate source keys; do not silently drop or average records",
+  "imputation": "No missing identities, coordinates, activity or faults are manufactured",
+  "events": [
+    {
+      "stage": "html_scraping",
+      "status": "metadata_replayed",
+      "rows": 3,
+      "message": "Replayed retained HTML. Original access timestamp is not guessed."
+    },
+    {
+      "stage": "historical_infrastructure",
+      "status": "acquired",
+      "rows": 1414,
+      "message": "Pinned licensed historical archive. Original source-key joins only. Observation dates are not inferred from commit date."
+    },
+    {
+      "stage": "archive_source_discrepancies",
+      "status": "flagged",
+      "rows": 8,
+      "message": "One-sided source links are retained and flagged. Missing landing details use exact original country-membership keys where available, never inferred countries."
+    },
+    {
+      "stage": "html_observations",
+      "status": "acquired",
+      "rows": 13,
+      "message": "Named cable entries extracted from OFCA HTML prose and reconciled against its published count. Not HTML table rows, global inventory or fault events."
+    },
+    {
+      "stage": "infrastructure",
+      "status": "acquired",
+      "rows": 1414,
+      "message": "Verified unchanged, licensed infrastructure snapshot loaded."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "rows": 0,
+      "message": "Network acquisition not requested; Personal GFW token not configured; Documented study areas not configured. No GFW website scraping or replacement activity records."
+    }
+  ]
+}

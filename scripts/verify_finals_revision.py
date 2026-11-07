@@ -16,7 +16,7 @@ from PIL import Image, ImageDraw
 from pypdf import PdfReader
 from build_finals_revision import ROOT,SOURCE,SOURCE_SHA,PAPER,BUILD,outline_map
 sys.path.insert(0,str(ROOT))
-from src.evidence import protected_fingerprints
+from src.evidence import protected_fingerprints, verify_historical_evidence
 
 
 def digest(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
@@ -34,7 +34,7 @@ def main():
     summary=json.loads((ROOT/'outputs/revisions/2026-11-05/revision_summary.json').read_text())
     protocol=json.loads((ROOT/'outputs/revisions/2026-11-05/revision_protocol.json').read_text())
     # New revision assets are outside the protected original data-release directory.
-    assert protected_fingerprints()==protocol['protected_sha256']
+    assert verify_historical_evidence(protocol['protected_sha256'])
     assert digest(SOURCE)==SOURCE_SHA
     with ZipFile(SOURCE) as old,ZipFile(PAPER) as new:
         assert old.namelist()==new.namelist()

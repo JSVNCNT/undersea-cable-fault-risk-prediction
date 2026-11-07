@@ -1,0 +1,638 @@
+{
+  "release_id": "external-f4e8463a983902de",
+  "counts": {
+    "catalog_resources": 3,
+    "infrastructure": 1414,
+    "activity": 504,
+    "geographies": 286,
+    "cable_systems": 521,
+    "cable_landings": 2378,
+    "html_observations": 13
+  },
+  "analysis_available": false,
+  "raw_hashes_verified": true,
+  "duplicate_policy": "Reject ambiguous duplicate source keys; do not silently drop or average records",
+  "imputation": "No missing identities, coordinates, activity or faults are manufactured",
+  "events": [
+    {
+      "stage": "html_scraping",
+      "status": "metadata_acquired",
+      "rows": 3,
+      "message": "Actual resource descriptors extracted from official HTML; these are NOT infrastructure observations."
+    },
+    {
+      "stage": "historical_infrastructure",
+      "status": "acquired",
+      "rows": 1414,
+      "message": "Pinned licensed historical archive. Original source-key joins only. Observation dates are not inferred from commit date."
+    },
+    {
+      "stage": "archive_source_discrepancies",
+      "status": "flagged",
+      "rows": 8,
+      "message": "One-sided source links are retained and flagged. Missing landing details use exact original country-membership keys where available, never inferred countries."
+    },
+    {
+      "stage": "html_observations",
+      "status": "acquired",
+      "rows": 13,
+      "message": "Named cable entries extracted from OFCA HTML prose and reconciled against its published count. Not HTML table rows, global inventory or fault events."
+    },
+    {
+      "stage": "infrastructure",
+      "status": "acquired",
+      "rows": 1414,
+      "message": "Verified unchanged, licensed infrastructure snapshot loaded."
+    },
+    {
+      "stage": "gfw_geographies",
+      "status": "acquired",
+      "rows": 286,
+      "message": "All officially listed EEZ context regions selected before examining activity. Joint/overlapping areas retained separately; high seas excluded."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5670",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8378",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8478",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8489",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 8,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8414",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8466",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8323",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8309",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8308",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8388",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 8,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8311",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 5,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8310",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:26524",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8404",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 3,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8358",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8481",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8418",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:3293",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8457",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8393",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8471",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:22491",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8464",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8381",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 9,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5696",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8412",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 2,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8379",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8402",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8411",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8407",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21788",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:64446",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21789",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8415",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8439",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8380",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 6,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8382",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8405",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26521",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5672",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8331",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8475",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8493",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8362",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8465",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:21787",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:22756",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8486",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8426",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:48985",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:62598",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 3,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:62596",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:48984",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8334",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 4,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8477",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8394",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8424",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5673",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8406",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 2,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8376",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5674",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8435",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8438",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8352",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8409",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8417",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 6,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5668",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26519",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:26520",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26517",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 5,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:26518",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:26526",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:21803",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    }
+  ]
+}

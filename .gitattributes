@@ -1,2 +1,11 @@
 # Preserve the exact bytes of the completed, fingerprinted evaluation evidence.
 /outputs/final_evaluation_2026-11-02/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Immutable external releases and their public/processed copies retain checksum bytes.
+/outputs/external_empirical/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/data/derived/external_empirical/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/data/external/world_bank/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/data/external/global_fishing_watch/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/data/external/open_undersea_cable_map/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/data/external/ofca/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/website/public/external-data/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

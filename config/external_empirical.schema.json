@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Independent empirical acquisition configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "infrastructure", "gfw", "landing_area_buffers"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "historical_archive": {"type":"boolean","description":"Acquire the explicitly reviewed pinned historical CC BY-NC-SA 3.0 archive. Does not represent World Bank observation data or a current census."},
+    "html_context": {"type":"boolean","description":"Acquire OFCA-authored Hong Kong named-system entries from HTML prose after robots and noncommercial terms checks. No route/fault inference."},
+    "infrastructure": {
+      "description": "Leave null until an actual official reusable World Bank snapshot exists. Never fill with generated observations.",
+      "oneOf": [{"type": "null"}, {
+        "type": "object",
+        "required": ["path", "source_url", "license", "license_url", "snapshot_date", "unit_of_analysis", "field_map", "sha256", "reuse_confirmed", "redistribution_confirmed"],
+        "properties": {
+          "path": {"type": "string", "description": "Unchanged CSV/point GeoJSON under data/external/world_bank/raw/"},
+          "source_url": {"type": "string", "format": "uri", "description": "Official World Bank source, not an unofficial mirror"},
+          "license": {"type": "string", "minLength": 1},
+          "license_url": {"type": "string", "format": "uri"},
+          "snapshot_date": {"type": "string", "description": "Actual ISO observation/snapshot date, or empty if not established. NOT metadata update date."},
+          "unit_of_analysis": {"enum": ["landing_point", "cable_system", "country"]},
+          "field_map": {"type": "object", "description": "Canonical field to actual source-column mapping; omit only if source uses canonical names", "properties": {"id":{"type":"string"},"name":{"type":"string"},"country":{"type":"string"},"latitude":{"type":"string"},"longitude":{"type":"string"}},"additionalProperties":false},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "reuse_confirmed": {"const": true, "description": "Confirm only with actual permission/license evidence, not an assumption"},
+          "redistribution_confirmed": {"const": true, "description": "Publication rights for these records must actually be established"},
+          "coordinate_precision": {"type": "string", "description": "Source precision statement or explicitly unknown"}
+        },
+        "additionalProperties": false
+      }]
+    },
+    "gfw": {
+      "type": "object", "additionalProperties": false,
+      "required": ["start_date", "end_date", "datasets", "areas", "period_rationale"],
+      "properties": {
+        "start_date": {"type":"string","format":"date","description":"Inclusive historical start, 2012 onward"},
+        "end_date": {"type":"string","format":"date","description":"Exclusive completed-period end"},
+        "period_rationale": {"type":"string","minLength":1},
+        "region_selection": {"enum":["all_official_eez_regions"],"description":"Acquire all officially listed GFW EEZ context regions without outcome-based selection; no fabricated geometry or high-seas/global-total claims. Use with empty areas and null landing buffers."},
+        "datasets": {"type":"array","minItems":1,"uniqueItems":true,"items":{"enum":["public-global-fishing-effort:v5.0","public-global-presence:v5.0"]}},
+        "areas": {"type":"array","description":"Only actual documented regions/polygons. Do not invent an EEZ identifier.","items": {
+          "type":"object","required":["id","name","country","definition"],
+          "properties": {
+            "id":{"type":"string","minLength":1},"name":{"type":"string","minLength":1},"country":{"type":"string","minLength":1},
+            "definition":{"type":"string","minLength":1,"description":"Source/justification and geographic meaning, not vessel flag"},
+            "region":{"type":"object","required":["dataset","id"],"properties":{"dataset":{"type":"string"},"id":{"type":"string"}},"additionalProperties":false},
+            "geometry":{"type":"object","required":["type","coordinates"],"properties":{"type":{"const":"Polygon"},"coordinates":{"type":"array","minItems":1}},"additionalProperties":false},
+            "infrastructure_ids":{"type":"array","items":{"type":"string"},"uniqueItems":true}
+          },
+          "oneOf":[{"required":["region"],"not":{"required":["geometry"]}},{"required":["geometry"],"not":{"required":["region"]}}],
+          "additionalProperties":false
+        }}
+      }
+    },
+    "landing_area_buffers": {"oneOf":[{"type":"null"},{"type":"object","required":["distances_km","justification","snapshot_alignment_note"],"properties":{
+      "distances_km":{"type":"array","minItems":1,"uniqueItems":true,"items":{"type":"number","minimum":0.1,"maximum":100}},
+      "justification":{"type":"string","minLength":1,"description":"Explain spatial resolution/coordinate precision and sensitivity; not a physical risk zone"},
+      "snapshot_alignment_note":{"type":"string","minLength":1,"description":"Explain whether activity years align with the documented infrastructure snapshot"}
+    },"additionalProperties":false}]}
+  }
+}

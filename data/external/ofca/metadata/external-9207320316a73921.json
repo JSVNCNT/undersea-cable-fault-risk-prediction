@@ -1,0 +1,27 @@
+{
+  "release_id": "external-9207320316a73921",
+  "source": {
+    "source_id": "ofca",
+    "source_name": "Landing of Submarine Cables in Hong Kong",
+    "publisher": "Office of the Communications Authority, Hong Kong SAR Government",
+    "source_url": "https://www.ofca.gov.hk/en/industry_focus/infrastructures/submarine_cables/index.html",
+    "license": "OFCA-authored material: noncommercial reuse with attribution",
+    "license_url": "https://www.ofca.gov.hk/en/important_notices/index.html",
+    "file_or_endpoint": "https://www.ofca.gov.hk/en/industry_focus/infrastructures/submarine_cables/index.html",
+    "version": "Retained HTML SHA-256",
+    "original_format": "HTML prose list, not an HTML data table",
+    "access_date": "2026-11-07T15:57:58.885395+00:00",
+    "metadata_updated": null,
+    "coverage": "Hong Kong only; independent regional context",
+    "period": "2026-07",
+    "purpose": "Substantive HTML-scraping demonstration and separately dated infrastructure context",
+    "status": "html_records_acquired",
+    "limitations": "A regional named-system list, not global coverage, individual fault data, exact locations or a verified join to the historical archive. Third-party images and contacts are not redistributed. Noncommercial use with OFCA attribution only."
+  },
+  "observation_rows": 13,
+  "observations_available": true,
+  "processed_sha256": "9027bb72a63d01285aa55f352b4b79ec19c6a0246fd80426e5d08f12e5d2fbb7",
+  "processed_exports": {
+    "scraped_ofca_systems.csv": "9027bb72a63d01285aa55f352b4b79ec19c6a0246fd80426e5d08f12e5d2fbb7"
+  }
+}

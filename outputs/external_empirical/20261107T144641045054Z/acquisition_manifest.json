@@ -1,0 +1,33 @@
+{
+  "release_id": "external-0b4384b87a7c0b54",
+  "downloads": [
+    {
+      "source_url": "https://datacatalog.worldbank.org/search/dataset/0037968/world-development-report-2021-maps-o-4-and-5-1",
+      "sha256": "c1c63e455961d94354eddafaa0d843499feee8e565af68f2af2fc69bd4cb5bb3",
+      "raw_path": "data/external/world_bank/raw/c1c63e455961d94354eddafaa0d843499feee8e565af68f2af2fc69bd4cb5bb3.html",
+      "method": "offline_replay",
+      "retrieved_at": "2026-11-07T14:34:11.759375+00:00"
+    }
+  ],
+  "events": [
+    {
+      "stage": "html_scraping",
+      "status": "metadata_replayed",
+      "rows": 3,
+      "message": "Replayed retained HTML. Original access timestamp is not guessed."
+    },
+    {
+      "stage": "infrastructure",
+      "status": "blocked",
+      "rows": 0,
+      "message": "No licensed infrastructure snapshot configured. Catalog links are not cable observations; obtain the official resource and reuse rights first."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "rows": 0,
+      "message": "Network acquisition not requested; Personal GFW token not configured; Documented study areas not configured. No GFW website scraping or replacement activity records."
+    }
+  ],
+  "original_evidence_unchanged": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "infrastructure": null,
+  "historical_archive": true,
+  "html_context": true,
+  "gfw": {
+    "start_date": "2024-01-01",
+    "end_date": "2025-01-01",
+    "datasets": ["public-global-fishing-effort:v5.0", "public-global-presence:v5.0"],
+    "areas": [],
+    "region_selection": "all_official_eez_regions",
+    "period_rationale": "Preselected complete calendar year 2024 for descriptive monthly activity across every official GFW EEZ context region. Historical infrastructure dates are not fully aligned: only broad source-territory context is compared, not contemporaneous cable-level exposure or faults. Joint/overlapping areas are separate and not summed; high seas are outside coverage."
+  },
+  "landing_area_buffers": null
+}

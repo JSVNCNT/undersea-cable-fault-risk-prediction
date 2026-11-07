@@ -1,0 +1,102 @@
+{
+  "release_id": "external-8c16e7fc1750643e",
+  "downloads": [
+    {
+      "source_url": "https://datacatalog.worldbank.org/search/dataset/0037968/world-development-report-2021-maps-o-4-and-5-1",
+      "sha256": "60611b6be057fa161b9f0fc52e46e595292b7b44f4add0364bab9bfcbef4ef5e",
+      "raw_path": "data/external/world_bank/raw/60611b6be057fa161b9f0fc52e46e595292b7b44f4add0364bab9bfcbef4ef5e.html",
+      "method": "offline_replay",
+      "retrieved_at": "2026-11-07T15:57:56.013377+00:00"
+    },
+    {
+      "source_url": "https://codeload.github.com/stevesong/open_undersea_cable_map/zip/e7903491e73bcac0d0b013b945897d10928483c4",
+      "retrieved_at": "2026-11-07T15:57:56.931844+00:00",
+      "http_status": 200,
+      "content_type": "application/zip",
+      "etag": "\"d5729ee12c3ce7df17ec1ecd4643548af7d8ce7283eefb9fc987fdce36e16868\"",
+      "last_modified": "",
+      "x_datasets": "",
+      "sha256": "1d33d803f1fb51ca6965335e73816231136d716e1b2cffc0a0276492efbbb3a6",
+      "bytes": 1677903,
+      "raw_path": "data/external/open_undersea_cable_map/raw/1d33d803f1fb51ca6965335e73816231136d716e1b2cffc0a0276492efbbb3a6.zip"
+    },
+    {
+      "source_url": "https://www.ofca.gov.hk/en/industry_focus/infrastructures/submarine_cables/index.html",
+      "retrieved_at": "2026-11-07T15:57:58.885395+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "etag": "",
+      "last_modified": "Tue, 28 Jul 2026 02:47:02 GMT",
+      "x_datasets": "",
+      "sha256": "658916505bd9d0b49533bca43ad30ded4cc6a1579d94a25e3ee6df8bfe10ef5c",
+      "bytes": 28454,
+      "raw_path": "data/external/ofca/raw/658916505bd9d0b49533bca43ad30ded4cc6a1579d94a25e3ee6df8bfe10ef5c.html"
+    },
+    {
+      "source_url": "https://www.ofca.gov.hk/en/important_notices/index.html",
+      "retrieved_at": "2026-11-07T15:57:58.788883+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "etag": "",
+      "last_modified": "Tue, 30 Mar 2021 06:50:39 GMT",
+      "x_datasets": "",
+      "sha256": "5d7b8687e9da07f6b876b8ac585d52fefe2a0c241998b858711bf3b47c65a901",
+      "bytes": 8806,
+      "raw_path": "data/external/ofca/raw/5d7b8687e9da07f6b876b8ac585d52fefe2a0c241998b858711bf3b47c65a901.terms.html"
+    }
+  ],
+  "events": [
+    {
+      "stage": "html_scraping",
+      "status": "metadata_replayed",
+      "rows": 3,
+      "message": "Replayed retained HTML. Original access timestamp is not guessed."
+    },
+    {
+      "stage": "historical_infrastructure",
+      "status": "acquired",
+      "rows": 1414,
+      "message": "Pinned licensed historical archive. Original source-key joins only. Observation dates are not inferred from commit date."
+    },
+    {
+      "stage": "archive_source_discrepancies",
+      "status": "flagged",
+      "rows": 8,
+      "message": "One-sided source links are retained and flagged. Missing landing details use exact original country-membership keys where available, never inferred countries."
+    },
+    {
+      "stage": "html_observations",
+      "status": "acquired",
+      "rows": 13,
+      "message": "Named cable entries extracted from OFCA HTML prose and reconciled against its published count. Not HTML table rows, global inventory or fault events."
+    },
+    {
+      "stage": "infrastructure",
+      "status": "acquired",
+      "rows": 1414,
+      "message": "Verified unchanged, licensed infrastructure snapshot loaded."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "rows": 0,
+      "message": "Network acquisition not requested; Personal GFW token not configured; Documented study areas not configured. No GFW website scraping or replacement activity records."
+    }
+  ],
+  "exports": {
+    "external_source_registry.csv": "fc6a9e69d720d9205fe0b21ff67c0f6c95f13a83d22ee48e7d708f497da9eab4",
+    "external_data_dictionary.csv": "e44bcc37848c0676078422a2669aea1539096b6eb8387edb37968e78301bd508",
+    "scraped_catalog_resources.csv": "16a2504d0507d0a8343d3a32387207cca60a1e18bdddeeba2c98fc98cd77539b",
+    "cleaned_world_bank_infrastructure.csv": "75c6e1f457e45c60741a06bb6f0e8889637702dfde26e8f66f81c64c24ad1fce",
+    "cleaned_infrastructure.csv": "70c10e7fbf09536f5b3aaaeee6d3a569a0a855b77e829987d7cd5087e413fdb7",
+    "historical_cable_systems.csv": "f09a4617461f0640c6bd562673af23e8566f994095fca9b0495503f36ab092ef",
+    "historical_cable_landings.csv": "6277e62cb83759cd86c4becd0cab4f3d9322b630cded056bdd0217e2c70ed23f",
+    "scraped_ofca_systems.csv": "9027bb72a63d01285aa55f352b4b79ec19c6a0246fd80426e5d08f12e5d2fbb7",
+    "cleaned_gfw_activity.csv": "6420840659095773c340795de1f4a4b524a9df25fdb619bab0517424eb122203",
+    "external_empirical_summary.csv": "7eeb59ad74afc2887e06c324702bc998a633c82363412c685d6bd4e44ffd6620"
+  },
+  "packages": {
+    "historical_infrastructure.zip": "975f786b04697cb89b15c2a41887a96c6b4744d174a480a8f5a4aa393cdbaad7"
+  },
+  "original_evidence_unchanged": true
+}

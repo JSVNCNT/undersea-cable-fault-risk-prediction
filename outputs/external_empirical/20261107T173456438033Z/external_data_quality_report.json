@@ -1,0 +1,4630 @@
+{
+  "release_id": "external-502d826e13edce3d",
+  "counts": {
+    "catalog_resources": 3,
+    "infrastructure": 1414,
+    "activity": 5614,
+    "geographies": 286,
+    "cable_systems": 521,
+    "cable_landings": 2378,
+    "html_observations": 13
+  },
+  "analysis_available": false,
+  "raw_hashes_verified": true,
+  "duplicate_policy": "Reject ambiguous duplicate source keys; do not silently drop or average records",
+  "imputation": "No missing identities, coordinates, activity or faults are manufactured",
+  "events": [
+    {
+      "stage": "html_scraping",
+      "status": "metadata_acquired",
+      "rows": 3,
+      "message": "Actual resource descriptors extracted from official HTML; these are NOT infrastructure observations."
+    },
+    {
+      "stage": "historical_infrastructure",
+      "status": "acquired",
+      "rows": 1414,
+      "message": "Pinned licensed historical archive. Original source-key joins only. Observation dates are not inferred from commit date."
+    },
+    {
+      "stage": "archive_source_discrepancies",
+      "status": "flagged",
+      "rows": 8,
+      "message": "One-sided source links are retained and flagged. Missing landing details use exact original country-membership keys where available, never inferred countries."
+    },
+    {
+      "stage": "html_observations",
+      "status": "acquired",
+      "rows": 13,
+      "message": "Named cable entries extracted from OFCA HTML prose and reconciled against its published count. Not HTML table rows, global inventory or fault events."
+    },
+    {
+      "stage": "infrastructure",
+      "status": "acquired",
+      "rows": 1414,
+      "message": "Verified unchanged, licensed infrastructure snapshot loaded."
+    },
+    {
+      "stage": "gfw_geographies",
+      "status": "acquired",
+      "rows": 286,
+      "message": "All officially listed EEZ context regions selected before examining activity. Joint/overlapping areas retained separately; high seas excluded."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5670",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5670",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8378",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8378",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8478",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8478",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8489",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 8,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8489",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8414",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8414",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8466",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8466",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8323",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8323",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8309",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8309",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8308",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8308",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8388",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 8,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8388",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8311",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 5,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8311",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8310",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8310",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:26524",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26524",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 8,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8404",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 3,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8404",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8358",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8358",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8481",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8481",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8418",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8418",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:3293",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:3293",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8457",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8457",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8393",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8393",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8471",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8471",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:22491",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:22491",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 9,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8464",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8464",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8381",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 9,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8381",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5696",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5696",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8412",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 2,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8412",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8379",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8379",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8402",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8402",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8411",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8411",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8407",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8407",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21788",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21788",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:64446",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:64446",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21789",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21789",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8415",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8415",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Official endpoint could not be reached; retry later. No replacement data were created."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8439",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8439",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8380",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 6,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8380",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8382",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8382",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8405",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8405",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26521",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26521",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5672",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5672",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8331",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8331",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8475",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8475",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8493",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8493",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Official endpoint returned HTTP 429; no response body or credential was logged."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8362",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8362",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Official endpoint returned HTTP 429; no response body or credential was logged."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8465",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8465",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Official endpoint returned HTTP 429; no response body or credential was logged."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:21787",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21787",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:22756",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:22756",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8486",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8486",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Official endpoint returned HTTP 429; no response body or credential was logged."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8426",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8426",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Official endpoint returned HTTP 429; no response body or credential was logged."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48985",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48985",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 6,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:62598",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 3,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:62598",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:62596",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:62596",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48984",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48984",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 7,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8334",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 4,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8334",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8477",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8477",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8394",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8394",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8424",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8424",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5673",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5673",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8406",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 2,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8406",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8376",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8376",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5674",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5674",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8435",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8435",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8438",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8438",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8352",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8352",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8409",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8409",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8417",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 6,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8417",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5668",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5668",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26519",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26519",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:26520",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26520",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26517",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 5,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26517",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:26518",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26518",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:26526",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26526",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:21803",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21803",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8431",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8431",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8403",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8403",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8490",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8490",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8360",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8360",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8398",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 3,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8398",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8351",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8351",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5675",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5675",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8325",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8325",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5676",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5676",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5677",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5677",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8386",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 6,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8386",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8340",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 3,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8340",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8401",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 5,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8401",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8495",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8495",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8385",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 9,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8385",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8341",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 7,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8341",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8462",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8462",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8440",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8440",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:33177",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 7,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:33177",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8339",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 8,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8339",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8387",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8387",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:33178",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:33178",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8312",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8312",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8338",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8338",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48952",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48952",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8494",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8494",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8454",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 5,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8454",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8476",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8476",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8370",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8370",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5678",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5678",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5669",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5669",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8400",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8400",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5679",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5679",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8419",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8419",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8430",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 4,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8430",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8472",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8472",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8460",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8460",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8408",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8408",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8427",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8427",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5680",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5680",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8480",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8480",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8333",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8333",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8492",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8492",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8469",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8469",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8470",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8470",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5681",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5681",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8375",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8375",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5682",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5682",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8473",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8473",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8459",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8459",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8487",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8487",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:21798",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21798",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48969",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 3,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48969",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48968",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48968",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:50167",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 6,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:50167",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48970",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48970",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48974",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 7,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48974",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48976",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48976",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48972",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48972",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48973",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48973",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48975",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 3,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48975",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:21792",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21792",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:64459",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 2,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:64459",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48962",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48962",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48964",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48964",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21796",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21796",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48966",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48966",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48977",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48977",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21797",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 2,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21797",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48967",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48967",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48978",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48978",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48961",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48961",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8491",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8491",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26522",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 2,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26522",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8349",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8349",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8488",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8488",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8441",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8441",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8450",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8450",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8413",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 7,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8413",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8357",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8357",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5683",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5683",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8374",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8374",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8391",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8391",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8372",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8372",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5684",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 9,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5684",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8348",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8348",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8483",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8483",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8345",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8345",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5685",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5685",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8318",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8318",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8369",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8369",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8343",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8343",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:62589",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:62589",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8429",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8429",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8316",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8316",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5691",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5691",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21790",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21790",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8367",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8367",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8347",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8347",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8482",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8482",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8395",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8395",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8317",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8317",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8455",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8455",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8446",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8446",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8447",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8447",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8449",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 7,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8449",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8425",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8425",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8474",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8474",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8328",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8328",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5686",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5686",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8437",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 6,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8437",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:33181",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:33181",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8354",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8354",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48947",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48947",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:49001",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:49001",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 9,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:49002",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 3,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:49002",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48997",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48997",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 9,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48956",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48956",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8389",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8389",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8365",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 9,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8365",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48945",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 3,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48945",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:26582",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26582",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48946",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 3,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48946",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48950",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48950",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48955",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48955",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48948",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 2,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48948",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48944",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48944",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:49000",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:49000",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48951",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48951",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48998",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48998",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 9,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48999",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48999",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 7,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48954",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48954",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8383",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 8,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8383",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8321",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8321",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5695",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5695",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8319",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8319",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8368",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8368",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:64431",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:64431",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48943",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48943",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 5,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48971",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48971",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:64430",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:64430",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:33185",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:33185",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:64460",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:64460",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:64440",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:64440",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:50170",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:50170",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:49003",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:49003",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48982",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48982",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48965",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48965",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8359",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8359",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8315",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8315",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:48953",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48953",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 9,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8423",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8423",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8324",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8324",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8432",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8432",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8322",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8322",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5687",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5687",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5688",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5688",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8361",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8361",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8363",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8363",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8468",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8468",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5689",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5689",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5690",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5690",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8416",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8416",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8421",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8421",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8428",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8428",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8445",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8445",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8356",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8356",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8371",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8371",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8337",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8337",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8390",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8390",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8485",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8485",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5692",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5692",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8314",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8314",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8350",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8350",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8396",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8396",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8384",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 7,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8384",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8327",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8327",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5693",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5693",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8364",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8364",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8346",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8346",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8355",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8355",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8461",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8461",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5694",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5694",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8373",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8373",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8397",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 2,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8397",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8479",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8479",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8332",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8332",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8758",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8758",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:21791",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21791",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8392",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8392",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8448",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8448",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8420",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8420",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8366",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8366",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5697",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5697",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:26523",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26523",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8326",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8326",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8456",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8456",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8463",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8463",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8444",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8444",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48957",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48957",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8453",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8453",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8451",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8451",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8442",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8442",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "no_records_returned",
+      "area_id": "gfw-eez:8452",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Empty/null result is not converted into zero activity."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8452",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48980",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 2,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:48980",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8443",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8443",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:33179",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:33179",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:33180",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 6,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:33180",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8467",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8467",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8313",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8313",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8433",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8433",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8484",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8484",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8353",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 9,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8353",
+      "dataset": "public-global-presence:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography and metric; no vessel identities exported."
+    }
+  ]
+}

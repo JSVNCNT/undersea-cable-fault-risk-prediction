@@ -1,0 +1,41 @@
+{
+  "release_id": "external-f82624cf9d953a66",
+  "empirical_analysis_available": true,
+  "figures": [
+    "infrastructure_distribution.png",
+    "historical_cable_connectivity.png",
+    "historical_location_flags.png",
+    "gfw_monthly_region_coverage.png",
+    "activity_001.png",
+    "activity_002.png"
+  ],
+  "selected_region_plots": [
+    "gfw-eez:8322"
+  ],
+  "activity_plots": [
+    {
+      "file": "activity_001.png",
+      "area_id": "gfw-eez:8322",
+      "area_name": "Philippine Exclusive Economic Zone",
+      "metric": "apparent_fishing_hours",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "reported_months": 12,
+      "missing_months": []
+    },
+    {
+      "file": "activity_002.png",
+      "area_id": "gfw-eez:8322",
+      "area_name": "Philippine Exclusive Economic Zone",
+      "metric": "vessel_presence_hours",
+      "dataset": "public-global-presence:v5.0",
+      "reported_months": 12,
+      "missing_months": []
+    }
+  ],
+  "message": "Charts use only acquired observations. No deduplicated global hour totals or fault outcomes are inferred. Region-count coverage is not complete vessel coverage.",
+  "source_quality": {
+    "one_sided_links": 8,
+    "missing_landing_details": 1,
+    "source_encoding_flags": 0
+  }
+}

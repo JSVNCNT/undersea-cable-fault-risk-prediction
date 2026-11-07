@@ -1,0 +1,33 @@
+{
+  "release_id": "external-0b4384b87a7c0b54",
+  "counts": {
+    "catalog_resources": 3,
+    "infrastructure": 0,
+    "activity": 0,
+    "geographies": 0
+  },
+  "analysis_available": false,
+  "raw_hashes_verified": true,
+  "duplicate_policy": "Reject ambiguous duplicate source keys; do not silently drop or average records",
+  "imputation": "No missing identities, coordinates, activity or faults are manufactured",
+  "events": [
+    {
+      "stage": "html_scraping",
+      "status": "metadata_replayed",
+      "rows": 3,
+      "message": "Replayed retained HTML. Original access timestamp is not guessed."
+    },
+    {
+      "stage": "infrastructure",
+      "status": "blocked",
+      "rows": 0,
+      "message": "No licensed infrastructure snapshot configured. Catalog links are not cable observations; obtain the official resource and reuse rights first."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "rows": 0,
+      "message": "Network acquisition not requested; Personal GFW token not configured; Documented study areas not configured. No GFW website scraping or replacement activity records."
+    }
+  ]
+}

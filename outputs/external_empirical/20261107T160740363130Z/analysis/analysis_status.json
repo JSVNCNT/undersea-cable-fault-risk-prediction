@@ -1,0 +1,15 @@
+{
+  "release_id": "external-9207320316a73921",
+  "empirical_analysis_available": false,
+  "figures": [
+    "infrastructure_distribution.png",
+    "historical_cable_connectivity.png",
+    "historical_location_flags.png"
+  ],
+  "message": "Charts use only acquired observations. Infrastructure-only plots do not imply that GFW activity or fault outcomes were acquired.",
+  "source_quality": {
+    "one_sided_links": 8,
+    "missing_landing_details": 1,
+    "source_encoding_flags": 0
+  }
+}

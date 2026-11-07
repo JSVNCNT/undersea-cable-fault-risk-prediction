@@ -1,0 +1,3648 @@
+{
+  "release_id": "external-f4e8463a983902de",
+  "downloads": [
+    {
+      "source_url": "https://datacatalog.worldbank.org/robots.txt",
+      "retrieved_at": "2026-11-07T17:24:25.014128+00:00",
+      "http_status": 200,
+      "content_type": "text/plain; charset=UTF-8",
+      "etag": "W/\"36-1a0ed5c3430\"",
+      "last_modified": "Tue, 29 Sep 2026 13:30:38 GMT",
+      "x_datasets": "",
+      "sha256": "6c1238d799b1602f8386835f85daaafff6c7b5c07a44a8fa792dd3218af1a5a1",
+      "bytes": 54,
+      "raw_path": "data/external/world_bank/raw/6c1238d799b1602f8386835f85daaafff6c7b5c07a44a8fa792dd3218af1a5a1.robots.txt"
+    },
+    {
+      "source_url": "https://datacatalog.worldbank.org/search/dataset/0037968/world-development-report-2021-maps-o-4-and-5-1",
+      "retrieved_at": "2026-11-07T17:24:25.706204+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "etag": "W/\"eaguhjee901x8f\"",
+      "last_modified": "",
+      "x_datasets": "",
+      "sha256": "8a0e4d10ff6c84ef83bb6302701b78f428cdd5daed74ac5dc4de2c4d8ca32efc",
+      "bytes": 89738,
+      "raw_path": "data/external/world_bank/raw/8a0e4d10ff6c84ef83bb6302701b78f428cdd5daed74ac5dc4de2c4d8ca32efc.html"
+    },
+    {
+      "source_url": "https://codeload.github.com/stevesong/open_undersea_cable_map/zip/e7903491e73bcac0d0b013b945897d10928483c4",
+      "retrieved_at": "2026-11-07T17:24:26.802531+00:00",
+      "http_status": 200,
+      "content_type": "application/zip",
+      "etag": "\"d5729ee12c3ce7df17ec1ecd4643548af7d8ce7283eefb9fc987fdce36e16868\"",
+      "last_modified": "",
+      "x_datasets": "",
+      "sha256": "1d33d803f1fb51ca6965335e73816231136d716e1b2cffc0a0276492efbbb3a6",
+      "bytes": 1677903,
+      "raw_path": "data/external/open_undersea_cable_map/raw/1d33d803f1fb51ca6965335e73816231136d716e1b2cffc0a0276492efbbb3a6.zip"
+    },
+    {
+      "source_url": "https://www.ofca.gov.hk/robots.txt",
+      "retrieved_at": "2026-11-07T17:24:36.591669+00:00",
+      "http_status": 200,
+      "content_type": "text/plain",
+      "etag": "",
+      "last_modified": "Fri, 10 May 2019 11:45:25 GMT",
+      "x_datasets": "",
+      "sha256": "c01f3f4c2b79d2b576a3974e4dc151a9d0f2d4bf5e24892905561bdcb2632358",
+      "bytes": 388,
+      "raw_path": "data/external/ofca/raw/c01f3f4c2b79d2b576a3974e4dc151a9d0f2d4bf5e24892905561bdcb2632358.robots.txt"
+    },
+    {
+      "source_url": "https://www.ofca.gov.hk/en/important_notices/index.html",
+      "retrieved_at": "2026-11-07T17:24:37.024376+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "etag": "",
+      "last_modified": "Tue, 30 Mar 2021 06:50:39 GMT",
+      "x_datasets": "",
+      "sha256": "5d7b8687e9da07f6b876b8ac585d52fefe2a0c241998b858711bf3b47c65a901",
+      "bytes": 8806,
+      "raw_path": "data/external/ofca/raw/5d7b8687e9da07f6b876b8ac585d52fefe2a0c241998b858711bf3b47c65a901.terms.html"
+    },
+    {
+      "source_url": "https://www.ofca.gov.hk/en/industry_focus/infrastructures/submarine_cables/index.html",
+      "retrieved_at": "2026-11-07T17:24:37.463388+00:00",
+      "http_status": 200,
+      "content_type": "text/html",
+      "etag": "",
+      "last_modified": "Tue, 28 Jul 2026 02:47:02 GMT",
+      "x_datasets": "",
+      "sha256": "658916505bd9d0b49533bca43ad30ded4cc6a1579d94a25e3ee6df8bfe10ef5c",
+      "bytes": 28454,
+      "raw_path": "data/external/ofca/raw/658916505bd9d0b49533bca43ad30ded4cc6a1579d94a25e3ee6df8bfe10ef5c.html"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+      "retrieved_at": "2026-11-07T17:24:38.115527+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "W/\"a766-eIRcBPheOz6H8I/l7V/nONlwDOk\"",
+      "last_modified": "",
+      "x_datasets": "public-eez-areas",
+      "sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+      "bytes": 42854,
+      "method": "GET",
+      "purpose": "Official geographic definitions, not activity observations",
+      "raw_path": "data/external/global_fishing_watch/raw/65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423.regions.json"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:24:43.323843+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "49606dc11232890499838f25d24673a57b69d6057a308d428fc9a9374b0d938d",
+      "bytes": 2382,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:5670",
+        "name": "Albanian Exclusive Economic Zone",
+        "country": "Albania",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "5670"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "ALB",
+        "territory_label": "Albania",
+        "sovereignty_iso_codes": [
+          "ALB"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 5670: Albanian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "98df57fab3eac04feb0bae0cf19690d6116ce6eb05442378f3199faec9e547a7",
+      "raw_path": "data/external/global_fishing_watch/raw/49606dc11232890499838f25d24673a57b69d6057a308d428fc9a9374b0d938d.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:24:47.847418+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "316b3619f0218e8773dfa94755e9167bbdf6baab13a17b6a43ae990e839ed9d9",
+      "bytes": 1924,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8378",
+        "name": "Algerian Exclusive Economic Zone",
+        "country": "Algeria",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8378"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "DZA",
+        "territory_label": "Algeria",
+        "sovereignty_iso_codes": [
+          "DZA"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8378: Algerian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "45d3ff1b9ac1935d10a3fd19b5da3ad82e9e4f1d043cc01650fdf31e7645a864",
+      "raw_path": "data/external/global_fishing_watch/raw/316b3619f0218e8773dfa94755e9167bbdf6baab13a17b6a43ae990e839ed9d9.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:24:51.101248+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "de79db145262bf14e6e6781ac476372876258891c7f55fedf9766217605fd5f3",
+      "bytes": 12048,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8478",
+        "name": "Angolan Exclusive Economic Zone",
+        "country": "Angola",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8478"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "AGO",
+        "territory_label": "Angola",
+        "sovereignty_iso_codes": [
+          "AGO"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8478: Angolan Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "158a23712ad36539c2e0ade5455997b1e222ede36bd47d7088880d4487c6d324",
+      "raw_path": "data/external/global_fishing_watch/raw/de79db145262bf14e6e6781ac476372876258891c7f55fedf9766217605fd5f3.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:25:12.347979+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "f192268e013c8a5b7157a19fc9492129a14d21f97647aef8300addd966f04ff5",
+      "bytes": 4536,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8489",
+        "name": "Antartic 200NM zone beyond the coastline",
+        "country": "Antartic 200NM zone beyond the coastline",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8489"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "ATA",
+        "territory_label": null,
+        "sovereignty_iso_codes": [],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8489: Antartic 200NM zone beyond the coastline. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "eeb29a5a219015fc625d99608f42b6efc994b881a269883a72e5f8c573d52c32",
+      "raw_path": "data/external/global_fishing_watch/raw/f192268e013c8a5b7157a19fc9492129a14d21f97647aef8300addd966f04ff5.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:25:20.447618+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "fd6ad91f08f0d7a9d247520e649a31d3c8d39e37d34ffc81b2a1f8a98734fca3",
+      "bytes": 1517,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8414",
+        "name": "Antiguan and Barbudan Exclusive Economic Zone",
+        "country": "Antigua and Barbuda",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8414"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "ATG",
+        "territory_label": "Antigua and Barbuda",
+        "sovereignty_iso_codes": [
+          "ATG"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8414: Antiguan and Barbudan Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "fa4baf57c269b7493a5f9707cd650612e170b421fe89313ad5389b305dad7979",
+      "raw_path": "data/external/global_fishing_watch/raw/fd6ad91f08f0d7a9d247520e649a31d3c8d39e37d34ffc81b2a1f8a98734fca3.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:25:30.594687+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "79c1ac09f639607ddbceb2c083ba0fe5dc0be1429ac0b3bfd2c40110c4be0440",
+      "bytes": 3324,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8466",
+        "name": "Argentinian Exclusive Economic Zone",
+        "country": "Argentina",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8466"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "ARG",
+        "territory_label": "Argentina",
+        "sovereignty_iso_codes": [
+          "ARG"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8466: Argentinian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "c9d239dcfa86c99802eda80a6514efd54ee66d2fd985432395daac5f7427eda0",
+      "raw_path": "data/external/global_fishing_watch/raw/79c1ac09f639607ddbceb2c083ba0fe5dc0be1429ac0b3bfd2c40110c4be0440.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:25:34.795942+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "bb2062555dff7cc3423efdbc7e4df1c614dc49517d716c5b1371b355dec995bc",
+      "bytes": 4522,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8323",
+        "name": "Australian Exclusive Economic Zone",
+        "country": "Australia",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8323"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "AUS",
+        "territory_label": "Australia",
+        "sovereignty_iso_codes": [
+          "AUS"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8323: Australian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "57eb5b6854bcf0d05c28dc8066d45bfba6d16cc108e7978a51c8ef4f42c8951c",
+      "raw_path": "data/external/global_fishing_watch/raw/bb2062555dff7cc3423efdbc7e4df1c614dc49517d716c5b1371b355dec995bc.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:25:37.547154+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "34900f8f10e2ae02646fccf2194170ab3d0c3cd39a2bf9e254b68da3ba94c0cb",
+      "bytes": 994,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8309",
+        "name": "Australian Exclusive Economic Zone (Christmas Island)",
+        "country": "Christmas Island",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8309"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CXR",
+        "territory_label": "Christmas Island",
+        "sovereignty_iso_codes": [
+          "AUS"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8309: Australian Exclusive Economic Zone (Christmas Island). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "8cedf664ff07c1668c70fb28e891b598774461847500b400f038f138895fa57c",
+      "raw_path": "data/external/global_fishing_watch/raw/34900f8f10e2ae02646fccf2194170ab3d0c3cd39a2bf9e254b68da3ba94c0cb.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:25:40.110746+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "f4f3bec38066121ea2f991f978e854012fc75efaf1f7ccbbb54745b7f071a1b3",
+      "bytes": 194,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8308",
+        "name": "Australian Exclusive Economic Zone (Cocos Islands)",
+        "country": "Cocos Islands",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8308"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CCK",
+        "territory_label": "Cocos Islands",
+        "sovereignty_iso_codes": [
+          "AUS"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8308: Australian Exclusive Economic Zone (Cocos Islands). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "31a156752129bbeeca1732bab1d2bfba6a89b4362cdb20f6a12ee98c48d6153f",
+      "raw_path": "data/external/global_fishing_watch/raw/f4f3bec38066121ea2f991f978e854012fc75efaf1f7ccbbb54745b7f071a1b3.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:25:45.584458+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "916f4f8d9b30dfc3fc7da6e752bae77a83d60f94d75437196a18be5ed160ba60",
+      "bytes": 702,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8388",
+        "name": "Australian Exclusive Economic Zone (Heard and McDonald Islands)",
+        "country": "Heard and McDonald Islands",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8388"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "HMD",
+        "territory_label": "Heard and McDonald Islands",
+        "sovereignty_iso_codes": [
+          "AUS"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8388: Australian Exclusive Economic Zone (Heard and McDonald Islands). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "17dfd1bf06abe6198b603bc15fa145ea2160bc81f59a48a67fce1451e81c5cdf",
+      "raw_path": "data/external/global_fishing_watch/raw/916f4f8d9b30dfc3fc7da6e752bae77a83d60f94d75437196a18be5ed160ba60.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:25:48.745367+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "d71440d943ad9db6190f101fb77efb3cf77466624ec9419fe84ab03be5e3afb9",
+      "bytes": 485,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8311",
+        "name": "Australian Exclusive Economic Zone (Macquarie Island)",
+        "country": "Macquarie Island",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8311"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "AUS",
+        "territory_label": "Macquarie Island",
+        "sovereignty_iso_codes": [
+          "AUS"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8311: Australian Exclusive Economic Zone (Macquarie Island). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "158e71e3917a46edc67387361d80a33a3c2e19fcbd1abbbf269bb69fce933301",
+      "raw_path": "data/external/global_fishing_watch/raw/d71440d943ad9db6190f101fb77efb3cf77466624ec9419fe84ab03be5e3afb9.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:25:59.153839+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "66f1ba3d24deb254f3f703d30cdbc93d4126b6186e67f4817f1b795aff87d07e",
+      "bytes": 195,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8310",
+        "name": "Australian Exclusive Economic Zone (Norfolk Island)",
+        "country": "Norfolk Island",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8310"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "NFK",
+        "territory_label": "Norfolk Island",
+        "sovereignty_iso_codes": [
+          "AUS"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8310: Australian Exclusive Economic Zone (Norfolk Island). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "bad8f9bc7305fcc3f16e5d065f8202015613ee049355ff7065b83a8f1aa3d305",
+      "raw_path": "data/external/global_fishing_watch/raw/66f1ba3d24deb254f3f703d30cdbc93d4126b6186e67f4817f1b795aff87d07e.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:26:01.817699+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:26524",
+        "name": "Azerbaijani Exclusive Economic Zone",
+        "country": "Azerbaijan",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "26524"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "AZE",
+        "territory_label": "Azerbaijan",
+        "sovereignty_iso_codes": [
+          "AZE"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 26524: Azerbaijani Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "f2da70cf583345d196e5122ba63eda883237ae8bd3d301631220128a71c4fced",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:26:18.115083+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "d2a55eed4938f3a171b6b79983b43bd19f1720122d27085ee693b33f592de39d",
+      "bytes": 338,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8404",
+        "name": "Bahamian Exclusive Economic Zone",
+        "country": "Bahamas",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8404"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BHS",
+        "territory_label": "Bahamas",
+        "sovereignty_iso_codes": [
+          "BHS"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8404: Bahamian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "a4b790cb1a98c2ee4a7434e61ebe393d22b6b40f2a1b49aece88411858ae5964",
+      "raw_path": "data/external/global_fishing_watch/raw/d2a55eed4938f3a171b6b79983b43bd19f1720122d27085ee693b33f592de39d.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:26:29.074053+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "68a0e7e41ce89fb446a1bc36f213fe0311e60228a3d8cf59e16bace3d3cd754d",
+      "bytes": 1353,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8358",
+        "name": "Bahraini Exclusive Economic Zone",
+        "country": "Bahrain",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8358"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BHR",
+        "territory_label": "Bahrain",
+        "sovereignty_iso_codes": [
+          "BHR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8358: Bahraini Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "fcfaedd01e6267d66d27bdd484dbbe852c125fcb1255da607ea7009f8ec7d88c",
+      "raw_path": "data/external/global_fishing_watch/raw/68a0e7e41ce89fb446a1bc36f213fe0311e60228a3d8cf59e16bace3d3cd754d.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:26:41.019250+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "dd38e6493381d95f6b09eec0ea7b38d38e799b091587dad2af38265618abc47f",
+      "bytes": 1758,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8481",
+        "name": "Bangladeshi Exclusive Economic Zone",
+        "country": "Bangladesh",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8481"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BGD",
+        "territory_label": "Bangladesh",
+        "sovereignty_iso_codes": [
+          "BGD"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8481: Bangladeshi Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "b77a6d3e424d2ca1408fcefe270911fa1939e31938a55e0369299ccfc37cd95f",
+      "raw_path": "data/external/global_fishing_watch/raw/dd38e6493381d95f6b09eec0ea7b38d38e799b091587dad2af38265618abc47f.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:26:46.513501+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "2aaf4a5c8f32cd458cc9a41730ac917f117ac643aa98aafd80e0d18b65ce3ba4",
+      "bytes": 3044,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8418",
+        "name": "Barbadian Exclusive Economic Zone",
+        "country": "Barbados",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8418"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BRB",
+        "territory_label": "Barbados",
+        "sovereignty_iso_codes": [
+          "BRB"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8418: Barbadian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "58ce338da28e2afe109083180441d840b80bf8f352e152fd98f9e2ce0d3ac368",
+      "raw_path": "data/external/global_fishing_watch/raw/2aaf4a5c8f32cd458cc9a41730ac917f117ac643aa98aafd80e0d18b65ce3ba4.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:26:49.373536+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "420b1093ebf33038f50aeaa87ecd0438a2fed1bebe36feef335b167dbcecebb0",
+      "bytes": 3894,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:3293",
+        "name": "Belgian Exclusive Economic Zone",
+        "country": "Belgium",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "3293"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BEL",
+        "territory_label": "Belgium",
+        "sovereignty_iso_codes": [
+          "BEL"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 3293: Belgian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "b95e701833a22690c063961dfeeba1e9f4342aaf0b93745368ad8ca7ec6efa46",
+      "raw_path": "data/external/global_fishing_watch/raw/420b1093ebf33038f50aeaa87ecd0438a2fed1bebe36feef335b167dbcecebb0.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:26:51.057768+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8457",
+        "name": "Belizean Exclusive Economic Zone",
+        "country": "Belize",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8457"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BLZ",
+        "territory_label": "Belize",
+        "sovereignty_iso_codes": [
+          "BLZ"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8457: Belizean Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "c6856cec382cba3a93389c2a85ed7f097b3883e9305806ac8b3e443b8c09969e",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:26:53.015357+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "9b6c41176095380a2aa660258b9ba192fa0e1bbe3c9b445170e174d3ac0cd8b9",
+      "bytes": 1193,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8393",
+        "name": "Beninese Exclusive Economic Zone",
+        "country": "Benin",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8393"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BEN",
+        "territory_label": "Benin",
+        "sovereignty_iso_codes": [
+          "BEN"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8393: Beninese Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "939a9436dc3d0dd9c5ba9d53c9a31a7ad04db521327b9ba00efb69e495df08bf",
+      "raw_path": "data/external/global_fishing_watch/raw/9b6c41176095380a2aa660258b9ba192fa0e1bbe3c9b445170e174d3ac0cd8b9.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:26:55.329218+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "7a8a5d0132c51e823eba1a99b6f6c1f7b373ac38f1d7dfb009c182d982db39cf",
+      "bytes": 4957,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8471",
+        "name": "Bissau-Guinean Exclusive Economic Zone",
+        "country": "Guinea-Bissau",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8471"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "GNB",
+        "territory_label": "Guinea-Bissau",
+        "sovereignty_iso_codes": [
+          "GNB"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8471: Bissau-Guinean Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "474d385dc6dc6705ec0e49f4403077e9e2c7b841e278ad660d5a1e97070d29ca",
+      "raw_path": "data/external/global_fishing_watch/raw/7a8a5d0132c51e823eba1a99b6f6c1f7b373ac38f1d7dfb009c182d982db39cf.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:26:58.889673+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:22491",
+        "name": "Bosnian and Herzegovinian Exclusive Economic Zone",
+        "country": "Bosnia and Herzegovina",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "22491"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BIH",
+        "territory_label": "Bosnia and Herzegovina",
+        "sovereignty_iso_codes": [
+          "BIH"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 22491: Bosnian and Herzegovinian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "cd5ef0d329c0f4ad154f159be201beceb48f0b2ae5bf944c710e4a09b0aeeee4",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:07.022426+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "f305e08bf5ba806b7d3c71e5db8618ad73f1c3c0cc47e00ee0c051d2b128ec98",
+      "bytes": 8229,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8464",
+        "name": "Brazilian Exclusive Economic Zone",
+        "country": "Brazil",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8464"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BRA",
+        "territory_label": "Brazil",
+        "sovereignty_iso_codes": [
+          "BRA"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8464: Brazilian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "385a8bb4e2e9bcdc246651c14e59a75e4f9c4e01284516f89f6bc79b25a6df09",
+      "raw_path": "data/external/global_fishing_watch/raw/f305e08bf5ba806b7d3c71e5db8618ad73f1c3c0cc47e00ee0c051d2b128ec98.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:10.697632+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "ef1683f0cff731ca078f556903f2773858af81b4491883514f23dade9b4b6ba6",
+      "bytes": 1199,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8381",
+        "name": "Brazilian Exclusive Economic Zone (Trindade)",
+        "country": "Trindade",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8381"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BRA",
+        "territory_label": "Trindade",
+        "sovereignty_iso_codes": [
+          "BRA"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8381: Brazilian Exclusive Economic Zone (Trindade). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "0672e93dd7a80b10ef27e2ba86f229c427c2136651eb784e81fae9dddda187e2",
+      "raw_path": "data/external/global_fishing_watch/raw/ef1683f0cff731ca078f556903f2773858af81b4491883514f23dade9b4b6ba6.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:15.213096+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "c84a3e45521c145b8ffd2bdc786ebdde9374baf45ae62a5e87bc028981737422",
+      "bytes": 11485,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:5696",
+        "name": "British Exclusive Economic Zone",
+        "country": "United Kingdom",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "5696"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "GBR",
+        "territory_label": "United Kingdom",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 5696: British Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "8bec970fd647afc537f5be4475cc9dbc76d204d0353f88d969561c8c7575385d",
+      "raw_path": "data/external/global_fishing_watch/raw/c84a3e45521c145b8ffd2bdc786ebdde9374baf45ae62a5e87bc028981737422.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:17.456177+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "3bababcea35a4463b5414201a920b71b182d861bb2300d7922be64ba6ef19bad",
+      "bytes": 260,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8412",
+        "name": "British Exclusive Economic Zone (Anguilla)",
+        "country": "Anguilla",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8412"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "AIA",
+        "territory_label": "Anguilla",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8412: British Exclusive Economic Zone (Anguilla). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "f5438d9455eb42c0ad27c795c1dc489527ddf81a24ff327d147482f74bc08340",
+      "raw_path": "data/external/global_fishing_watch/raw/3bababcea35a4463b5414201a920b71b182d861bb2300d7922be64ba6ef19bad.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:20.675233+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "be9b0ed5bdded2c34f287ed444abef67b8f7eee0db36b9430203868f21965551",
+      "bytes": 195,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8379",
+        "name": "British Exclusive Economic Zone (Ascension)",
+        "country": "Ascension",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8379"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "SHN",
+        "territory_label": "Ascension",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8379: British Exclusive Economic Zone (Ascension). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "36ba7aa45a1d8ef80d535155e9315717aebfaaf051141b9e8c7f5aa0e22771d6",
+      "raw_path": "data/external/global_fishing_watch/raw/be9b0ed5bdded2c34f287ed444abef67b8f7eee0db36b9430203868f21965551.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:24.695881+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "7c7e8847349fe749c4e489498f1b2712af3cbf62f94aacb748c9cca9a791478e",
+      "bytes": 844,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8402",
+        "name": "British Exclusive Economic Zone (Bermuda)",
+        "country": "Bermuda",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8402"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BMU",
+        "territory_label": "Bermuda",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8402: British Exclusive Economic Zone (Bermuda). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "1dff05e9db158151a672f69a4040fdee10611e7d2dc33232ed322eaaac3f8f98",
+      "raw_path": "data/external/global_fishing_watch/raw/7c7e8847349fe749c4e489498f1b2712af3cbf62f94aacb748c9cca9a791478e.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:26.842053+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8411",
+        "name": "British Exclusive Economic Zone (British Virgin Islands)",
+        "country": "British Virgin Islands",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8411"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "VGB",
+        "territory_label": "British Virgin Islands",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8411: British Exclusive Economic Zone (British Virgin Islands). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "f75580990784e2e9a5b9a338665f86a0a9a2bd668ec1785beed884843e901ed7",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:28.442062+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8407",
+        "name": "British Exclusive Economic Zone (Cayman Islands)",
+        "country": "Cayman Islands",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8407"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CYM",
+        "territory_label": "Cayman Islands",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8407: British Exclusive Economic Zone (Cayman Islands). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "17613e3748993f2e19ff840bc91185b0676d13c294ed75c7a7fe92cf18f2c536",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:32.000186+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "c5f78f2be95cc7c9c2d8231067b40a2479165f028d2b11ddf5ec00349f163829",
+      "bytes": 2165,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:21788",
+        "name": "British Exclusive Economic Zone (Guernsey)",
+        "country": "Guernsey",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "21788"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "GGY",
+        "territory_label": "Guernsey",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 21788: British Exclusive Economic Zone (Guernsey). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "0d9e635a38a973757cb9a8de2e282d2dbd9d05a6ae3fa0739b161cfaf4490bf2",
+      "raw_path": "data/external/global_fishing_watch/raw/c5f78f2be95cc7c9c2d8231067b40a2479165f028d2b11ddf5ec00349f163829.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:34.710079+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "1f7557ca08fd68077d551731e874efc5117e0f5d7a9ce30d1c8a7157e70ef2b6",
+      "bytes": 1144,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:64446",
+        "name": "British Exclusive Economic Zone (Isle of Man)",
+        "country": "Isle of Man",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "64446"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "IMN",
+        "territory_label": "Isle of Man",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 64446: British Exclusive Economic Zone (Isle of Man). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "74db92f344095cc6762be7afe83e0bb83337ab1e0b364c88cbab2484cd1d0258",
+      "raw_path": "data/external/global_fishing_watch/raw/1f7557ca08fd68077d551731e874efc5117e0f5d7a9ce30d1c8a7157e70ef2b6.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:41.395258+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "d82415c0c81bb1dab8c29abb7c5dd27f4a617a9e4f3cac75cb369baedf9857f8",
+      "bytes": 1871,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:21789",
+        "name": "British Exclusive Economic Zone (Jersey)",
+        "country": "Jersey",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "21789"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "JEY",
+        "territory_label": "Jersey",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 21789: British Exclusive Economic Zone (Jersey). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "f808d5fb76ffac20b6359eb44dd9f2cadc163eca74c9f94c68b6e29b691a3507",
+      "raw_path": "data/external/global_fishing_watch/raw/d82415c0c81bb1dab8c29abb7c5dd27f4a617a9e4f3cac75cb369baedf9857f8.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:47.891088+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8415",
+        "name": "British Exclusive Economic Zone (Montserrat)",
+        "country": "Montserrat",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8415"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "MSR",
+        "territory_label": "Montserrat",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8415: British Exclusive Economic Zone (Montserrat). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "8071da8874ecff904d78d9481e6a06b9cd913d2a356077dce6a3302e280d0c76",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:53.114260+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8439",
+        "name": "British Exclusive Economic Zone (Pitcairn)",
+        "country": "Pitcairn",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8439"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "PCN",
+        "territory_label": "Pitcairn",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8439: British Exclusive Economic Zone (Pitcairn). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "9a1a870d903bb16fc446f8a8c212550235d821a6f3776d79e3e87b0a59f413d1",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:27:58.279550+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "8b777f78ec670a7a14eec6676dd4095202ea3013fe7eedd904193a9ba4a41c69",
+      "bytes": 618,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8380",
+        "name": "British Exclusive Economic Zone (Saint Helena)",
+        "country": "Saint Helena",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8380"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "SHN",
+        "territory_label": "Saint Helena",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8380: British Exclusive Economic Zone (Saint Helena). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "f96f9c5327d03c2452fb9b97b58fe75b18cff835b9d1ed9f3c231cecd90bf55a",
+      "raw_path": "data/external/global_fishing_watch/raw/8b777f78ec670a7a14eec6676dd4095202ea3013fe7eedd904193a9ba4a41c69.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:28:02.712181+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8382",
+        "name": "British Exclusive Economic Zone (Tristan da Cunha)",
+        "country": "Tristan da Cunha",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8382"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "SHN",
+        "territory_label": "Tristan da Cunha",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8382: British Exclusive Economic Zone (Tristan da Cunha). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "bc1677709e25bfacdaf1e743163a3ce592a8f33539431b6b8a501bde2ce7f907",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:28:05.239543+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8405",
+        "name": "British Exclusive Economic Zone (Turks and Caicos Islands)",
+        "country": "Turks and Caicos Islands",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8405"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "TCA",
+        "territory_label": "Turks and Caicos Islands",
+        "sovereignty_iso_codes": [
+          "GBR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8405: British Exclusive Economic Zone (Turks and Caicos Islands). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "7229e5843c14e9a5059538ea54e5840b64f0a73b2194c90b5f733afbe7e15a8d",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:28:08.609311+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "875c06e7393b53ff64b2242a3a80d37995f575ad1a7223021ff07938470362ef",
+      "bytes": 2934,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:26521",
+        "name": "Bruneian Exclusive Economic Zone",
+        "country": "Brunei",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "26521"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BRN",
+        "territory_label": "Brunei",
+        "sovereignty_iso_codes": [
+          "BRN"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 26521: Bruneian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "1e205126ffdbc77c970cfd9301d815e6dcaed04fca1f2cf5a47d7da3914bffe6",
+      "raw_path": "data/external/global_fishing_watch/raw/875c06e7393b53ff64b2242a3a80d37995f575ad1a7223021ff07938470362ef.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:28:14.873842+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "68366241865432a81400e1585795ee0f275a45b1c9a8628ca476d9cbd1d0ba3d",
+      "bytes": 1435,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:5672",
+        "name": "Bulgarian Exclusive Economic Zone",
+        "country": "Bulgaria",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "5672"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BGR",
+        "territory_label": "Bulgaria",
+        "sovereignty_iso_codes": [
+          "BGR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 5672: Bulgarian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "2e805a9e68911cefed8135bba59312104248eea481c0a34d03135232661a4299",
+      "raw_path": "data/external/global_fishing_watch/raw/68366241865432a81400e1585795ee0f275a45b1c9a8628ca476d9cbd1d0ba3d.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:28:17.955068+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "9e6c92841d1ca0f6a8a18c91c41352913a676d468b8a20d3ac8ace4e6219f3ae",
+      "bytes": 5496,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8331",
+        "name": "Cambodian Exclusive Economic Zone",
+        "country": "Cambodia",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8331"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "KHM",
+        "territory_label": "Cambodia",
+        "sovereignty_iso_codes": [
+          "KHM"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8331: Cambodian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "aebc42dec00d8350065e45d083b2e10a18a91775cdb9cdb84d8089fded71839a",
+      "raw_path": "data/external/global_fishing_watch/raw/9e6c92841d1ca0f6a8a18c91c41352913a676d468b8a20d3ac8ace4e6219f3ae.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:28:24.392128+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "2c2c8b1172f48c185c06709d1c344f537e863598cd3bc65d1beb7b25e610ecc8",
+      "bytes": 2983,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8475",
+        "name": "Cameroonian Exclusive Economic Zone",
+        "country": "Cameroon",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8475"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CMR",
+        "territory_label": "Cameroon",
+        "sovereignty_iso_codes": [
+          "CMR"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8475: Cameroonian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "96622b6e5f525bcc85050a2e6c1c3a8cd944db269e44349fc635a2747a519e59",
+      "raw_path": "data/external/global_fishing_watch/raw/2c2c8b1172f48c185c06709d1c344f537e863598cd3bc65d1beb7b25e610ecc8.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:28:37.215409+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "ba274fba43f845197a31b00d684aa32c6a29d7e92619bf5e19c8d447224b6963",
+      "bytes": 4426,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8493",
+        "name": "Canadian Exclusive Economic Zone",
+        "country": "Canada",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8493"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CAN",
+        "territory_label": "Canada",
+        "sovereignty_iso_codes": [
+          "CAN"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8493: Canadian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "5baae92125ea0f91076942c164808f0eea60aa841cdf49aebff964b2ee242874",
+      "raw_path": "data/external/global_fishing_watch/raw/ba274fba43f845197a31b00d684aa32c6a29d7e92619bf5e19c8d447224b6963.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:28:40.838278+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "7cc66f492ea5248fea73c586c407477fb112c1e05a0bc8bfa3c58f2c7c3ed5f4",
+      "bytes": 4515,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8362",
+        "name": "Cape Verdean Exclusive Economic Zone",
+        "country": "Cape Verde",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8362"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CPV",
+        "territory_label": "Cape Verde",
+        "sovereignty_iso_codes": [
+          "CPV"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8362: Cape Verdean Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "226f325c5e4f2e33d08924f2d1f508d9c3c13679a1631fbcec4136aa0249936a",
+      "raw_path": "data/external/global_fishing_watch/raw/7cc66f492ea5248fea73c586c407477fb112c1e05a0bc8bfa3c58f2c7c3ed5f4.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:28:46.372777+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "0aeff64c843687c8cfe15e0b849d8a5ed20b90e6d6d7e895e57cf03b706b0b6e",
+      "bytes": 3390,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8465",
+        "name": "Chilean Exclusive Economic Zone",
+        "country": "Chile",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8465"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CHL",
+        "territory_label": "Chile",
+        "sovereignty_iso_codes": [
+          "CHL"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8465: Chilean Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "6652da6e33ee8a9ac8ad278a15f52ac54bbc952d778a82afaa6f9dd8d43f55e8",
+      "raw_path": "data/external/global_fishing_watch/raw/0aeff64c843687c8cfe15e0b849d8a5ed20b90e6d6d7e895e57cf03b706b0b6e.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:28:48.983396+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:21787",
+        "name": "Chilean Exclusive Economic Zone (Easter Island)",
+        "country": "Easter Island",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "21787"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CHL",
+        "territory_label": "Easter Island",
+        "sovereignty_iso_codes": [
+          "CHL"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 21787: Chilean Exclusive Economic Zone (Easter Island). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "53aa5799f410b0df3d0a885e63bcb2217d801274e658c6b7929db4f9bd996313",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:28:52.020054+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "3c330f0d07849b723c962869117c41cff089df6d897fecbc21d68342686720ab",
+      "bytes": 194,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:22756",
+        "name": "Chilean Exclusive Economic Zone (Islas San Félix and San Ambrosio)",
+        "country": "Islas San Félix and San Ambrosio",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "22756"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CHL",
+        "territory_label": "Islas San Félix and San Ambrosio",
+        "sovereignty_iso_codes": [
+          "CHL"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 22756: Chilean Exclusive Economic Zone (Islas San Félix and San Ambrosio). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "1d1f2b4235da4e74ac54c88d04744785e9234cdcf958fa33300fa9a9f23e5bd6",
+      "raw_path": "data/external/global_fishing_watch/raw/3c330f0d07849b723c962869117c41cff089df6d897fecbc21d68342686720ab.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:02.857921+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "21c8c4bf147d830573c1394f27dcf4bdc4cb4d8974099da5d3b4c8d10640f3e0",
+      "bytes": 110652,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8486",
+        "name": "Chinese Exclusive Economic Zone",
+        "country": "China",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8486"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CHN",
+        "territory_label": "China",
+        "sovereignty_iso_codes": [
+          "CHN"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8486: Chinese Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "06c50ad206a1fa217394c3637014a06e8806411ede2cf3626cd49b1f37f9157d",
+      "raw_path": "data/external/global_fishing_watch/raw/21c8c4bf147d830573c1394f27dcf4bdc4cb4d8974099da5d3b4c8d10640f3e0.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:05.429506+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "be4cbb570b2f9dc6b3d1f77833f1c7da2e670230dd19e5e54759a90f957674bf",
+      "bytes": 2714,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8426",
+        "name": "Colombian Exclusive Economic Zone",
+        "country": "Colombia",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8426"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "COL",
+        "territory_label": "Colombia",
+        "sovereignty_iso_codes": [
+          "COL"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8426: Colombian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "a3669eef6f0ac329792c740c9cb75885c62eb94414ad5b5d88c203c3ba321ea5",
+      "raw_path": "data/external/global_fishing_watch/raw/be4cbb570b2f9dc6b3d1f77833f1c7da2e670230dd19e5e54759a90f957674bf.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:07.075127+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:48985",
+        "name": "Colombian Exclusive Economic Zone (Bajo Nuevo Bank)",
+        "country": "Bajo Nuevo Bank",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "48985"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "COL",
+        "territory_label": "Bajo Nuevo Bank",
+        "sovereignty_iso_codes": [
+          "COL"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 48985: Colombian Exclusive Economic Zone (Bajo Nuevo Bank). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "4498e87d90e7cd4f6f59b3cfd7bb2e2658992e0c1645a95b6cf94352c7d53901",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:09.111218+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "257b0c4e413815e2de1454b81ad68a434d637c03eace66f8763de91ece7fec86",
+      "bytes": 339,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:62598",
+        "name": "Colombian Exclusive Economic Zone (Quitasueño Bank)",
+        "country": "Quitasueño Bank",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "62598"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "COL",
+        "territory_label": "Quitasueño Bank",
+        "sovereignty_iso_codes": [
+          "COL"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 62598: Colombian Exclusive Economic Zone (Quitasueño Bank). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "7d1157caca6c85b6ccbe2b73e90b5736eb43556f22fe651e66bb34b73fed5f26",
+      "raw_path": "data/external/global_fishing_watch/raw/257b0c4e413815e2de1454b81ad68a434d637c03eace66f8763de91ece7fec86.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:11.734097+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:62596",
+        "name": "Colombian Exclusive Economic Zone (Serrana Bank)",
+        "country": "Serrana Bank",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "62596"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "COL",
+        "territory_label": "Serrana Bank",
+        "sovereignty_iso_codes": [
+          "COL"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 62596: Colombian Exclusive Economic Zone (Serrana Bank). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "d3942a2d122a724d86f49b2730544a8a45f68123eff0474849c4b3f0167d3ebd",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:13.313453+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:48984",
+        "name": "Colombian Exclusive Economic Zone (Serranilla Bank)",
+        "country": "Serranilla Bank",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "48984"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "COL",
+        "territory_label": "Serranilla Bank",
+        "sovereignty_iso_codes": [
+          "COL"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 48984: Colombian Exclusive Economic Zone (Serranilla Bank). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "3bd95a9e6831473c9cf3116bcddf1d72508803e8e765c4dee3e1fe885f13f613",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:17.314132+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "8c73436b9cc583e77ef4dc8075b2d383ad19c804d82e89e97a428b15397c9380",
+      "bytes": 545,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8334",
+        "name": "Comoran Exclusive Economic Zone",
+        "country": "Comores",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8334"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "COM",
+        "territory_label": "Comores",
+        "sovereignty_iso_codes": [
+          "COM"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8334: Comoran Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "80cdd73feaeabb09f3b31a4ce3adfd09cb7cb15ea0e257e83c9eafa34c90a8a8",
+      "raw_path": "data/external/global_fishing_watch/raw/8c73436b9cc583e77ef4dc8075b2d383ad19c804d82e89e97a428b15397c9380.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:19.597526+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "1b07ca465986ae55371f0bb5af9ea5cfd9bab3a2543ded314b57b6a68d2ecb1c",
+      "bytes": 2878,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8477",
+        "name": "Congolese (Democratic Republic of) Exclusive Economic Zone",
+        "country": "Democratic Republic of the Congo",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8477"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "COD",
+        "territory_label": "Democratic Republic of the Congo",
+        "sovereignty_iso_codes": [
+          "COD"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8477: Congolese (Democratic Republic of) Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "2c25756e638aa676662692e8f683aa19c697621976e9b51d4269b7bbb7c1c675",
+      "raw_path": "data/external/global_fishing_watch/raw/1b07ca465986ae55371f0bb5af9ea5cfd9bab3a2543ded314b57b6a68d2ecb1c.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:22.030159+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "de10c2cc85424198d28aae568c3ac5ff3575094eeda25f164eea78323a314c6e",
+      "bytes": 1063,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8394",
+        "name": "Congolese (Republic of) Exclusive Economic Zone",
+        "country": "Republic of the Congo",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8394"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "COG",
+        "territory_label": "Republic of the Congo",
+        "sovereignty_iso_codes": [
+          "COG"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8394: Congolese (Republic of) Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "40732290092a4ac90530bc11efe4272f469c51c7fa3ff2be86a5b9fa138b6b55",
+      "raw_path": "data/external/global_fishing_watch/raw/de10c2cc85424198d28aae568c3ac5ff3575094eeda25f164eea78323a314c6e.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:24.430884+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "9f1511cbfb32d3cafb3a024fc541fb4119828ca5c91b0ea634cd8a8297db5762",
+      "bytes": 1767,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8424",
+        "name": "Costa Rican Exclusive Economic Zone",
+        "country": "Costa Rica",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8424"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CRI",
+        "territory_label": "Costa Rica",
+        "sovereignty_iso_codes": [
+          "CRI"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8424: Costa Rican Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "126d93e81b9127f4fcb13ec213085d45e2e701b12c64cedfb675cb1663fa8f88",
+      "raw_path": "data/external/global_fishing_watch/raw/9f1511cbfb32d3cafb3a024fc541fb4119828ca5c91b0ea634cd8a8297db5762.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:27.513716+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "aa0323ac160a78c1899a635b858f5c74ec857a5a9ff7df07d9f20ef834656bff",
+      "bytes": 3057,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:5673",
+        "name": "Croatian Exclusive Economic Zone",
+        "country": "Croatia",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "5673"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "HRV",
+        "territory_label": "Croatia",
+        "sovereignty_iso_codes": [
+          "HRV"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 5673: Croatian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "3592f800dc122fd65d91a35262b728060bb36062fbb08994d1147dc99b0b6487",
+      "raw_path": "data/external/global_fishing_watch/raw/aa0323ac160a78c1899a635b858f5c74ec857a5a9ff7df07d9f20ef834656bff.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:29.719518+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "c0b2a8a1f5f6daaf6853f7471b6f6b8276761d6816cd47c454e28f5045d23786",
+      "bytes": 268,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8406",
+        "name": "Cuban Exclusive Economic Zone",
+        "country": "Cuba",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8406"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CUB",
+        "territory_label": "Cuba",
+        "sovereignty_iso_codes": [
+          "CUB"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8406: Cuban Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "ffeb8985bd3fa998a85ead01640a73ad3f7e765bd2b403c61608e9d69d4f17ae",
+      "raw_path": "data/external/global_fishing_watch/raw/c0b2a8a1f5f6daaf6853f7471b6f6b8276761d6816cd47c454e28f5045d23786.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:31.920302+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "f2013db2d0f2cfafbde58a355670dd8f2377f9f05b14e603b1e30ec9a4c630cf",
+      "bytes": 2660,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8376",
+        "name": "Cypriote Exclusive Economic Zone",
+        "country": "Cyprus",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8376"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CYP",
+        "territory_label": "Cyprus",
+        "sovereignty_iso_codes": [
+          "CYP"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8376: Cypriote Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "047203fade501c38cd0fcb1675c5d993d7c8d4cf6d7a760ad38d0363c06461ec",
+      "raw_path": "data/external/global_fishing_watch/raw/f2013db2d0f2cfafbde58a355670dd8f2377f9f05b14e603b1e30ec9a4c630cf.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:34.599246+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "f26682ea5268f47b09033bfec2a971edd07d08f5504b709a37e0a24e7770d016",
+      "bytes": 8220,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:5674",
+        "name": "Danish Exclusive Economic Zone",
+        "country": "Denmark",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "5674"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "DNK",
+        "territory_label": "Denmark",
+        "sovereignty_iso_codes": [
+          "DNK"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 5674: Danish Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "f5a6199072fd20c065dcd297a78529369af789e4ff096cd0b5365a858caaec39",
+      "raw_path": "data/external/global_fishing_watch/raw/f26682ea5268f47b09033bfec2a971edd07d08f5504b709a37e0a24e7770d016.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:36.938048+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "38457ab24cc1ae60d7969399d89dec60ff9b742019e1a0bf6656eef56e32fe6a",
+      "bytes": 4819,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8435",
+        "name": "Danish Exclusive Economic Zone (Faeroe)",
+        "country": "Faeroe",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8435"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "FRO",
+        "territory_label": "Faeroe",
+        "sovereignty_iso_codes": [
+          "DNK"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8435: Danish Exclusive Economic Zone (Faeroe). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "07afcfbf4b21055aaa481cd457a452888dea7543030d1b027dedf62e51c1dad7",
+      "raw_path": "data/external/global_fishing_watch/raw/38457ab24cc1ae60d7969399d89dec60ff9b742019e1a0bf6656eef56e32fe6a.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:42.000519+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "e304db18070ccf3323ac63c1cf9b2dfa22d9e3c33f12c93f5932bbb6c5aec6fa",
+      "bytes": 5330,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8438",
+        "name": "Danish Exclusive Economic Zone (Greenland)",
+        "country": "Greenland",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8438"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "GRL",
+        "territory_label": "Greenland",
+        "sovereignty_iso_codes": [
+          "DNK"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8438: Danish Exclusive Economic Zone (Greenland). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "ed0395ae84a10b783b87a2ffa89cb0efd0b209fde604aea2cc61f35f50333205",
+      "raw_path": "data/external/global_fishing_watch/raw/e304db18070ccf3323ac63c1cf9b2dfa22d9e3c33f12c93f5932bbb6c5aec6fa.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:43.803786+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8352",
+        "name": "Djiboutian Exclusive Economic Zone",
+        "country": "Djibouti",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8352"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "DJI",
+        "territory_label": "Djibouti",
+        "sovereignty_iso_codes": [
+          "DJI"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8352: Djiboutian Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "95d0661ee4b0d4b9425a131c4fd7ab7ca24d889f3f5311403c1594024f30573e",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:45.795791+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8409",
+        "name": "Dominican (Republic) Exclusive Economic Zone",
+        "country": "Dominican Republic",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8409"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "DOM",
+        "territory_label": "Dominican Republic",
+        "sovereignty_iso_codes": [
+          "DOM"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8409: Dominican (Republic) Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "80252722b1d693b4c28ec1db8f82c44ac6cf13a983e1cd0ef96f323eb63492e4",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:47.875370+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "e799b012ba9c8d535b88f97e1b05c7b01320b25ce2f8bb58b4938cfa7aacde3a",
+      "bytes": 558,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:8417",
+        "name": "Dominican Exclusive Economic Zone",
+        "country": "Dominica",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "8417"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "DMA",
+        "territory_label": "Dominica",
+        "sovereignty_iso_codes": [
+          "DMA"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 8417: Dominican Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "2bbb5aea47f038eced4869bed9e24a6fc51f64ab2db90377fddddb63d324d1d9",
+      "raw_path": "data/external/global_fishing_watch/raw/e799b012ba9c8d535b88f97e1b05c7b01320b25ce2f8bb58b4938cfa7aacde3a.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:50.311221+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "98abf00052124d96467023c3df78b0e1a9605a5a2b77df5c0cadc15c446f4bd8",
+      "bytes": 5435,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:5668",
+        "name": "Dutch Exclusive Economic Zone",
+        "country": "Netherlands",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "5668"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "NLD",
+        "territory_label": "Netherlands",
+        "sovereignty_iso_codes": [
+          "NLD"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 5668: Dutch Exclusive Economic Zone. Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "f712841e976ced0b5cba16bfd2fdf92037ab115c716614a5adaba54eda594d5b",
+      "raw_path": "data/external/global_fishing_watch/raw/98abf00052124d96467023c3df78b0e1a9605a5a2b77df5c0cadc15c446f4bd8.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:52.466910+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "7d6e05f8be89c6a2b535a5e70307c07e1cdb5c7e9f3b81e098134db596da6e9e",
+      "bytes": 194,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:26519",
+        "name": "Dutch Exclusive Economic Zone (Aruba)",
+        "country": "Aruba",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "26519"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "ABW",
+        "territory_label": "Aruba",
+        "sovereignty_iso_codes": [
+          "NLD"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 26519: Dutch Exclusive Economic Zone (Aruba). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "8b0098c66d587c88f28886b03499dd6e8f87e08f829d84b40c02cebfdf57219c",
+      "raw_path": "data/external/global_fishing_watch/raw/7d6e05f8be89c6a2b535a5e70307c07e1cdb5c7e9f3b81e098134db596da6e9e.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:54.073399+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:26520",
+        "name": "Dutch Exclusive Economic Zone (Bonaire)",
+        "country": "Bonaire",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "26520"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BES",
+        "territory_label": "Bonaire",
+        "sovereignty_iso_codes": [
+          "NLD"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 26520: Dutch Exclusive Economic Zone (Bonaire). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "d3e15e135b63e2d4368ca02f1e8ae93073477cb43111df0570466d0c273b8a01",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:55.552664+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "bb66d2da0c03c723299b4acffafb8fce4568ba37fed8035ecf5581d0a8b05a7e",
+      "bytes": 559,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:26517",
+        "name": "Dutch Exclusive Economic Zone (Curaçao)",
+        "country": "Curaçao",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "26517"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "CUW",
+        "territory_label": "Curaçao",
+        "sovereignty_iso_codes": [
+          "NLD"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 26517: Dutch Exclusive Economic Zone (Curaçao). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "ea9593394efb43ff72e26e9262b631f9db132c751cfb2da64b989817fde7df9a",
+      "raw_path": "data/external/global_fishing_watch/raw/bb66d2da0c03c723299b4acffafb8fce4568ba37fed8035ecf5581d0a8b05a7e.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:57.369241+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:26518",
+        "name": "Dutch Exclusive Economic Zone (Saba)",
+        "country": "Saba",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "26518"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BES",
+        "territory_label": "Saba",
+        "sovereignty_iso_codes": [
+          "NLD"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 26518: Dutch Exclusive Economic Zone (Saba). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "1ff4584df7920c97dc331e2114fef817d2840d600eb413600585eaa84a0871ac",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:29:59.988799+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:26526",
+        "name": "Dutch Exclusive Economic Zone (Sint-Eustatius)",
+        "country": "Sint-Eustatius",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "26526"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "BES",
+        "territory_label": "Sint-Eustatius",
+        "sovereignty_iso_codes": [
+          "NLD"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 26526: Dutch Exclusive Economic Zone (Sint-Eustatius). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "6c97f23ac0c568a08232e0ddda1583370070cf7d22e9a0cbfcc1b8902e8611b2",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    },
+    {
+      "source_url": "https://gateway.api.globalfishingwatch.org/v3/4wings/report?datasets%5B0%5D=public-global-fishing-effort%3Av5.0&date-range=2024-01-01%2C2025-01-01&format=JSON&group-by=FLAG&temporal-resolution=MONTHLY&spatial-aggregation=true",
+      "retrieved_at": "2026-11-07T17:30:02.808417+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "",
+      "last_modified": "",
+      "x_datasets": "public-global-fishing-effort:v5.0",
+      "sha256": "adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976",
+      "bytes": 125,
+      "query": {
+        "datasets[0]": "public-global-fishing-effort:v5.0",
+        "date-range": "2024-01-01,2025-01-01",
+        "format": "JSON",
+        "group-by": "FLAG",
+        "temporal-resolution": "MONTHLY",
+        "spatial-aggregation": "true"
+      },
+      "study_area": {
+        "id": "gfw-eez:21803",
+        "name": "Dutch Exclusive Economic Zone (Sint-Maarten)",
+        "country": "Sint-Maarten",
+        "region": {
+          "dataset": "public-eez-areas",
+          "id": "21803"
+        },
+        "region_category": "source_eez_region",
+        "iso3": "SXM",
+        "territory_label": "Sint-Maarten",
+        "sovereignty_iso_codes": [
+          "NLD"
+        ],
+        "region_metadata_sha256": "65a1cf165f89174c0a7779d7def018295a4622a0309b992eb96a850f0bc71423",
+        "region_metadata_url": "https://gateway.api.globalfishingwatch.org/v3/datasets/public-eez-areas/context-layers",
+        "definition": "Official GFW public-eez-areas region 21803: Dutch Exclusive Economic Zone (Sint-Maarten). Full source EEZ region, not a cable corridor or landing buffer. Source label retained without country-name harmonization. Joint/overlapping regimes are separate and totals across regions must not be summed. High seas are outside this EEZ study. Definition source: https://globalfishingwatch.org/our-apis/documentation/docs/v3/datasets/regions."
+      },
+      "method": "POST",
+      "request_key": "2f84208eaba108e89f2ae29be1a3154276835caef31799c1a0dd31aa9bac031a",
+      "raw_path": "data/external/global_fishing_watch/raw/adc609b142e0f68960072bd2da16f26431ffb090d54c622d2f1479455da43976.report"
+    }
+  ],
+  "events": [
+    {
+      "stage": "html_scraping",
+      "status": "metadata_acquired",
+      "rows": 3,
+      "message": "Actual resource descriptors extracted from official HTML; these are NOT infrastructure observations."
+    },
+    {
+      "stage": "historical_infrastructure",
+      "status": "acquired",
+      "rows": 1414,
+      "message": "Pinned licensed historical archive. Original source-key joins only. Observation dates are not inferred from commit date."
+    },
+    {
+      "stage": "archive_source_discrepancies",
+      "status": "flagged",
+      "rows": 8,
+      "message": "One-sided source links are retained and flagged. Missing landing details use exact original country-membership keys where available, never inferred countries."
+    },
+    {
+      "stage": "html_observations",
+      "status": "acquired",
+      "rows": 13,
+      "message": "Named cable entries extracted from OFCA HTML prose and reconciled against its published count. Not HTML table rows, global inventory or fault events."
+    },
+    {
+      "stage": "infrastructure",
+      "status": "acquired",
+      "rows": 1414,
+      "message": "Verified unchanged, licensed infrastructure snapshot loaded."
+    },
+    {
+      "stage": "gfw_geographies",
+      "status": "acquired",
+      "rows": 286,
+      "message": "All officially listed EEZ context regions selected before examining activity. Joint/overlapping areas retained separately; high seas excluded."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5670",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8378",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8478",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8489",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 8,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8414",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8466",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8323",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8309",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8308",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8388",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 8,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8311",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 5,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8310",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:26524",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8404",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 3,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8358",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8481",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 11,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8418",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:3293",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8457",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8393",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8471",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:22491",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8464",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8381",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 9,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5696",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8412",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 2,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8379",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8402",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 10,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8411",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8407",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21788",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:64446",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:21789",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8415",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8439",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8380",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 6,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8382",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8405",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26521",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5672",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8331",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8475",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8493",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8362",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8465",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:21787",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:22756",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8486",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8426",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:48985",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:62598",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 3,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:62596",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:48984",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8334",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 4,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8477",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8394",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8424",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5673",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8406",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 2,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8376",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5674",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8435",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8438",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8352",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:8409",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:8417",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 6,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:5668",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 12,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26519",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 1,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:26520",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "acquired",
+      "area_id": "gfw-eez:26517",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 5,
+      "message": "Monthly flags summed within one geography; no vessel identity exported."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:26518",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:26526",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "area_id": "gfw-eez:21803",
+      "dataset": "public-global-fishing-effort:v5.0",
+      "rows": 0,
+      "message": "Report acquisition/schema validation failed: Unsupported GFW row schema; expected date, flag and hours from a FLAG/MONTHLY report."
+    }
+  ],
+  "exports": {
+    "external_source_registry.csv": "5f85dfb195e2fc39b0d8de3f49c0c3c4d8c314e83162ff6aebaa7df436605ed7",
+    "external_data_dictionary.csv": "a7c46e2fd55ea2e6926d8594db252cfa6d6781be5c72e85e3ad017b431d1a52f",
+    "scraped_catalog_resources.csv": "87d74fb4aa34f6f76ce2f03b83940336da3129cbfe423af2eb8bb7de80dc6129",
+    "cleaned_world_bank_infrastructure.csv": "75c6e1f457e45c60741a06bb6f0e8889637702dfde26e8f66f81c64c24ad1fce",
+    "cleaned_infrastructure.csv": "70c10e7fbf09536f5b3aaaeee6d3a569a0a855b77e829987d7cd5087e413fdb7",
+    "historical_cable_systems.csv": "f09a4617461f0640c6bd562673af23e8566f994095fca9b0495503f36ab092ef",
+    "historical_cable_landings.csv": "6277e62cb83759cd86c4becd0cab4f3d9322b630cded056bdd0217e2c70ed23f",
+    "scraped_ofca_systems.csv": "9027bb72a63d01285aa55f352b4b79ec19c6a0246fd80426e5d08f12e5d2fbb7",
+    "cleaned_gfw_activity.csv": "e5764c25cd82958443f5fca73be904f3ade01fd30621ad9571438ac496dbe9c2",
+    "external_empirical_summary.csv": "44daaed591b9254bcdca8c7934ed7050efa757480af30ec04a98a945106abccc",
+    "external_geographies.csv": "753536a241bcbcd319bb212bf0e9c08c47210640d7b1d934260d7d142c5b7eba"
+  },
+  "packages": {
+    "historical_infrastructure.zip": "975f786b04697cb89b15c2a41887a96c6b4744d174a480a8f5a4aa393cdbaad7"
+  },
+  "original_evidence_unchanged": true
+}

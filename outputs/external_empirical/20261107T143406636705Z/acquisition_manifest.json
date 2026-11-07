@@ -1,0 +1,50 @@
+{
+  "release_id": "external-6d67f6b596aea548",
+  "downloads": [
+    {
+      "source_url": "https://datacatalog.worldbank.org/robots.txt",
+      "retrieved_at": "2026-11-07T14:34:07.223347+00:00",
+      "http_status": 200,
+      "content_type": "text/plain; charset=UTF-8",
+      "etag": "W/\"36-1a0ed5c3430\"",
+      "last_modified": "Tue, 29 Sep 2026 13:30:38 GMT",
+      "x_datasets": "",
+      "sha256": "6c1238d799b1602f8386835f85daaafff6c7b5c07a44a8fa792dd3218af1a5a1",
+      "bytes": 54,
+      "raw_path": "data/external/world_bank/raw/6c1238d799b1602f8386835f85daaafff6c7b5c07a44a8fa792dd3218af1a5a1.robots.txt"
+    },
+    {
+      "source_url": "https://datacatalog.worldbank.org/search/dataset/0037968/world-development-report-2021-maps-o-4-and-5-1",
+      "retrieved_at": "2026-11-07T14:34:11.759375+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "etag": "W/\"x7rcipyugu1x8h\"",
+      "last_modified": "",
+      "x_datasets": "",
+      "sha256": "c1c63e455961d94354eddafaa0d843499feee8e565af68f2af2fc69bd4cb5bb3",
+      "bytes": 89740,
+      "raw_path": "data/external/world_bank/raw/c1c63e455961d94354eddafaa0d843499feee8e565af68f2af2fc69bd4cb5bb3.html"
+    }
+  ],
+  "events": [
+    {
+      "stage": "html_scraping",
+      "status": "metadata_acquired",
+      "rows": 3,
+      "message": "Actual resource descriptors extracted from official HTML; these are NOT infrastructure observations."
+    },
+    {
+      "stage": "infrastructure",
+      "status": "blocked",
+      "rows": 0,
+      "message": "No licensed infrastructure snapshot configured. Catalog links are not cable observations; obtain the official resource and reuse rights first."
+    },
+    {
+      "stage": "gfw_report",
+      "status": "blocked",
+      "rows": 0,
+      "message": "Personal GFW token not configured; Documented study areas not configured. No GFW website scraping or replacement activity records."
+    }
+  ],
+  "original_evidence_unchanged": true
+}

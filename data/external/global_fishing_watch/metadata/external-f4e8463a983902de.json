@@ -1,0 +1,28 @@
+{
+  "release_id": "external-f4e8463a983902de",
+  "source": {
+    "source_id": "global_fishing_watch",
+    "source_name": "AIS apparent fishing activity and vessel presence",
+    "publisher": "Global Fishing Watch",
+    "source_url": "https://globalfishingwatch.org/our-apis/documentation/docs/v3/4wings/report",
+    "file_or_endpoint": "https://gateway.api.globalfishingwatch.org/v3/4wings/report",
+    "version": "Requested v5.0; resolved x-datasets header verified for each successful report",
+    "original_format": "Requested JSON regional report; original response/ZIP retained when acquired",
+    "license": "CC BY-NC 4.0; dataset-specific caveats also apply",
+    "license_url": "https://globalfishingwatch.org/our-apis/documentation/docs/license-rate-limits",
+    "coverage": "286 requested official/study regions. AIS-covered vessels only; high seas outside EEZ coverage; joint and overlapping regions are not additive.",
+    "purpose": "Supplementary empirical maritime-exposure description; not fault prediction",
+    "limitations": "AIS coverage varies. Fishing is apparent, algorithmically inferred activity; presence is not anchoring or cable contact. No authenticated fault labels.",
+    "access_date": "2026-11-07T17:30:02.808417+00:00",
+    "metadata_updated": null,
+    "period": "2024-01-01 to 2025-01-01 (end exclusive; requested, not proof of coverage)",
+    "status": "acquired_partial"
+  },
+  "observation_rows": 504,
+  "observations_available": true,
+  "processed_sha256": "e5764c25cd82958443f5fca73be904f3ade01fd30621ad9571438ac496dbe9c2",
+  "processed_exports": {
+    "cleaned_gfw_activity.csv": "e5764c25cd82958443f5fca73be904f3ade01fd30621ad9571438ac496dbe9c2",
+    "external_geographies.csv": "753536a241bcbcd319bb212bf0e9c08c47210640d7b1d934260d7d142c5b7eba"
+  }
+}

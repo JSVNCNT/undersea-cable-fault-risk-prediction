@@ -1,0 +1,4 @@
+# Optional ONLY for explicitly configured landing-area buffer sensitivity.
+# Acquisition, country-context summaries and website exports use the stdlib.
+pyproj>=3.6,<4
+shapely>=2.1,<3

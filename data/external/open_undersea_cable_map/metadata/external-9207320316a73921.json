@@ -1,0 +1,29 @@
+{
+  "release_id": "external-9207320316a73921",
+  "source": {
+    "source_id": "open_undersea_cable_map",
+    "source_name": "Open Undersea Cable Map (historical TeleGeography archive)",
+    "publisher": "TeleGeography (original data); Steve Song (archive maintainer)",
+    "source_url": "https://github.com/stevesong/open_undersea_cable_map",
+    "license": "CC BY-NC-SA 3.0 (historical archive declaration)",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "file_or_endpoint": "https://codeload.github.com/stevesong/open_undersea_cable_map/zip/e7903491e73bcac0d0b013b945897d10928483c4",
+    "version": "e7903491e73bcac0d0b013b945897d10928483c4",
+    "original_format": "Unchanged repository ZIP containing GeoJSON and JSON",
+    "access_date": "2026-11-07T15:57:56.931844+00:00",
+    "metadata_updated": null,
+    "coverage": "Global historical inventory, not a current exhaustive network census",
+    "period": "Maintainer describes late-2022 source vintage; individual observation dates unknown. Commit date is not snapshot date.",
+    "purpose": "Historical infrastructure description and source-supplied cable/landing connectivity",
+    "status": "acquired_historical",
+    "limitations": "Noncommercial attribution and share-alike required. Derivative archive datasets retain CC BY-NC-SA 3.0; unrelated sources keep their own terms. Schematic coordinates are not surveyed cable routes. 8 one-sided cable/landing relationships are retained and flagged, not silently repaired. No authenticated faults or current status."
+  },
+  "observation_rows": 1414,
+  "observations_available": true,
+  "processed_sha256": "70c10e7fbf09536f5b3aaaeee6d3a569a0a855b77e829987d7cd5087e413fdb7",
+  "processed_exports": {
+    "cleaned_infrastructure.csv": "70c10e7fbf09536f5b3aaaeee6d3a569a0a855b77e829987d7cd5087e413fdb7",
+    "historical_cable_systems.csv": "f09a4617461f0640c6bd562673af23e8566f994095fca9b0495503f36ab092ef",
+    "historical_cable_landings.csv": "6277e62cb83759cd86c4becd0cab4f3d9322b630cded056bdd0217e2c70ed23f"
+  }
+}
