@@ -1,4 +1,4 @@
-import { Component, useEffect, useState } from 'react';
+import { Component, Fragment, useEffect, useState } from 'react';
 import type { ReactNode } from 'react';
 import { Link, NavLink, Route, Routes, useLocation } from 'react-router-dom';
 import {
@@ -11,6 +11,7 @@ import {
   Database,
   Download,
   FlaskConical,
+  Globe,
   LayoutDashboard,
   LoaderCircle,
   Menu,
@@ -33,6 +34,7 @@ import {
 } from './pages';
 import { Button } from './components/ui/button';
 import { GROUP_NAME } from './lib/presentation';
+import { ExternalEvidence } from './components/external-evidence';
 
 const navigation = [
   { path: '/', label: 'Overview', icon: LayoutDashboard },
@@ -43,6 +45,7 @@ const navigation = [
   { path: '/methodology', label: 'Methodology', icon: BookOpen },
   { path: '/summary', label: 'Research summary', icon: Activity },
   { path: '/about', label: 'About & sources', icon: CircleHelp },
+  { path: '/external', label: 'Real-world evidence', icon: Globe },
 ];
 
 class ErrorBoundary extends Component<{ children: ReactNode }, { failed: boolean }> {
@@ -69,8 +72,10 @@ export default function App() {
   const [attempt, setAttempt] = useState(0);
   const [open, setOpen] = useState(false);
   const location = useLocation();
-  const current = navigation.find((n) => n.path === location.pathname);
+  const isExternal = /^\/external\/?$/.test(location.pathname);
+  const current = navigation.find((n) => n.path === (isExternal ? '/external' : location.pathname));
   useEffect(() => {
+    if (isExternal) return; // This route does not depend on a synthetic release request.
     const abort = new AbortController();
     setError('');
     loadData(abort.signal)
@@ -80,7 +85,7 @@ export default function App() {
           setError(e instanceof Error ? e.message : 'Research data unavailable.');
       });
     return () => abort.abort();
-  }, [attempt]);
+  }, [attempt, isExternal]);
   useEffect(() => {
     setOpen(false);
     window.scrollTo({ top: 0, behavior: 'instant' });
@@ -134,25 +139,32 @@ export default function App() {
               UNDERSEA<span>RESEARCH ANALYTICS</span>
             </span>
           </Link>
-          <div className="sidebar-label">RESEARCH WORKSPACE</div>
+          <div className="sidebar-label">SYNTHETIC MODELING</div>
           <nav aria-label="Main navigation">
             {navigation.map(({ path, label, icon: Icon }) => (
-              <NavLink key={path} to={path} end={path === '/'}>
-                <Icon size={18} />
-                <span>{label}</span>
-                <ChevronRight size={14} className="nav-chevron" />
-              </NavLink>
+              <Fragment key={path}>
+                {path === '/external' && (
+                  <div className="sidebar-label external-nav-label">EXTERNAL EVIDENCE</div>
+                )}
+                <NavLink to={path} end={path === '/'}>
+                  <Icon size={18} />
+                  <span>{label}</span>
+                  <ChevronRight size={14} className="nav-chevron" />
+                </NavLink>
+              </Fragment>
             ))}
           </nav>
           <div className="sidebar-bottom">
             <div className="sidebar-note">
               <ShieldCheck size={18} />
               <div>
-                <strong>Academic demonstration</strong>
+                <strong>
+                  {isExternal ? 'Separate empirical layer' : 'Academic demonstration'}
+                </strong>
                 <p>
-                  Synthetic research dataset.
+                  {isExternal ? 'Source-backed exposure evidence.' : 'Synthetic research dataset.'}
                   <br />
-                  Not a live fault alert service.
+                  {isExternal ? 'Not fault-model validation.' : 'Not a live fault alert service.'}
                 </p>
               </div>
             </div>
@@ -187,13 +199,15 @@ export default function App() {
             <div className="topbar-right">
               <span className="release-status">
                 <i className="dot cyan" />
-                {data
-                  ? data.mode === 'supabase'
-                    ? 'Supabase release'
-                    : 'Published snapshot'
-                  : 'Loading release'}
+                {isExternal
+                  ? 'Independent external release'
+                  : data
+                    ? data.mode === 'supabase'
+                      ? 'Supabase release'
+                      : 'Published snapshot'
+                    : 'Loading release'}
               </span>
-              {data && (
+              {data && !isExternal && (
                 <Button
                   variant="outline"
                   size="sm"
@@ -211,7 +225,9 @@ export default function App() {
             </div>
           </header>
           <main id="main-content" tabIndex={-1} className="container-fluid content">
-            {error ? (
+            {isExternal ? (
+              <ExternalEvidence />
+            ) : error ? (
               <div className="error-page" role="alert">
                 <Database size={36} />
                 <h1>Research data unavailable</h1>

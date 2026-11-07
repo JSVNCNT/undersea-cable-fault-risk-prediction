@@ -1,0 +1,522 @@
+id,name,length_reported,rfs_reported,owners_reported,suppliers_reported,landing_point_count,source_id,status_interpretation
+2africa,2Africa,"45,000 km",2023,"China Mobile, MTN, Meta, Orange, Saudi Telecom, Telecom Egypt, Vodafone, WIOCC",ASN,48,open_undersea_cable_map,Archived description only; not verified current operation
+acs-alaska-oregon-network-akorn,ACS Alaska-Oregon Network (AKORN),"3,000 km",2009 April,Alaska Communications,SubCom,4,open_undersea_cable_map,Archived description only; not verified current operation
+aden-djibouti,Aden-Djibouti,269 km,1994,"Djibouti Telecom, Orange, Tata Communications, TeleYemen, Telecom Italia Sparkle",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+adria-1,Adria-1,440 km,1996 September,"ALBtelecom, Hrvatski Telekom",ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+aec-1,AEC-1,"5,521 km",2016 January,Aqua Comms,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+africa-1,Africa-1,"10,000 km",2023 Q4,"Etisalat UAE, G42, Mobily, Pakistan Telecommunications Company Ltd., Telecom Egypt",ASN,10,open_undersea_cable_map,Archived description only; not verified current operation
+africa-coast-to-europe-ace,Africa Coast to Europe (ACE),"17,000 km",2012 December,"Benin ACE GIE, Cable Consortium of Liberia, Canalink, Dolphin Telecom, GUILAB, Gambia Submarine Cable Company, International Mauritania Telecom, MTN, Orange, Orange Cameroun, Orange Cote d’Ivoire, Orange Mali, Republic of Cameroon, Republic of Equatorial Guinea, Republic of Gabon, Republic of Guinea Bissau, STP Cabo, Sierra Leone Cable Company, Sonatel, Zamani Telecom",ASN,19,open_undersea_cable_map,Archived description only; not verified current operation
+alaska-united-east-au-east,Alaska United East (AU-East),"3,751 km",1999 February,GCI Communication Corp,SubCom,4,open_undersea_cable_map,Archived description only; not verified current operation
+alaska-united-southeast-au-se,Alaska United Southeast (AU-SE),626 km,2008 November,GCI Communication Corp,SubCom,6,open_undersea_cable_map,Archived description only; not verified current operation
+alaska-united-turnagain-arm-auta,Alaska United Turnagain Arm (AUTA),53 km,2012,GCI Communication Corp,,2,open_undersea_cable_map,Archived description only; not verified current operation
+alaska-united-west-au-west,Alaska United West (AU-West),"2,485 km",2004 June,GCI Communication Corp,NEC,3,open_undersea_cable_map,Archived description only; not verified current operation
+alba-1,ALBA-1,"1,860 km",2012 August,"Telecom Venezuela, Transbit",ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+aletar,Aletar,787 km,1997 April,"Liban Telecom, Syrian Telecommunications Establishment, Telecom Egypt",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+almera-melilla-alme,Almería-Melilla (ALME),198 km,1990,Telefonica,,2,open_undersea_cable_map,Archived description only; not verified current operation
+alonso-de-ojeda,Alonso de Ojeda,128 km,1999,,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+alpal-2,ALPAL-2,312 km,2002 July,"Algerie Telecom, Orange, Telecom Italia Sparkle, Telxius",Pirelli,2,open_undersea_cable_map,Archived description only; not verified current operation
+america-movil-submarine-cable-system-1-amx-1,America Movil Submarine Cable System-1 (AMX-1),"17,800 km",2014,América Móvil (Claro),ASN,12,open_undersea_cable_map,Archived description only; not verified current operation
+americas-i-north,Americas-I North,"2,012 km",1994 September,AT&T,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+americas-ii,Americas-II,"8,373 km",2000 August,"AT&T, Altice Portugal, C&W Networks, CANTV, Corporacion Nacional de Telecomunicaciones (CNT), Embratel, Lumen, Orange, T-Mobile, Tata Communications, Telecom Italia Sparkle, Verizon",SubCom,9,open_undersea_cable_map,Archived description only; not verified current operation
+amerigo-vespucci,Amerigo Vespucci,85 km,1999,Antelecom,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+amitie,Amitie,"6,792 km",2023,"Aqua Comms, Meta, Microsoft, Orange, Vodafone",ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+antillas-1,Antillas 1,650 km,1997 June,"AT&T, C&W Networks, Embratel, Orange, T-Mobile, Tata Communications, Telecom Italia Sparkle, Verizon",SubCom,4,open_undersea_cable_map,Archived description only; not verified current operation
+apcn-2,APCN-2,"19,000 km",2001 December,"AT&T, BT, China Telecom, China Unicom, Chunghwa Telecom, HKBN Enterprise Solutions, KDDI, KT, LG Uplus, NTT, Orange, PCCW, PLDT, Singtel, Singtel Optus, Softbank Corp, Starhub, Tata Communications, Telekom Malaysia, Telstra, Verizon, Vodafone",NEC,10,open_undersea_cable_map,Archived description only; not verified current operation
+apollo,Apollo,"13,000 km",2003 February,Vodafone,ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+apollo-east-and-west,Apollo East and West,670 km,2024 Q2,Grid Telecom,,2,open_undersea_cable_map,Archived description only; not verified current operation
+apricot,Apricot,"11,972 km",2024 Q4,"Chunghwa Telecom, Google, Meta, NTT, PLDT",,8,open_undersea_cable_map,Archived description only; not verified current operation
+aqualink,Aqualink,,2001 December,Vodafone New Zealand,,11,open_undersea_cable_map,Archived description only; not verified current operation
+arcos,ARCOS,"8,600 km",2001 December,"AT&T, Alestra, Bahamas Telecommunications Company, Belize Telemedia, C&W Networks, CANTV, Claro Dominicana (Codetel), Enitel, Hondutel, Instituto Costarricense de Electricidad, Internexa, Orbinet Overseas, RACSA, Telecomunicaciones Ultramarinas de Puerto Rico, Telepuerto San Isidro, Tigo Colombia, Tricom USA, United Telecommunication Services (UTS), Verizon",SubCom,23,open_undersea_cable_map,Archived description only; not verified current operation
+arsat-submarine-fiber-optic-cable,ARSAT Submarine Fiber Optic Cable,40 km,2012 Q2,ARSAT,,2,open_undersea_cable_map,Archived description only; not verified current operation
+asia-africa-europe-1-aae-1,Asia Africa Europe-1 (AAE-1),"25,000 km",2017 June,"***Retelit*** (acquired), China Unicom, Djibouti Telecom, Etisalat UAE, Hyalroute, Metfone, Mobily, National Telecom, OTEGLOBE, Omantel, Ooredoo, PCCW, Pakistan Telecommunications Company Ltd., Reliance Jio Infocomm, TIME dotCom, TeleYemen, Telecom Egypt, VNPT International, Viettel Corporation","NEC, SubCom",20,open_undersea_cable_map,Archived description only; not verified current operation
+asia-america-gateway-aag-cable-system,Asia-America Gateway (AAG) Cable System,"20,000 km",2009 November,"AT&T, Airtel (Bharti), BT, BayanTel, Eastern Telecom, Ezecom, Indosat Ooredoo, National Telecom, PLDT, Saigon Postel Corporation, Spark New Zealand, Starhub, Telekom Malaysia, Telkom Indonesia, Telstra, Unified National Networks (UNN), VNPT International, Viettel Corporation","ASN, NEC",10,open_undersea_cable_map,Archived description only; not verified current operation
+asia-connect-cable-1-acc-1,Asia Connect Cable-1 (ACC-1),"18,000 km",2024,Inligo Networks,,10,open_undersea_cable_map,Archived description only; not verified current operation
+asia-direct-cable-adc,Asia Direct Cable (ADC),"9,800 km",2023,"China Telecom, China Unicom, National Telecom, PLDT, Singtel, Softbank Corp, Tata Communications, Viettel Corporation",NEC,7,open_undersea_cable_map,Archived description only; not verified current operation
+asia-pacific-gateway-apg,Asia Pacific Gateway (APG),"10,400 km",2016 November,"China Mobile, China Telecom, China Unicom, Chunghwa Telecom, KT, LG Uplus, Meta, NTT, Starhub, TIME dotCom, VNPT International, Viettel Corporation",NEC,11,open_undersea_cable_map,Archived description only; not verified current operation
+asia-submarine-cable-express-asecahaya-malaysia,Asia Submarine-cable Express (ASE)/Cahaya Malaysia,"8,148 km",2012 August,"NTT, PLDT, Starhub, Telekom Malaysia",NEC,6,open_undersea_cable_map,Archived description only; not verified current operation
+atisa,Atisa,279 km,2017 June,Docomo Pacific,,4,open_undersea_cable_map,Archived description only; not verified current operation
+atlantic-crossing-1-ac-1,Atlantic Crossing-1 (AC-1),"14,301 km",1998 May,Lumen,SubCom,4,open_undersea_cable_map,Archived description only; not verified current operation
+atlas-offshore,Atlas Offshore,"1,634 km",2007 July,Maroc Telecom,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+au-aleutian,AU-Aleutian,"1,311 km",2022,GCI Communication Corp,,12,open_undersea_cable_map,Archived description only; not verified current operation
+australia-japan-cable-ajc,Australia-Japan Cable (AJC),"12,700 km",2001 December,"AT&T, NTT, Softbank Corp, Telstra, Verizon",SubCom,6,open_undersea_cable_map,Archived description only; not verified current operation
+australia-singapore-cable-asc,Australia-Singapore Cable (ASC),"4,600 km",2018 September,Vocus Communications,ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+avassa,Avassa,260 km,2016 November,"Comores Telecom, STOI",HMN Tech,4,open_undersea_cable_map,Archived description only; not verified current operation
+azores-fiber-optic-system-afos,Azores Fiber Optic System (AFOS),"1,100 km",1998 July,Altice Portugal,NSW,7,open_undersea_cable_map,Archived description only; not verified current operation
+b2js-jakarta-bangka-batam-singapore-cable-system,B2JS (Jakarta-Bangka-Batam-Singapore) Cable System,759 km,2013 Q2,Triasmitra,,5,open_undersea_cable_map,Archived description only; not verified current operation
+bahamas-2,Bahamas 2,470 km,1997 June,"AT&T, Telefonica, Verizon",SubCom,3,open_undersea_cable_map,Archived description only; not verified current operation
+bahamas-domestic-submarine-network-bdsni,Bahamas Domestic Submarine Network (BDSNi),"2,817 km",2006,"Bahamas Telecommunications Company, Teleco",SubCom,15,open_undersea_cable_map,Archived description only; not verified current operation
+bahamas-internet-cable-system-bics,Bahamas Internet Cable System (BICS),"1,100 km",2001 July,Caribbean Crossings,,8,open_undersea_cable_map,Archived description only; not verified current operation
+balalink,Balalink,274 km,2001 October,IslaLink,,2,open_undersea_cable_map,Archived description only; not verified current operation
+balok,BALOK,60 km,2016 February,XL Axiata,,2,open_undersea_cable_map,Archived description only; not verified current operation
+baltic-sea-submarine-cable,Baltic Sea Submarine Cable,"1,042 km",2000,CITIC Telecom International,ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+baltica,Baltica,437 km,1997 March,"Arelion (formerly Telia Carrier), Orange Polska, Slovak Telekom, TDC Group, Telenor, Ukrtelecom",,4,open_undersea_cable_map,Archived description only; not verified current operation
+bass-strait-1,Bass Strait-1,241 km,1995,Telstra,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+bass-strait-2,Bass Strait-2,239 km,2003,Telstra,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+basslink,Basslink,298 km,2005 November,Basslink Telecoms,,2,open_undersea_cable_map,Archived description only; not verified current operation
+batam-dumai-melaka-bdm-cable-system,Batam Dumai Melaka (BDM) Cable System,353 km,2009 November,"Moratelindo, Telekom Malaysia",HMN Tech,3,open_undersea_cable_map,Archived description only; not verified current operation
+batam-rengit-cable-system-brcs,Batam-Rengit Cable System (BRCS),64 km,2007 October,XL Axiata,,2,open_undersea_cable_map,Archived description only; not verified current operation
+batam-sarawak-internet-cable-system-basics,Batam Sarawak Internet Cable System (BaSICS),762 km,2021 Q1,"PP Telecommunication Sdn Bhd, XL Axiata",,2,open_undersea_cable_map,Archived description only; not verified current operation
+batam-singapore-cable-system-bscs,Batam Singapore Cable System (BSCS),73 km,2009,Telkom Indonesia,NEC,2,open_undersea_cable_map,Archived description only; not verified current operation
+bay-of-bengal-gateway-bbg,Bay of Bengal Gateway (BBG),"8,100 km",2016 Q1,"AT&T, China Telecom, Dialog Axiata, Etisalat UAE, Omantel, Reliance Jio Infocomm, Telekom Malaysia, Telstra, Vodafone",ASN,6,open_undersea_cable_map,Archived description only; not verified current operation
+bcs-east,BCS East,97 km,1995,Arelion (formerly Telia Carrier),Ericsson,2,open_undersea_cable_map,Archived description only; not verified current operation
+bcs-east-west-interlink,BCS East-West Interlink,218 km,1997 November,Arelion (formerly Telia Carrier),Ericsson,2,open_undersea_cable_map,Archived description only; not verified current operation
+bcs-north---phase-1,BCS North - Phase 1,513 km,1998,Arelion (formerly Telia Carrier),Ericsson,5,open_undersea_cable_map,Archived description only; not verified current operation
+bcs-north---phase-2,BCS North - Phase 2,280 km,2000,Arelion (formerly Telia Carrier),Ericsson,3,open_undersea_cable_map,Archived description only; not verified current operation
+berytar,BERYTAR,134 km,1997 April,"Lebanese Ministry of Telecommunications, Syrian Telecommunications Establishment",ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+bharat-lanka-cable-system,Bharat Lanka Cable System,325 km,2006 June,"Bharat Sanchar Nigam Ltd. (BSNL), Sri Lanka Telecom",NEC,2,open_undersea_cable_map,Archived description only; not verified current operation
+bicentenario,Bicentenario,250 km,2011 December,"Antel Uruguay, Telecom Argentina",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+bifrost,Bifrost,"15,000 km",2024,"Keppel T&T, Meta, Telin",ASN,9,open_undersea_cable_map,Archived description only; not verified current operation
+biznet-nusantara-cable-system-1-bncs-1,Biznet Nusantara Cable System-1 (BNCS-1),818 km,2023 Q1,Biznet,CCSI,4,open_undersea_cable_map,Archived description only; not verified current operation
+blue,Blue,"4,696 km",2024,"Google, Omantel, Telecom Italia Sparkle",,10,open_undersea_cable_map,Archived description only; not verified current operation
+bodo-rost-cable,Bodo-Rost Cable,109 km,2016,Telenor,Nexans,2,open_undersea_cable_map,Archived description only; not verified current operation
+boracay-palawan-submarine-cable-system-bpscs,Boracay-Palawan Submarine Cable System (BPSCS),332 km,2013 June,Globe Telecom,HMN Tech,5,open_undersea_cable_map,Archived description only; not verified current operation
+boriken-submarine-cable-system-bscs,Boriken Submarine Cable System (BSCS),670 km,2024,"Blackburn Technologies, LLC.",,5,open_undersea_cable_map,Archived description only; not verified current operation
+botnia,Botnia,93 km,1994,Arelion (formerly Telia Carrier),ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+brazilian-festoon,Brazilian Festoon,"2,552 km",1996,Embratel,,14,open_undersea_cable_map,Archived description only; not verified current operation
+bridge-one,Bridge One,330 km,2025 July,DCT Telecom,,2,open_undersea_cable_map,Archived description only; not verified current operation
+brusa,BRUSA,"11,000 km",2018 August,Telxius,ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+bt-highlands-and-islands-submarine-cable-system,BT Highlands and Islands Submarine Cable System,402 km,2014 December,BT,,40,open_undersea_cable_map,Archived description only; not verified current operation
+bt-mt-1,BT-MT-1,80 km,1990,"BT, Manx Telecom",,4,open_undersea_cable_map,Archived description only; not verified current operation
+bt-north-sea,BT North Sea,,2022 Q4,BT,SubCom,4,open_undersea_cable_map,Archived description only; not verified current operation
+bugio,BUGIO,73 km,1996 July,Altice Portugal,,2,open_undersea_cable_map,Archived description only; not verified current operation
+c-lion1,C-Lion1,"1,172 km",2016 March,Cinia Oy,ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+cabo-verde-telecom-domestic-submarine-cable-phase-1,Cabo Verde Telecom Domestic Submarine Cable Phase 1,,1997,Cabo Verde Telecom (CVT),,5,open_undersea_cable_map,Archived description only; not verified current operation
+cabo-verde-telecom-domestic-submarine-cable-phase-2,Cabo Verde Telecom Domestic Submarine Cable Phase 2,,2002,Cabo Verde Telecom (CVT),,3,open_undersea_cable_map,Archived description only; not verified current operation
+cabo-verde-telecom-domestic-submarine-cable-phase-3,Cabo Verde Telecom Domestic Submarine Cable Phase 3,,2011,Cabo Verde Telecom (CVT),,8,open_undersea_cable_map,Archived description only; not verified current operation
+cadmos,CADMOS,230 km,1995 September,"A1 Telekom Austria, AT&T, Cyta, Deutsche Telekom, Lebanese Ministry of Telecommunications, Orange, Syrian Telecommunications Establishment, Tata Communications, Telecom Italia Sparkle",SubCom,3,open_undersea_cable_map,Archived description only; not verified current operation
+cam-ring,CAM Ring,"1,120 km",2003,Altice Portugal,ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+canalink,Canalink,"1,835 km",2011,IT3,ASN,8,open_undersea_cable_map,Archived description only; not verified current operation
+candalta,CANDALTA,110 km,1999,Telefonica,,2,open_undersea_cable_map,Archived description only; not verified current operation
+cantat-3,CANTAT-3,"2,500 km",1994 November,Shefa,ASN,7,open_undersea_cable_map,Archived description only; not verified current operation
+cap-1,CAP-1,"12,000 km",2023 Q4,"Amazon Web Services, Meta",NEC,2,open_undersea_cable_map,Archived description only; not verified current operation
+caribbean-bermuda-u-s-cbus,Caribbean-Bermuda U.S. (CBUS),"1,600 km",2009 October,C&W Networks,,2,open_undersea_cable_map,Archived description only; not verified current operation
+caribbean-express-cx,Caribbean Express (CX),"3,472 km",2025 Q3,Ocean Networks,,5,open_undersea_cable_map,Archived description only; not verified current operation
+caribbean-regional-communications-infrastructure-program-carcip,Caribbean Regional Communications Infrastructure Program (CARCIP),225 km,2019 June,Digicel,,9,open_undersea_cable_map,Archived description only; not verified current operation
+carnival-submarine-network-1-csn-1,Carnival Submarine Network-1 (CSN-1),"4,500 km",2025,Telconet,ASN,5,open_undersea_cable_map,Archived description only; not verified current operation
+caucasus-cable-system,Caucasus Cable System,"1,200 km",2008 November,Caucasus Online,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+cayman-jamaica-fiber-system-cjfs,Cayman-Jamaica Fiber System (CJFS),870 km,1997 June,C&W Networks,ASN,6,open_undersea_cable_map,Archived description only; not verified current operation
+ceiba-1,Ceiba-1,287 km,2011 June,GITGE (Gestor de Infraestructuras de Telecomunicaciones de Guinea Ecuatorial),,2,open_undersea_cable_map,Archived description only; not verified current operation
+ceiba-2,Ceiba-2,290 km,2017,GITGE (Gestor de Infraestructuras de Telecomunicaciones de Guinea Ecuatorial),HMN Tech,3,open_undersea_cable_map,Archived description only; not verified current operation
+celtic-norse,Celtic Norse,"2,008 km",2025 Q4,"Eidsiva Energi, NTE, TrønderEnergi",,2,open_undersea_cable_map,Archived description only; not verified current operation
+celtixconnect-1-cc-1,CeltixConnect-1 (CC-1),131 km,2012 January,Aqua Comms,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+challenger-bermuda-1-cb-1,Challenger Bermuda-1 (CB-1),"1,448 km",2008 December,One Communications,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+channel-islands-9-liberty-submarine-cable,Channel Islands-9 Liberty Submarine Cable,,2008 June,JTGlobal,,2,open_undersea_cable_map,Archived description only; not verified current operation
+chennai-andaman-nicobar-islands-cable,Chennai-Andaman & Nicobar Islands Cable,"2,300 km",2020 August,Bharat Sanchar Nigam Ltd. (BSNL),NEC,9,open_undersea_cable_map,Archived description only; not verified current operation
+chuuk-pohnpei-cable,Chuuk-Pohnpei Cable,"1,200 km",2019 May,Federated States of Micronesia Telecommunications Company,NEC,2,open_undersea_cable_map,Archived description only; not verified current operation
+circe-north,Circe North,203 km,1999 February,"Zayo, euNetworks",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+circe-south,Circe South,115 km,1999 February,"Zayo, euNetworks",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+cobracable,COBRAcable,304 km,2019 November,Relined,,2,open_undersea_cable_map,Archived description only; not verified current operation
+cogim,COGIM,438 km,2005,Télébec,,2,open_undersea_cable_map,Archived description only; not verified current operation
+colombia-florida-subsea-fiber-cfx-1,Colombia-Florida Subsea Fiber (CFX-1),"2,400 km",2008 August,C&W Networks,SubCom,4,open_undersea_cable_map,Archived description only; not verified current operation
+colombian-festoon,Colombian Festoon,400 km,1997,,,5,open_undersea_cable_map,Archived description only; not verified current operation
+columbus-ii-b,Columbus-II b,"2,068 km",1994 December,"AT&T, Setar",SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+columbus-iii-azores-portugal,Columbus-III Azores-Portugal,,1999 December,Altice Portugal,,2,open_undersea_cable_map,Archived description only; not verified current operation
+comoros-domestic-cable-system,Comoros Domestic Cable System,,2010,Comores Telecom,ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+concerto,Concerto,550 km,1999,EXA Infrastructure,ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+confluence-1,Confluence-1,"2,571 km",2023,Confluence Networks,SubCom,5,open_undersea_cable_map,Archived description only; not verified current operation
+continente-madeira,Continente-Madeira,"1,179 km",2000 February,Altice Portugal,,2,open_undersea_cable_map,Archived description only; not verified current operation
+converge-domestic-submarine-cable-network-cdscn,Converge Domestic Submarine Cable Network (CDSCN),"1,300 km",2021 Q4,Converge ICT,HMN Tech,22,open_undersea_cable_map,Archived description only; not verified current operation
+cook-strait,Cook Strait,40 km,2020,Transpower NZ,,2,open_undersea_cable_map,Archived description only; not verified current operation
+coral-sea-cable-system-cs,Coral Sea Cable System (CS²),"4,700 km",2020 February,"PNG DataCo Limited, Solomon Island Submarine Cable Company",ASN,6,open_undersea_cable_map,Archived description only; not verified current operation
+corse-continent-4-cc4,Corse-Continent 4 (CC4),190 km,1992,Orange,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+corse-continent-5-cc5,Corse-Continent 5 (CC5),299 km,1995,Orange,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+cross-straits-cable-network,Cross Straits Cable Network,21 km,2012 August,"China Mobile, China Telecom, China Unicom, Chunghwa Telecom",,4,open_undersea_cable_map,Archived description only; not verified current operation
+crosschannel-fibre,CrossChannel Fibre,149 km,2021 December,Crosslake Fibre,Hexatronic,2,open_undersea_cable_map,Archived description only; not verified current operation
+crosslake-fibre,Crosslake Fibre,59 km,2019 October,Crosslake Fibre,Hexatronic,2,open_undersea_cable_map,Archived description only; not verified current operation
+curie,Curie,"10,476 km",2020 Q2,Google,SubCom,3,open_undersea_cable_map,Archived description only; not verified current operation
+damai-cable-system,DAMAI Cable System,575 km,2019 July,Triasmitra,,3,open_undersea_cable_map,Archived description only; not verified current operation
+danica-north,Danica North,25 km,1998,Arelion (formerly Telia Carrier),Ericsson,2,open_undersea_cable_map,Archived description only; not verified current operation
+danice,DANICE,"2,304 km",2009 August,Farice,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+darwin-jakarta-singapore-cable-djsc,Darwin-Jakarta-Singapore Cable (DJSC),"1,000 km",2023,Vocus Communications,,1,open_undersea_cable_map,Archived description only; not verified current operation
+deep-blue-one,Deep Blue One,"2,000 km",2024,Digicel,ASN,5,open_undersea_cable_map,Archived description only; not verified current operation
+denmark-poland-2,Denmark-Poland 2,110 km,1991,"Arelion (formerly Telia Carrier), TDC Group, Telenor",,2,open_undersea_cable_map,Archived description only; not verified current operation
+denmark-sweden-15,Denmark-Sweden 15,5 km,1989,"Arelion (formerly Telia Carrier), TDC Group",,2,open_undersea_cable_map,Archived description only; not verified current operation
+denmark-sweden-16,Denmark-Sweden 16,15 km,1991,TDC Group,,2,open_undersea_cable_map,Archived description only; not verified current operation
+denmark-sweden-17,Denmark-Sweden 17,11 km,1994,"TDC Group, Tele2",,2,open_undersea_cable_map,Archived description only; not verified current operation
+denmark-sweden-18,Denmark-Sweden 18,,1996,"TDC Group, Telenor",,2,open_undersea_cable_map,Archived description only; not verified current operation
+denpasar-waingapu-cable-systems,Denpasar-Waingapu Cable Systems,814 km,2019,Moratelindo,,4,open_undersea_cable_map,Archived description only; not verified current operation
+dhiraagu-cable-network,Dhiraagu Cable Network,"1,253 km",2012 April,Dhiraagu,NEC,8,open_undersea_cable_map,Archived description only; not verified current operation
+dhiraagu-slt-submarine-cable-network,Dhiraagu-SLT Submarine Cable Network,850 km,2007 February,"Dhiraagu, Sri Lanka Telecom",NEC,2,open_undersea_cable_map,Archived description only; not verified current operation
+didon,Didon,170 km,2014 May,"Ooredoo Tunisie, Orange Tunisie",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+djibouti-africa-regional-express-1-dare1,Djibouti Africa Regional Express 1 (DARE1),"4,854 km",2021 February,"Djibouti Telecom, Hormuud Telecom Somalia, Somtel International, Telkom Kenya",SubCom,4,open_undersea_cable_map,Archived description only; not verified current operation
+dos-continentes-l-ll,DOS CONTINENTES l & ll,95 km,2020 March,GTD España,,4,open_undersea_cable_map,Archived description only; not verified current operation
+dumai-melaka-cable-system,Dumai-Melaka Cable System,159 km,2005 February,"Telekom Malaysia, Telkom Indonesia",NEC,2,open_undersea_cable_map,Archived description only; not verified current operation
+dunant,Dunant,"6,400 km",2021 January,Google,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+e-llan,E-LLAN,,2007,Manx Electricity Authority,,2,open_undersea_cable_map,Archived description only; not verified current operation
+eac-c2c,EAC-C2C,"36,500 km",2002 November,Telstra,"ASN, KDD-SCS, SubCom",16,open_undersea_cable_map,Archived description only; not verified current operation
+east-coast-cable-system,East Coast Cable System,"1,600 km",2024,Vocus Communications,,3,open_undersea_cable_map,Archived description only; not verified current operation
+east-west,East-West,"1,750 km",2011 February,C&W Networks,Xtera,3,open_undersea_cable_map,Archived description only; not verified current operation
+east-west-submarine-cable-system,East-West Submarine Cable System,950 km,2004,Sacofa,,4,open_undersea_cable_map,Archived description only; not verified current operation
+eastern-africa-submarine-system-eassy,Eastern Africa Submarine System (EASSy),"10,500 km",2010 July,"Airtel (Bharti), BT, Botswana Fibre Networks, Comores Telecom, Djibouti Telecom, Etisalat UAE, Liquid Intelligent Technologies, MTN, Mauritius Telecom, Orange, Saudi Telecom, Sudan Telecom Company, Tanzania Telecommunication Corporation, Telkom Kenya, Telkom South Africa, Telma (Telecom Malagasy), Vodacom DRC, WIOCC, Zambia Telecom",ASN,9,open_undersea_cable_map,Archived description only; not verified current operation
+eastern-arctic-undersea-fibre-optic-network-eaufon,Eastern Arctic Undersea Fibre Optic Network (EAUFON),"2,070 km",2022 Q1,Kativik Regional Government,ASN,9,open_undersea_cable_map,Archived description only; not verified current operation
+eastern-caribbean-fiber-system-ecfs,Eastern Caribbean Fiber System (ECFS),"1,730 km",1995 September,"AT&T, C&W Networks, Claro Dominicana (Codetel), Guyana Telephone and Telegraph (GT&T), Orange, Verizon",ASN,13,open_undersea_cable_map,Archived description only; not verified current operation
+eastern-light,Eastern Light,,2019 October,Eastern Light,,4,open_undersea_cable_map,Archived description only; not verified current operation
+echo,Echo,"17,184 km",2023 Q3,"Google, Meta",NEC,6,open_undersea_cable_map,Archived description only; not verified current operation
+eclink,ECLink,987 km,2007 October,C&W Networks,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+elektra-globalconnect-1-gc1,Elektra-GlobalConnect 1 (GC1),44 km,2000 August,GlobalConnect,,2,open_undersea_cable_map,Archived description only; not verified current operation
+ellalink,EllaLink,"6,200 km",2021 June,EllaLink,ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+emerald-bridge-fibres,Emerald Bridge Fibres,120 km,2012 December,"ESB Telecoms, Zayo",Nexans,2,open_undersea_cable_map,Archived description only; not verified current operation
+energinet-laeso-varberg,Energinet Laeso-Varberg,,2011,Energinet,,2,open_undersea_cable_map,Archived description only; not verified current operation
+energinet-lyngsa-laeso,Energinet Lyngsa-Laeso,,2011 August,Energinet,,2,open_undersea_cable_map,Archived description only; not verified current operation
+epic-malta-sicily-cable-system-emscs,Epic Malta-Sicily Cable System (EMSCS),260 km,2004 July,Epic,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+equiano,Equiano,,2022 Q4,Google,ASN,6,open_undersea_cable_map,Archived description only; not verified current operation
+esat-1,ESAT-1,261 km,1999 August,Esat BT,Pirelli,2,open_undersea_cable_map,Archived description only; not verified current operation
+esat-2,ESAT-2,245 km,2000,Esat BT,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+estepona-tetouan,Estepona-Tetouan,113 km,1994 July,"Maroc Telecom, Telxius",STC Submarine Systems,2,open_undersea_cable_map,Archived description only; not verified current operation
+europe-india-gateway-eig,Europe India Gateway (EIG),"15,000 km",2011 February,"AT&T, Airtel (Bharti), Altice Portugal, BT, Bharat Sanchar Nigam Ltd. (BSNL), Djibouti Telecom, Gibtelecom, Libya International Telecommunications Company, MTN, Omantel, Saudi Telecom, Telecom Egypt, Telkom South Africa, Verizon, Vodafone, du","ASN, SubCom",12,open_undersea_cable_map,Archived description only; not verified current operation
+eviny-digital,Eviny Digital,210 km,2020 Q2,BKK Digitek,,3,open_undersea_cable_map,Archived description only; not verified current operation
+exa-express,EXA Express,"4,600 km",2015 September,EXA Infrastructure,SubCom,3,open_undersea_cable_map,Archived description only; not verified current operation
+exa-north-and-south,EXA North and South,"12,200 km",2001 April,EXA Infrastructure,SubCom,5,open_undersea_cable_map,Archived description only; not verified current operation
+falcon,FALCON,"10,300 km",2006 September,Global Cloud Xchange,ASN,19,open_undersea_cable_map,Archived description only; not verified current operation
+far-east-submarine-cable-system,Far East Submarine Cable System,"1,855 km",2016 Q2,Rostelecom,HMN Tech,3,open_undersea_cable_map,Archived description only; not verified current operation
+farice-1,FARICE-1,"1,205 km",2004 January,Farice,,3,open_undersea_cable_map,Archived description only; not verified current operation
+farland-north,Farland North,150 km,1998,BT,,2,open_undersea_cable_map,Archived description only; not verified current operation
+faster,FASTER,"11,629 km",2016 June,"China Mobile, China Telecom, Google, KDDI, Singtel, TIME dotCom",NEC,4,open_undersea_cable_map,Archived description only; not verified current operation
+fehmarn-blt,Fehmarn Bält,20 km,2000,Arelion (formerly Telia Carrier),Ericsson,2,open_undersea_cable_map,Archived description only; not verified current operation
+fiber-optic-gulf-fog,Fiber Optic Gulf (FOG),"1,300 km",1998 June,"Batelco, Etisalat UAE, Kuwait Ministry of Communications, Ooredoo",Fujitsu,4,open_undersea_cable_map,Archived description only; not verified current operation
+fibra-optica-al-pacfico,Fibra Optica al Pacífico,"1,180 km",2020 September,Entel Bolivia,HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+fibra-optica-austral,Fibra Optica Austral,"2,800 km",2020 Q1,Subtel,HMN Tech,4,open_undersea_cable_map,Archived description only; not verified current operation
+fibralink,Fibralink,"1,000 km",2006 March,C&W Networks,ASN,5,open_undersea_cable_map,Archived description only; not verified current operation
+finland-estonia-2-eesf-2,Finland-Estonia 2 (EESF-2),98 km,1992,"Arelion (formerly Telia Carrier), Telia Eesti (formerly Eesti Telekom, EMT, Elion)",,2,open_undersea_cable_map,Archived description only; not verified current operation
+finland-estonia-3-eesf-3,Finland-Estonia 3 (EESF-3),104 km,1994,"Arelion (formerly Telia Carrier), Telia Eesti (formerly Eesti Telekom, EMT, Elion)",,2,open_undersea_cable_map,Archived description only; not verified current operation
+finland-estonia-connection-fec,Finland Estonia Connection (FEC),250 km,2000 January,Elisa Corporation,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+firmina,Firmina,"14,517 km",2023,Google,SubCom,4,open_undersea_cable_map,Archived description only; not verified current operation
+flag-atlantic-1-fa-1,FLAG Atlantic-1 (FA-1),"14,500 km",2001 June,Global Cloud Xchange,ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+flag-europe-asia-fea,FLAG Europe-Asia (FEA),"28,000 km",1997 November,Global Cloud Xchange,SubCom,16,open_undersea_cable_map,Archived description only; not verified current operation
+flag-north-asia-loopreach-north-asia-loop,FLAG North Asia Loop/REACH North Asia Loop,"9,504 km",2001 June,"Global Cloud Xchange, PCCW, Telstra","ASN, Fujitsu",4,open_undersea_cable_map,Archived description only; not verified current operation
+flores-corvo-cable-system,Flores-Corvo Cable System,685 km,2014 January,Viatel,HMN Tech,4,open_undersea_cable_map,Archived description only; not verified current operation
+fly-lion3,FLY-LION3,400 km,2019 October,"Comoros Cables, Orange, Société Réunionnaise du Radiotéléphone",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+fos-quellon-chacabuco,FOS Quellon-Chacabuco,350 km,2015 January,Grupo Gtd,,2,open_undersea_cable_map,Archived description only; not verified current operation
+galapagos-cable-system,Galapagos Cable System,"1,250 km",2024,Galápagos Cable Systems,Xtera,4,open_undersea_cable_map,Archived description only; not verified current operation
+gemini-bermuda,Gemini Bermuda,"1,287 km",2007 October,C&W Networks,,2,open_undersea_cable_map,Archived description only; not verified current operation
+geo-eirgrid,Geo-Eirgrid,187 km,2012 December,Eirgrid,Nexans,2,open_undersea_cable_map,Archived description only; not verified current operation
+georgia-russia,Georgia-Russia,433 km,2000 December,"DanTelco, FOPTNET, Rostelecom",ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+germany-denmark-3,Germany-Denmark 3,,2000 March,TDC Group,,2,open_undersea_cable_map,Archived description only; not verified current operation
+gignet-1,GigNet-1,"1,104 km",2022 Q4,GigNet,Xtera,2,open_undersea_cable_map,Archived description only; not verified current operation
+glo-1,Glo-1,"9,800 km",2010 October,Globacom Limited,ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+global-caribbean-network-gcn,Global Caribbean Network (GCN),890 km,2006 September,"Leucadia National Corporation, Loret Group",,6,open_undersea_cable_map,Archived description only; not verified current operation
+globalconnect-2-gc2,GlobalConnect 2 (GC2),95 km,2001 August,GlobalConnect,,2,open_undersea_cable_map,Archived description only; not verified current operation
+globalconnect-3-gc3,GlobalConnect 3 (GC3),19 km,2006,GlobalConnect,,2,open_undersea_cable_map,Archived description only; not verified current operation
+globalconnect-kpn,GlobalConnect-KPN,43 km,2006,GlobalConnect,,2,open_undersea_cable_map,Archived description only; not verified current operation
+globenet,GlobeNet,"23,500 km",2000 October,GlobeNet,ASN,7,open_undersea_cable_map,Archived description only; not verified current operation
+go-1-mediterranean-cable-system,GO-1 Mediterranean Cable System,290 km,2008 December,GO plc,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+gondwana-1,Gondwana-1,"2,151 km",2008 September,OPT,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+gondwana-2picot-2,Gondwana-2/Picot-2,,2022,OPT,ASN,7,open_undersea_cable_map,Archived description only; not verified current operation
+grace-hopper,Grace Hopper,"7,191 km",2022 September,Google,SubCom,3,open_undersea_cable_map,Archived description only; not verified current operation
+greenland-connect,Greenland Connect,"4,580 km",2009 March,Tusass A/S,ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+greenland-connect-north,Greenland Connect North,680 km,2017 December,Tusass A/S,ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+groix-4,Groix 4,7 km,2022,Orange,Prysmian,2,open_undersea_cable_map,Archived description only; not verified current operation
+gtmo-1,GTMO-1,"1,528 km",2016,U.S. Government,Xtera,2,open_undersea_cable_map,Archived description only; not verified current operation
+gtmo-pr,GTMO-PR,"1,400 km",2019 April,U.S. Government,Xtera,2,open_undersea_cable_map,Archived description only; not verified current operation
+guadeloupe-cable-des-iles-du-sud-gcis,Guadeloupe Cable des Iles du Sud (GCIS),118 km,2020,Regional Councel of Guadeloupe,,5,open_undersea_cable_map,Archived description only; not verified current operation
+guam-okinawa-kyushu-incheon-goki,Guam Okinawa Kyushu Incheon (GOKI),"4,244 km",2013 December,AT&T,Xtera,3,open_undersea_cable_map,Archived description only; not verified current operation
+guernsey-jersey-4,Guernsey-Jersey-4,36 km,1994 January,Sure,,2,open_undersea_cable_map,Archived description only; not verified current operation
+gulf-bridge-international-cable-system-gbicsmiddle-east-north-africa-mena-cable-system,Gulf Bridge International Cable System (GBICS)/Middle East North Africa (MENA) Cable System,"5,270 km",2012 February,Gulf Bridge International,SubCom,9,open_undersea_cable_map,Archived description only; not verified current operation
+gulf-of-california-cable,Gulf of California Cable,250 km,2019 Q4,Megacable,HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+gulf-of-mexico-fiber-optic-network,Gulf of Mexico Fiber Optic Network,"1,200 km",2008,Tampnet,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+gulf2africa-g2a,Gulf2Africa (G2A),"1,500 km",2017 December,"Golis Telecommunications, Omantel, Telesom",HMN Tech,3,open_undersea_cable_map,Archived description only; not verified current operation
+hainan-to-hong-kong-express-h2he,Hainan to Hong Kong Express (H2HE),675 km,2021 September,China Mobile,HMN Tech,3,open_undersea_cable_map,Archived description only; not verified current operation
+hannibal-system,HANNIBAL System,178 km,2009 October,Tunisia Telecom,HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+hantru1-cable-system,HANTRU1 Cable System,"2,917 km",2010 March,"Federated States of Micronesia Telecommunications Company, Hannon Armstrong, Marshall Islands Telecommunications Authority",SubCom,4,open_undersea_cable_map,Archived description only; not verified current operation
+havfrueaec-2,Havfrue/AEC-2,"7,650 km",2020 November,"Aqua Comms, Bulk, Google, Meta",SubCom,4,open_undersea_cable_map,Archived description only; not verified current operation
+havhingstenceltixconnect-2-cc-2,Havhingsten/CeltixConnect-2 (CC-2),301 km,2022 March,"Aqua Comms, Bulk, Meta",ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+havhingstennorth-sea-connect-nsc,Havhingsten/North Sea Connect (NSC),661 km,2022 March,"Aqua Comms, Bulk, Meta",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+havsil,Havsil,120 km,2022 March,Bulk,,2,open_undersea_cable_map,Archived description only; not verified current operation
+hawaiki,Hawaiki,"14,000 km",2018 July,Hawaiki Submarine Cable LP,SubCom,5,open_undersea_cable_map,Archived description only; not verified current operation
+hawaiki-nui,Hawaiki Nui,"25,000 km",2025,Hawaiki Submarine Cable LP,,13,open_undersea_cable_map,Archived description only; not verified current operation
+hawk,Hawk,"3,400 km",2011,Global Cloud Xchange,Fujitsu,3,open_undersea_cable_map,Archived description only; not verified current operation
+hdr1,HDR1,,,Bell Canada Enterprise,,2,open_undersea_cable_map,Archived description only; not verified current operation
+hdr2,HDR2,,,Bell Canada Enterprise,,4,open_undersea_cable_map,Archived description only; not verified current operation
+hics-hawaii-inter-island-cable-system,HICS (Hawaii Inter-Island Cable System),479 km,1994 July,Hawaiian Telcom,,5,open_undersea_cable_map,Archived description only; not verified current operation
+hifn-hawaii-island-fibre-network,HIFN (Hawaii Island Fibre Network),529 km,1997 June,"Hawaiian Telcom, Lumen",,7,open_undersea_cable_map,Archived description only; not verified current operation
+high-capacity-undersea-guernsey-optical-fibre-hugo,High-capacity Undersea Guernsey Optical-fibre (HUGO),425 km,2007,"Sure, Vodafone",,4,open_undersea_cable_map,Archived description only; not verified current operation
+hokkaido-akita-cable,Hokkaido-Akita Cable,770 km,2023 Q4,"NTT, Rakuten, Softbank Corp",,2,open_undersea_cable_map,Archived description only; not verified current operation
+hokkaido-sakhalin-cable-system-hscs,Hokkaido-Sakhalin Cable System (HSCS),570 km,2008 July,"NTT, TTK","Ciena, NEC",2,open_undersea_cable_map,Archived description only; not verified current operation
+honotua,Honotua,"4,805 km",2010 September,OPT French Polynesia,ASN,6,open_undersea_cable_map,Archived description only; not verified current operation
+hronn,Hronn,270 km,2022 September,Shefa,,3,open_undersea_cable_map,Archived description only; not verified current operation
+i2i-cable-network-i2icn,i2i Cable Network (i2icn),"3,200 km",2002 April,Airtel (Bharti),ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+imewe,IMEWE,"12,091 km",2010 December,"Airtel (Bharti), Etisalat UAE, Ogero, Orange, Pakistan Telecommunications Company Ltd., Saudi Telecom, Tata Communications, Telecom Egypt, Telecom Italia Sparkle","ASN, NEC",9,open_undersea_cable_map,Archived description only; not verified current operation
+india-asia-xpress-iax,India Asia Xpress (IAX),"5,791 km",2023,Reliance Jio Infocomm,SubCom,7,open_undersea_cable_map,Archived description only; not verified current operation
+india-europe-xpress-iex,India Europe Xpress (IEX),"9,775 km",2024,Reliance Jio Infocomm,SubCom,9,open_undersea_cable_map,Archived description only; not verified current operation
+indigo-central,INDIGO-Central,"4,850 km",2019 May,"Australia’s Academic and Research Network (AARNET), Google, Indosat Ooredoo, Singtel Optus, Superloop",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+indigo-west,INDIGO-West,"4,600 km",2019 May,"Australia’s Academic and Research Network (AARNET), Google, Indosat Ooredoo, Singtel, Superloop, Telstra",ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+indonesia-global-gateway-igg-system,Indonesia Global Gateway (IGG) System,"5,300 km",2018 May,"Telin, Telkom Indonesia",NEC,10,open_undersea_cable_map,Archived description only; not verified current operation
+ingrid,INGRID,64 km,2004 October,CIEG,,4,open_undersea_cable_map,Archived description only; not verified current operation
+interchange-cable-network-1-icn1,Interchange Cable Network 1 (ICN1),"1,259 km",2014 January,Interchange,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+ionian,Ionian,320 km,2022 Q4,IslaLink,,2,open_undersea_cable_map,Archived description only; not verified current operation
+ip-only-denmark-sweden,IP-Only Denmark-Sweden,,1994,IP-Only,,2,open_undersea_cable_map,Archived description only; not verified current operation
+iris,IRIS,"1,770 km",2023 Q1,Farice,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+isles-of-scilly-cable,Isles of Scilly Cable,,2014,BT,,2,open_undersea_cable_map,Archived description only; not verified current operation
+italy-albania,Italy-Albania,240 km,1997,"ALBtelecom, Telecom Italia Sparkle",,2,open_undersea_cable_map,Archived description only; not verified current operation
+italy-croatia,Italy-Croatia,230 km,1994,"Hrvatski Telekom, Telecom Italia Sparkle",,2,open_undersea_cable_map,Archived description only; not verified current operation
+italy-greece-1,Italy-Greece 1,169 km,1995,WIS Telecom,,2,open_undersea_cable_map,Archived description only; not verified current operation
+italy-libya,Italy-Libya,570 km,1998,"Libya International Telecommunications Company, Telecom Italia Sparkle",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+italy-malta,Italy-Malta,238 km,1995,"GO plc, Telecom Italia Sparkle",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+italy-monaco,Italy-Monaco,162 km,1995,"Monaco Telecom, Telecom Italia Sparkle",,2,open_undersea_cable_map,Archived description only; not verified current operation
+ixchel,Ixchel,20 km,2007 August,Telmex,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+jaka2ladema,JaKa2LaDeMa,"1,700 km",2010,Telkom Indonesia,"Fujitsu, NSW",10,open_undersea_cable_map,Archived description only; not verified current operation
+jakabare,JAKABARE,"1,330 km",2009 November,Indosat Ooredoo,NEC,4,open_undersea_cable_map,Archived description only; not verified current operation
+jakarta-bangka-bintan-batam-singapore-b3js,Jakarta-Bangka-Bintan-Batam-Singapore (B3JS),"1,031 km",2012 November,Moratelindo,,6,open_undersea_cable_map,Archived description only; not verified current operation
+jakarta-surabaya-cable-system-jayabaya,Jakarta Surabaya Cable System (JAYABAYA),888 km,2018 December,Triasmitra,,4,open_undersea_cable_map,Archived description only; not verified current operation
+jambi-batam-cable-system-jiba,Jambi-Batam Cable System (JIBA),267 km,2014,"Indosat Ooredoo, Moratelindo, XL Axiata",,2,open_undersea_cable_map,Archived description only; not verified current operation
+janna,Janna,634 km,2005 April,"EXA Infrastructure, Regione Sardegne, Tiscali, WINDTRE (incl. Wind and 3 Italia)",NSW,4,open_undersea_cable_map,Archived description only; not verified current operation
+japan-guam-australia-north-jga-n,Japan-Guam-Australia North (JGA-N),"2,600 km",2020 July,RTI,NEC,2,open_undersea_cable_map,Archived description only; not verified current operation
+japan-guam-australia-south-jga-s,Japan-Guam-Australia South (JGA-S),"7,081 km",2020 March,"Australia’s Academic and Research Network (AARNET), Google, RTI",ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+japan-information-highway-jih,Japan Information Highway (JIH),"5,150 km",1999,KDDI,,8,open_undersea_cable_map,Archived description only; not verified current operation
+japan-u-s-cable-network-jus,Japan-U.S. Cable Network (JUS),"22,682 km",2001 September,"AT&T, BT, China Telecom, China Unicom, Chunghwa Telecom, HKBN Enterprise Solutions, KDDI, KT, LG Uplus, Lumen, NTT, Orange, PCCW, PLDT, SK Broadband, Singtel, Softbank Corp, Starhub, T-Mobile, Tata Communications, Telekom Malaysia, Telstra, Verizon, Vodafone","ASN, Fujitsu",6,open_undersea_cable_map,Archived description only; not verified current operation
+jasuka,JASUKA,"10,860 km",2006,Telkom Indonesia,,17,open_undersea_cable_map,Archived description only; not verified current operation
+java-bali-cable-system-jbcs,Java Bali Cable System (JBCS),40 km,2013,Triasmitra,,2,open_undersea_cable_map,Archived description only; not verified current operation
+java-kalimantan-sulawesi-jakasusi,Java-Kalimantan-Sulawesi (JAKASUSI),"1,100 km",2006,Indosat Ooredoo,ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+jerry-newton,Jerry Newton,,2007 October,C&W Networks,,2,open_undersea_cable_map,Archived description only; not verified current operation
+jonah,Jonah,"2,297 km",2012 January,Bezeq International Ltd.,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+jscfs,JSCFS,,1997,C&W Networks,,4,open_undersea_cable_map,Archived description only; not verified current operation
+junior,Junior,390 km,2018 Q3,Google,Padtec,2,open_undersea_cable_map,Archived description only; not verified current operation
+juno,JUNO,"10,000 km",2024 Q4,"Seren Juno Network Co., Ltd.",NEC,3,open_undersea_cable_map,Archived description only; not verified current operation
+jupiter,JUPITER,"14,557 km",2020,"Amazon Web Services, Meta, NTT, PCCW, PLDT, Softbank Corp",SubCom,5,open_undersea_cable_map,Archived description only; not verified current operation
+kafos,KAFOS,538 km,1997 June,Turk Telekom International,ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+kaliningrad-cable,Kaliningrad Cable,"1,115 km",2021,Rostelecom,,2,open_undersea_cable_map,Archived description only; not verified current operation
+kanawa,Kanawa,"1,746 km",2019 January,Orange,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+kattegat-2,Kattegat 2,75 km,2001,TDC Group,,4,open_undersea_cable_map,Archived description only; not verified current operation
+kattittuq-nunavut-fibre-link,Kattittuq Nunavut Fibre Link,,2025,Government of Nunavut,,2,open_undersea_cable_map,Archived description only; not verified current operation
+kerch-strait-cable,Kerch Strait Cable,46 km,2014 April,Miranda Media,,2,open_undersea_cable_map,Archived description only; not verified current operation
+ketchcan1-submarine-fiber-cable-system,KetchCan1 Submarine Fiber Cable System,167 km,2020 November,Ketchican Public Utilities,,2,open_undersea_cable_map,Archived description only; not verified current operation
+kodiak-kenai-fiber-link-kkfl,Kodiak Kenai Fiber Link (KKFL),966 km,2007 January,GCI Communication Corp,ASN,6,open_undersea_cable_map,Archived description only; not verified current operation
+korea-japan-cable-network-kjcn,Korea-Japan Cable Network (KJCN),500 km,2002 March,"KT, NTT, QTNet, Softbank Corp","ASN, Fujitsu",3,open_undersea_cable_map,Archived description only; not verified current operation
+kumul-domestic-submarine-cable-system,Kumul Domestic Submarine Cable System,"5,457 km",2019 February,PNG DataCo Limited,HMN Tech,15,open_undersea_cable_map,Archived description only; not verified current operation
+kupang-alor-cable-systems,Kupang-Alor Cable Systems,273 km,2019,Moratelindo,,2,open_undersea_cable_map,Archived description only; not verified current operation
+kuwait-iran,Kuwait-Iran,380 km,2005 June,"Kuwait Ministry of Communications, Telecommunication Infrastructure Company of Iran",,4,open_undersea_cable_map,Archived description only; not verified current operation
+la-gomera-el-hierro,La Gomera-El Hierro,,,Telefonica,,2,open_undersea_cable_map,Archived description only; not verified current operation
+labuan-brunei-submarine-cable,Labuan-Brunei Submarine Cable,52 km,2017 April,Common Tower Technologies Sdn Bhd,,2,open_undersea_cable_map,Archived description only; not verified current operation
+lanis-1,Lanis-1,113 km,1992,Vodafone,,2,open_undersea_cable_map,Archived description only; not verified current operation
+lanis-2,Lanis-2,67 km,1992,Vodafone,,2,open_undersea_cable_map,Archived description only; not verified current operation
+lanis-3,Lanis-3,122 km,1992,Vodafone,,2,open_undersea_cable_map,Archived description only; not verified current operation
+latvia-sweden-1-lv-se-1,Latvia-Sweden 1 (LV-SE 1),304 km,1994,"Arelion (formerly Telia Carrier), Tele2, Telecom Italia Sparkle, Tet",,2,open_undersea_cable_map,Archived description only; not verified current operation
+lazaro-cardenas-manzanillo-santiago-submarine-cable-system-lcmsscs,Lazaro Cardenas-Manzanillo Santiago Submarine Cable System (LCMSSCS),322 km,2013 Q4,Telmex,,3,open_undersea_cable_map,Archived description only; not verified current operation
+leif-erikson,Leif Erikson,"4,200 km",2024 Q3,Bulk,,2,open_undersea_cable_map,Archived description only; not verified current operation
+lfon-libyan-fiber-optic-network,LFON (Libyan Fiber Optic Network),"1,639 km",1999,"Libyan Post, Telecommunications and Information Technology Company (LPTIC Holding)",ASN,13,open_undersea_cable_map,Archived description only; not verified current operation
+libreville-port-gentil-cable,Libreville-Port Gentil Cable,198 km,2012 April,Republic of Gabon,,2,open_undersea_cable_map,Archived description only; not verified current operation
+link-1-phase-1,Link 1 Phase-1,368 km,2003 December,XL Axiata,,2,open_undersea_cable_map,Archived description only; not verified current operation
+link-1-phase-2,Link 1 Phase-2,94 km,2005 May,XL Axiata,,2,open_undersea_cable_map,Archived description only; not verified current operation
+link-2-phase-1,Link 2 Phase-1,281 km,2004 January,XL Axiata,,2,open_undersea_cable_map,Archived description only; not verified current operation
+link-2-phase-2,Link 2 Phase-2,221 km,2005 May,XL Axiata,,2,open_undersea_cable_map,Archived description only; not verified current operation
+link-3-phase-1,Link 3 Phase-1,275 km,2003 December,XL Axiata,,2,open_undersea_cable_map,Archived description only; not verified current operation
+link-3-phase-2,Link 3 Phase-2,342 km,2005 May,XL Axiata,,3,open_undersea_cable_map,Archived description only; not verified current operation
+link-4-phase-2,Link 4 Phase-2,300 km,2005 March,XL Axiata,,2,open_undersea_cable_map,Archived description only; not verified current operation
+link-5-phase-2,Link 5 Phase-2,365 km,2005 July,XL Axiata,,2,open_undersea_cable_map,Archived description only; not verified current operation
+lower-indian-ocean-network-2-lion2,Lower Indian Ocean Network 2 (LION2),"2,700 km",2012 April,"Emtel, Mauritius Telecom, Orange, Orange Madagascar, Société Réunionnaise du Radiotéléphone, Telkom Kenya",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+lower-indian-ocean-network-lion,Lower Indian Ocean Network (LION),"1,060 km",2009 November,"Mauritius Telecom, Orange, Orange Madagascar",ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+luwuk-tutuyan-cable-system-ltcs,Luwuk Tutuyan Cable System (LTCS),446 km,2015,Telkom Indonesia,,2,open_undersea_cable_map,Archived description only; not verified current operation
+lynn-canal-fiber,Lynn Canal Fiber,138 km,2016 October,Alaska Power & Telephone Company (AP&T),,3,open_undersea_cable_map,Archived description only; not verified current operation
+mainone,MainOne,"7,000 km",2010 July,MainOne - An Equinix Company,SubCom,5,open_undersea_cable_map,Archived description only; not verified current operation
+malaysia-cambodia-thailand-mct-cable,Malaysia-Cambodia-Thailand (MCT) Cable,"1,300 km",2017 March,"DTAC, Ezecom, Symphony, Telekom Malaysia",HMN Tech,3,open_undersea_cable_map,Archived description only; not verified current operation
+malbec,Malbec,"2,600 km",2021 June,"GlobeNet, Meta",ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+maldives-sri-lanka-cable-msc,Maldives Sri Lanka Cable (MSC),863 km,2021 February,"Dhiraagu, Dialog Axiata, Ooredoo Maldives",HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+malta-gozo-cable,Malta-Gozo Cable,13 km,2020 December,Gozo Fibre Optic Cable Ltd.,Elettra,2,open_undersea_cable_map,Archived description only; not verified current operation
+malta-italy-interconnector,Malta-Italy Interconnector,95 km,2015,Government of Malta,,2,open_undersea_cable_map,Archived description only; not verified current operation
+manatua,Manatua,"3,634 km",2020 July,"Avaroa Cable Ltd., OPT French Polynesia, Samoa Submarine Cable Company, Telecom Niue",SubCom,6,open_undersea_cable_map,Archived description only; not verified current operation
+mandji-fiber-optic-cable,Mandji Fiber Optic Cable,50 km,2023,GITGE (Gestor de Infraestructuras de Telecomunicaciones de Guinea Ecuatorial),,2,open_undersea_cable_map,Archived description only; not verified current operation
+marea,MAREA,"6,605 km",2018 May,"Meta, Microsoft, Telxius",SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+mariana-guam-cable,Mariana-Guam Cable,,1997,PTI Pacifica,,4,open_undersea_cable_map,Archived description only; not verified current operation
+maroc-telecom-west-africa,Maroc Telecom West Africa,"8,300 km",2021 August,Maroc Telecom,ASN,6,open_undersea_cable_map,Archived description only; not verified current operation
+mataram-kupang-cable-system-mkcs,Mataram Kupang Cable System (MKCS),"1,318 km",2011 April,Telkom Indonesia,HMN Tech,7,open_undersea_cable_map,Archived description only; not verified current operation
+matrix-cable-system,Matrix Cable System,"1,055 km",2008 August,Matrix Networks Pte. Ltd.,SubCom,3,open_undersea_cable_map,Archived description only; not verified current operation
+mauritius-and-rodrigues-submarine-cable-system-mars,Mauritius and Rodrigues Submarine Cable System (MARS),677 km,2019 February,Mauritius Telecom,HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+maya-1,Maya-1,"4,400 km",2000 October,"AT&T, América Móvil (Claro), Axtel, BICS, C&W Networks, ETB, Embratel, Hondutel, Instituto Costarricense de Electricidad, Orange, Prepa Networks, RSL Telecom, T-Mobile, Telecom Italia Sparkle, Telefonica, Tricom, Verizon","ASN, SubCom",7,open_undersea_cable_map,Archived description only; not verified current operation
+med-cable-network,Med Cable Network,"1,300 km",2005 October,Orascom Telecom Holding,ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+mednautilus-submarine-system,MedNautilus Submarine System,"7,000 km",2001 November,Telecom Italia Sparkle,ASN,7,open_undersea_cable_map,Archived description only; not verified current operation
+medusa-submarine-cable-system,Medusa Submarine Cable System,"8,760 km",2024 Q3,AFRIX Telecom,ASN,14,open_undersea_cable_map,Archived description only; not verified current operation
+melita-1,Melita 1,97 km,2009 June,Melita,NSW,2,open_undersea_cable_map,Archived description only; not verified current operation
+meltingpot-indianoceanic-submarine-system-metiss,Meltingpot Indianoceanic Submarine System (METISS),"3,200 km",2021 March,"CEB Fibernet, Canal+ Telecom, Emtel, SFR, Telma (Telecom Malagasy), Zeop (incl. Reunicable)",ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+mid-atlantic-crossing-mac,Mid-Atlantic Crossing (MAC),"7,500 km",2000 June,Cirion Technologies,ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+middle-east-north-africa-mena-cable-systemgulf-bridge-international,Middle East North Africa (MENA) Cable System/Gulf Bridge International,"8,000 km",2014 December,"Gulf Bridge International, Telecom Egypt",ASN,6,open_undersea_cable_map,Archived description only; not verified current operation
+minoas-east-and-west,Minoas East and West,270 km,2021,Grid Telecom,,2,open_undersea_cable_map,Archived description only; not verified current operation
+mist,MIST,"8,100 km",2023,Orient Link,NEC,5,open_undersea_cable_map,Archived description only; not verified current operation
+miyazaki-okinawa-cable-moc,Miyazaki-Okinawa Cable (MOC),,1997,KDDI,,2,open_undersea_cable_map,Archived description only; not verified current operation
+monet,Monet,"10,556 km",2017 December,"Algar Telecom, Angola Cables, Antel Uruguay, Google",SubCom,3,open_undersea_cable_map,Archived description only; not verified current operation
+moratelindo-international-cable-system-1-mic-1,Moratelindo International Cable System-1 (MIC-1),70 km,2008 January,Moratelindo,,2,open_undersea_cable_map,Archived description only; not verified current operation
+n0r5ke-viking,N0r5ke Viking,810 km,2022 December,NOR5KE Fibre AS,,14,open_undersea_cable_map,Archived description only; not verified current operation
+n0r5ke-viking-2,N0r5ke Viking 2,900 km,2024 Q3,NOR5KE Fibre AS,,14,open_undersea_cable_map,Archived description only; not verified current operation
+national-digital-transmission-network-ndtn,National Digital Transmission Network (NDTN),"1,400 km",1999 March,Telecoms Infrastructure Corporation of the Philippines (TelicPhil),,4,open_undersea_cable_map,Archived description only; not verified current operation
+nationwide-submarine-cable-ooredoo-maldives-nascom,Nationwide Submarine Cable Ooredoo Maldives (NaSCOM),"1,136 km",2017 January,Ooredoo Maldives,HMN Tech,6,open_undersea_cable_map,Archived description only; not verified current operation
+natitua,Natitua,"2,680 km",2018 December,OPT French Polynesia,ASN,11,open_undersea_cable_map,Archived description only; not verified current operation
+natitua-sud,Natitua Sud,820 km,2023,OPT French Polynesia,ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+nelson-levin,Nelson-Levin,212 km,2001 June,Spark New Zealand,,2,open_undersea_cable_map,Archived description only; not verified current operation
+new-cross-pacific-ncp-cable-system,New Cross Pacific (NCP) Cable System,"13,618 km",2018 May,"China Mobile, China Telecom, China Unicom, Chunghwa Telecom, KT, Microsoft, Softbank Corp",SubCom,7,open_undersea_cable_map,Archived description only; not verified current operation
+nigeria-cameroon-submarine-cable-system-ncscs,Nigeria Cameroon Submarine Cable System (NCSCS),"1,100 km",2015 December,Camtel,HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+no-uk,NO-UK,713 km,2021 December,Altibox,Xtera,2,open_undersea_cable_map,Archived description only; not verified current operation
+nordbalt,NordBalt,400 km,2016,"Lietuvos Energija, Svenska Kraftnät",,2,open_undersea_cable_map,Archived description only; not verified current operation
+north-west-cable-system,North West Cable System,"2,100 km",2016 September,Vocus Communications,ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+northern-lights,Northern Lights,67 km,2008,BT,,2,open_undersea_cable_map,Archived description only; not verified current operation
+northstar,NorthStar,"3,229 km",1999 October,Alaska Communications,ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+nzadi-cable-system,Nzadi Cable System,950 km,2023 Q4,"Kakike, Lda., KumoxiCom, Lda.",,3,open_undersea_cable_map,Archived description only; not verified current operation
+okinawa-cellular-cable,Okinawa Cellular Cable,760 km,2020 April,Okinawa Cellular Telephone Company,NEC,2,open_undersea_cable_map,Archived description only; not verified current operation
+oman-australia-cable-oac,Oman Australia Cable (OAC),"9,800 km",2022 September,SUB.CO,SubCom,3,open_undersea_cable_map,Archived description only; not verified current operation
+omranepeg-cable-system,OMRAN/EPEG Cable System,600 km,2013 Q1,"Omantel, Vodafone",,5,open_undersea_cable_map,Archived description only; not verified current operation
+oran-valencia-orval,Oran-Valencia (ORVAL),770 km,2020 December,Algerie Telecom,ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+oteglobe-kokkini-bari,OTEGLOBE Kokkini-Bari,700 km,2004 June,OTEGLOBE,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+pacific-caribbean-cable-system-pccs,Pacific Caribbean Cable System (PCCS),"6,000 km",2015 September,"C&W Networks, Setar, Telconet, Telxius, United Telecommunication Services (UTS)",ASN,9,open_undersea_cable_map,Archived description only; not verified current operation
+pacific-crossing-1-pc-1,Pacific Crossing-1 (PC-1),"21,000 km",1999 December,Pacific Crossing,SubCom,4,open_undersea_cable_map,Archived description only; not verified current operation
+pacific-light-cable-network-plcn,Pacific Light Cable Network (PLCN),"11,806 km",2022 January,"Google, Meta",SubCom,3,open_undersea_cable_map,Archived description only; not verified current operation
+palapa-ring-east,Palapa Ring East,"6,300 km",2019 October,"Indonesian Government, Moratelindo, Telekom PT SmartFren",,18,open_undersea_cable_map,Archived description only; not verified current operation
+palapa-ring-middle,Palapa Ring Middle,"2,100 km",2018 December,Indonesian Government,HMN Tech,20,open_undersea_cable_map,Archived description only; not verified current operation
+palapa-ring-west,Palapa Ring West,"1,980 km",2018 February,Indonesian Government,,11,open_undersea_cable_map,Archived description only; not verified current operation
+palawan-iloilo-cable-system,Palawan-Iloilo Cable System,300 km,2014 January,PLDT,,2,open_undersea_cable_map,Archived description only; not verified current operation
+pan-american-crossing-pac,Pan-American Crossing (PAC),"10,000 km",2000 March,Cirion Technologies,SubCom,5,open_undersea_cable_map,Archived description only; not verified current operation
+pan-european-crossing-uk-belgium,Pan European Crossing (UK-Belgium),117 km,1999,Lumen,,2,open_undersea_cable_map,Archived description only; not verified current operation
+pan-european-crossing-uk-ireland,Pan European Crossing (UK-Ireland),495 km,2000 September,Lumen,,4,open_undersea_cable_map,Archived description only; not verified current operation
+paniolo-cable-network,Paniolo Cable Network,576 km,2009,Paniolo Cable Company,,7,open_undersea_cable_map,Archived description only; not verified current operation
+pasuli,PASULI,40 km,2019 August,"FiberStar, XL Axiata",,2,open_undersea_cable_map,Archived description only; not verified current operation
+peace-cable,PEACE Cable,"21,500 km",2022 March,Peace Cable International Network Co. Ltd.,HMN Tech,17,open_undersea_cable_map,Archived description only; not verified current operation
+penbal-4,Penbal-4,317 km,1991,Telefonica,,3,open_undersea_cable_map,Archived description only; not verified current operation
+penbal-5,Penbal-5,315 km,1994,Telefonica,,2,open_undersea_cable_map,Archived description only; not verified current operation
+pencan-8,Pencan-8,"1,400 km",2011,Telefonica,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+pencan-9,Pencan-9,"1,398 km",,Telefonica,,2,open_undersea_cable_map,Archived description only; not verified current operation
+persona,Persona,800 km,2008,EastLink,Nexans,2,open_undersea_cable_map,Archived description only; not verified current operation
+pgascom,PGASCOM,264 km,2010,PGASCOM,,3,open_undersea_cable_map,Archived description only; not verified current operation
+philippine-domestic-submarine-cable-network-pdscn,Philippine Domestic Submarine Cable Network (PDSCN),"2,500 km",2023 April,"Eastern Telecom, Globe Telecom, Infinivan Inc.",,33,open_undersea_cable_map,Archived description only; not verified current operation
+picot-1,Picot-1,,2008,OPT,ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+pipe-pacific-cable-1-ppc-1,PIPE Pacific Cable-1 (PPC-1),"6,900 km",2009 October,TPG Corporation (incl. iiNet and Internode),SubCom,3,open_undersea_cable_map,Archived description only; not verified current operation
+pishgaman-oman-iran-poi-network,Pishgaman Oman Iran (POI) Network,400 km,2012 June,Pishgaman Kavir,,3,open_undersea_cable_map,Archived description only; not verified current operation
+pldt-domestic-fiber-optic-network-dfon,PLDT Domestic Fiber Optic Network (DFON),"11,100 km",1997,PLDT,,13,open_undersea_cable_map,Archived description only; not verified current operation
+png-lng,PNG LNG,200 km,2014,Telikom Papua New Guinea,,2,open_undersea_cable_map,Archived description only; not verified current operation
+polar-circle-cable,Polar Circle Cable,"1,004 km",2007 September,KystTele,,7,open_undersea_cable_map,Archived description only; not verified current operation
+polar-express,Polar Express,"12,650 km",2026,Russian Government,,10,open_undersea_cable_map,Archived description only; not verified current operation
+poseidon,POSEIDON,800 km,2014 April,"Ocean Specialists, Inc (OSI)",,2,open_undersea_cable_map,Archived description only; not verified current operation
+prat,Prat,"3,500 km",2020 Q2,Grupo Gtd,Prysmian,12,open_undersea_cable_map,Archived description only; not verified current operation
+qatar-u-a-e-submarine-cable-system,Qatar-U.A.E. Submarine Cable System,100 km,2004 December,"Etisalat UAE, Ooredoo",,4,open_undersea_cable_map,Archived description only; not verified current operation
+quintillion-subsea-cable-network,Quintillion Subsea Cable Network,"1,900 km",2017 December,Quintillion,ASN,6,open_undersea_cable_map,Archived description only; not verified current operation
+raman,Raman,"7,028 km",2024,"Google, Omantel, Telecom Italia Sparkle",,6,open_undersea_cable_map,Archived description only; not verified current operation
+rnne-rdvig,Rønne-Rødvig,153 km,1989,TDC Group,,2,open_undersea_cable_map,Archived description only; not verified current operation
+rockabill,Rockabill,221 km,2019 November,euNetworks,,2,open_undersea_cable_map,Archived description only; not verified current operation
+romulo,Romulo,237 km,2011,Red Electrica,,2,open_undersea_cable_map,Archived description only; not verified current operation
+roquetas-melilla-cam,Roquetas-Melilla (CAM),181 km,2014 January,Telefonica,,2,open_undersea_cable_map,Archived description only; not verified current operation
+russia-japan-cable-network-rjcn,Russia-Japan Cable Network (RJCN),"1,800 km",2008 September,"KDDI, Rostelecom",NEC,2,open_undersea_cable_map,Archived description only; not verified current operation
+s-u-b-cable-system,S-U-B Cable System,"2,009 km",2008,Telkom Indonesia,,3,open_undersea_cable_map,Archived description only; not verified current operation
+saba-statia-cable-system-sscs,"Saba, Statia Cable System (SSCS)",198 km,2013,Government of the Netherlands,,5,open_undersea_cable_map,Archived description only; not verified current operation
+safe,SAFE,"13,500 km",2002 April,"AT&T, Angola Telecom, BICS, Camtel, China Telecom, Chunghwa Telecom, Ghana Telecommunications Company, KPN, KT, Liquid Intelligent Technologies, Maroc Telecom, Mauritius Telecom, NATCOM (Nigeria), OPT, Orange, Orange Cote d’Ivoire, PCCW, Singtel, Sonatel, T-Mobile, Tata Communications, Telecom Italia Sparkle, Telecom Namibia, Telefonica, Telekom Malaysia, Telkom South Africa, Telstra, Verizon, Vodafone",SubCom,6,open_undersea_cable_map,Archived description only; not verified current operation
+sagres,Sagres,302 km,1998 July,Altice Portugal,,2,open_undersea_cable_map,Archived description only; not verified current operation
+sakhalin-kuril-islands-cable,Sakhalin-Kuril Islands Cable,940 km,2019 March,Rostelecom,HMN Tech,4,open_undersea_cable_map,Archived description only; not verified current operation
+samoa-american-samoa-sas,Samoa-American Samoa (SAS),250 km,2009 May,"American Samoa Government, Elandia",,2,open_undersea_cable_map,Archived description only; not verified current operation
+san-andres-isla-tolu-submarine-cable-sait,San Andres Isla Tolu Submarine Cable (SAIT),826 km,2010 December,Energía Integral Andina,,2,open_undersea_cable_map,Archived description only; not verified current operation
+sape-labuanbajo-ende-kupang-cable-systems,Sape-LabuanBajo-Ende-Kupang Cable Systems,474 km,2021 Q1,Moratelindo,,4,open_undersea_cable_map,Archived description only; not verified current operation
+sat-3wasc,SAT-3/WASC,"14,350 km",2002 April,"AT&T, Altice Portugal, Angola Telecom, BICS, BT, Benin Telecoms, Camtel, China Telecom, Chunghwa Telecom, Cyta, Deutsche Telekom, Ghana Telecommunications Company, KPN, KT, Liquid Intelligent Technologies, Maroc Telecom, Mauritius Telecom, NATCOM (Nigeria), OPT, Orange, Orange Cote d’Ivoire, PCCW, Singtel, T-Mobile, Tata Communications, Telecom Italia Sparkle, Telecom Namibia, Telekom Malaysia, Telkom South Africa, Telstra, Telxius, Verizon, Vodafone",ASN,12,open_undersea_cable_map,Archived description only; not verified current operation
+saudi-arabia-sudan-1-sas-1,Saudi Arabia-Sudan-1 (SAS-1),333 km,2003 April,"Saudi Telecom, Sudan Telecom Company, The Arab Investment Company",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+saudi-arabia-sudan-2-sas-2,Saudi Arabia-Sudan-2 (SAS-2),330 km,2011 July,"Saudi Telecom, Sudan Telecom Company",,2,open_undersea_cable_map,Archived description only; not verified current operation
+saudi-vision,Saudi Vision,"1,071 km",2023 Q1,Saudi Telecom,ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+scandinavian-ring-north,Scandinavian Ring North,5 km,2000,Arelion (formerly Telia Carrier),Ericsson,2,open_undersea_cable_map,Archived description only; not verified current operation
+scandinavian-ring-south,Scandinavian Ring South,21 km,2000,Arelion (formerly Telia Carrier),Ericsson,2,open_undersea_cable_map,Archived description only; not verified current operation
+scotland-northern-ireland-1,Scotland-Northern Ireland 1,35 km,1989,BT,,2,open_undersea_cable_map,Archived description only; not verified current operation
+scotland-northern-ireland-2,Scotland-Northern Ireland 2,82 km,1993,BT,,2,open_undersea_cable_map,Archived description only; not verified current operation
+scotland-northern-ireland-3,Scotland-Northern Ireland 3,42 km,2022,BT,,2,open_undersea_cable_map,Archived description only; not verified current operation
+scotland-northern-ireland-4,Scotland-Northern Ireland 4,85 km,2022,BT,,2,open_undersea_cable_map,Archived description only; not verified current operation
+scylla,Scylla,204 km,2021 August,euNetworks,,2,open_undersea_cable_map,Archived description only; not verified current operation
+sea-h2x,SEA-H2X,"5,000 km",2024,"China Mobile, China Unicom, Converge ICT, PP Telecommunication Sdn Bhd",HMN Tech,6,open_undersea_cable_map,Archived description only; not verified current operation
+sea-us,SEA-US,"14,500 km",2017 August,"GTA TeleGuam, Globe Telecom, Hawaiian Telcom, RTI, Telin",NEC,7,open_undersea_cable_map,Archived description only; not verified current operation
+sea2shore,sea2shore,32 km,2016,National Grid,,2,open_undersea_cable_map,Archived description only; not verified current operation
+seabras-1,Seabras-1,"10,800 km",2017 September,"Seaborn Networks, Telecom Italia Sparkle",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+seacomtata-tgn-eurasia,SEACOM/Tata TGN-Eurasia,"15,000 km",2009 July,"SEACOM, Tata Communications",SubCom,8,open_undersea_cable_map,Archived description only; not verified current operation
+sealink,SEALink,345 km,2023 Q1,Alaska Power & Telephone Company (AP&T),Prysmian,3,open_undersea_cable_map,Archived description only; not verified current operation
+seamewe-3,SeaMeWe-3,"39,000 km",1999 September,"A1 Telekom Austria, AT&T, Altice Portugal, BICS, BT, CTM, China Telecom, Chunghwa Telecom, Cyta, Deutsche Telekom, Djibouti Telecom, Embratel, Etisalat UAE, Indosat Ooredoo, Jabatan Telecom Brunei, KDDI, KPN, KT, LG Uplus, Maroc Telecom, Myanmar Post and Telecommunication (MPT), National Telecom, OTEGLOBE, Omantel, Orange, Orange Polska, PCCW, PLDT, Pakistan Telecommunications Company Ltd., Rostelecom, Saudi Telecom, Singtel, Singtel Optus, Softbank Corp, Sri Lanka Telecom, Tata Communications, Telecom Argentina, Telecom Egypt, Telecom Italia Sparkle, Telekom Malaysia, Telkom South Africa, Telstra, Tunisia Telecom, Turk Telekom, Turk Telekom International, Ukrtelecom, VNPT International, Verizon, Vocus Communications, Vodafone, eir","ASN, Fujitsu, SubCom",38,open_undersea_cable_map,Archived description only; not verified current operation
+seamewe-4,SeaMeWe-4,"20,000 km",2005 December,"Airtel (Bharti), Algerie Telecom, Bangladesh Submarine Cable Company Limited (BSCCL), Etisalat UAE, National Telecom, Orange, Pakistan Telecommunications Company Ltd., Saudi Telecom, Singtel, Sri Lanka Telecom, Tata Communications, Telecom Egypt, Telecom Italia Sparkle, Telekom Malaysia, Tunisia Telecom, Verizon","ASN, Fujitsu",16,open_undersea_cable_map,Archived description only; not verified current operation
+seamewe-5,SeaMeWe-5,"20,000 km",2016 December,"Bangladesh Submarine Cable Company Limited (BSCCL), China Mobile, China Telecom, China Unicom, Djibouti Telecom, Myanmar Post and Telecommunication (MPT), Ooredoo, Orange, Saudi Telecom, Singtel, Sri Lanka Telecom, TeleYemen, Telecom Egypt, Telecom Italia Sparkle, Telekom Malaysia, Telkom Indonesia, TransWorld, Turk Telekom International, du","ASN, NEC",18,open_undersea_cable_map,Archived description only; not verified current operation
+seamewe-6,SeaMeWe-6,"19,200 km",2025 Q2,"Airtel (Bharti), Bangladesh Submarine Cable Company Limited (BSCCL), China Unicom, Dhiraagu, Djibouti Telecom, Microsoft, Mobily, Orange, PCCW, Singtel, Sri Lanka Telecom, Telecom Egypt, Telekom Malaysia, Telin, TransWorld",SubCom,12,open_undersea_cable_map,Archived description only; not verified current operation
+seax-1,SEAX-1,250 km,2018 May,SEAX,HMN Tech,3,open_undersea_cable_map,Archived description only; not verified current operation
+sednalink-fibre,SednaLink Fibre,"2,104 km",2023 Q4,CanArctic Inuit Networks,,1,open_undersea_cable_map,Archived description only; not verified current operation
+segunda-fos-canal-de-chacao,Segunda FOS Canal de Chacao,40 km,2015 January,Grupo Gtd,,2,open_undersea_cable_map,Archived description only; not verified current operation
+senegal-horn-of-africa-regional-express-share-cable,Senegal Horn of Africa Regional Express (SHARE) Cable,720 km,2022 March,Agence De L’informatique del’Etat,HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+seychelles-to-east-africa-system-seas,Seychelles to East Africa System (SEAS),"1,930 km",2012 August,Seychelles Cable System Ltd.,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+shefa-2,SHEFA-2,"1,000 km",2008 March,Shefa,Xtera,7,open_undersea_cable_map,Archived description only; not verified current operation
+silphium,Silphium,425 km,2013 January,Libya International Telecommunications Company,HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+sines-to-lisbon,Sines to Lisbon,110 km,2025,EllaLink,,2,open_undersea_cable_map,Archived description only; not verified current operation
+singapore-myanmar-sigmar,Singapore-Myanmar (SIGMAR),"2,227 km",2023 Q1,Campana Group,HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+sint-maarten-puerto-rico-network-one-smpr-1,Sint Maarten Puerto Rico Network One (SMPR-1),375 km,2004 December,"Dauphin Telecom, TelEm Group",,3,open_undersea_cable_map,Archived description only; not verified current operation
+sir-abu-nuayr-cable,Sir Abu Nu’ayr Cable,84 km,2018,Etisalat UAE,,2,open_undersea_cable_map,Archived description only; not verified current operation
+sirius-north,Sirius North,147 km,1999,Virgin Media Business,,2,open_undersea_cable_map,Archived description only; not verified current operation
+sirius-south,Sirius South,219 km,1999,Virgin Media Business,,2,open_undersea_cable_map,Archived description only; not verified current operation
+sistem-kabel-rakyat-1malaysia-skr1m,Sistem Kabel Rakyat 1Malaysia (SKR1M),"3,800 km",2017 September,"TIME dotCom, Telekom Malaysia",NEC,6,open_undersea_cable_map,Archived description only; not verified current operation
+sjjk,SJJK,543 km,2008 December,XL Axiata,,5,open_undersea_cable_map,Archived description only; not verified current operation
+skagenfiber-west,Skagenfiber West,170 km,2020 November,Altibox,,2,open_undersea_cable_map,Archived description only; not verified current operation
+skagerrak-4,Skagerrak 4,137 km,2014 December,Statnett,,2,open_undersea_cable_map,Archived description only; not verified current operation
+smpcs-packet-1,SMPCS Packet-1,"3,156 km",2015,Telkom Indonesia,ASN,12,open_undersea_cable_map,Archived description only; not verified current operation
+smpcs-packet-2,SMPCS Packet-2,"3,498 km",2015,Telkom Indonesia,NEC,11,open_undersea_cable_map,Archived description only; not verified current operation
+solas,Solas,232 km,1999 April,"Vodafone, eir",,2,open_undersea_cable_map,Archived description only; not verified current operation
+sorsogon-samar-submarine-fiber-optical-interconnection-project-sssfoip,Sorsogon-Samar Submarine Fiber Optical Interconnection Project (SSSFOIP),21 km,2019,National Grid Corporation of the Philippines,HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+south-america-1-sam-1,South America-1 (SAm-1),"25,000 km",2001 March,Telxius,SubCom,16,open_undersea_cable_map,Archived description only; not verified current operation
+south-american-crossing-sac,South American Crossing (SAC),"20,000 km",2000 September,"Cirion Technologies, Telecom Italia Sparkle",ASN,11,open_undersea_cable_map,Archived description only; not verified current operation
+south-atlantic-cable-system-sacs,South Atlantic Cable System (SACS),"6,165 km",2018 September,Angola Cables,NEC,2,open_undersea_cable_map,Archived description only; not verified current operation
+south-atlantic-inter-link-sail,South Atlantic Inter Link (SAIL),"5,800 km",2020,"Camtel, China Unicom",HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+south-pacific-cable-system-spscmistral,South Pacific Cable System (SPSC)/Mistral,"7,300 km",2021 August,"América Móvil (Claro), Telxius",SubCom,5,open_undersea_cable_map,Archived description only; not verified current operation
+southeast-asia-japan-cable-2-sjc2,Southeast Asia-Japan Cable 2 (SJC2),"10,500 km",2023,"China Mobile, Chunghwa Telecom, DongHwa Telecom, KDDI, Meta, SK Broadband, Singtel, Telin, True Corporation, VNPT-Vinaphone",NEC,10,open_undersea_cable_map,Archived description only; not verified current operation
+southeast-asia-japan-cable-sjc,Southeast Asia-Japan Cable (SJC),"8,900 km",2013 June,"China Mobile, China Telecom, Chunghwa Telecom, Globe Telecom, Google, KDDI, National Telecom, Singtel, Telkom Indonesia, Unified National Networks (UNN)","NEC, SubCom",6,open_undersea_cable_map,Archived description only; not verified current operation
+southern-caribbean-fiber,Southern Caribbean Fiber,"3,000 km",2006 September,Digicel,"ASN, SubCom",16,open_undersea_cable_map,Archived description only; not verified current operation
+southern-cross-cable-network-sccn,Southern Cross Cable Network (SCCN),"30,500 km",2000 November,Southern Cross Cable Network,"ASN, Fujitsu",9,open_undersea_cable_map,Archived description only; not verified current operation
+southern-cross-next,Southern Cross NEXT,"13,700 km",2022 July,Southern Cross Cable Network,ASN,7,open_undersea_cable_map,Archived description only; not verified current operation
+st-pierre-and-miquelon-cable,St. Pierre and Miquelon Cable,200 km,2018 May,French Authority of St. Pierre and Miquelon,ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+st-thomas-st-croix-system,St. Thomas-St. Croix System,183 km,1997 July,"Virgin Islands Next Generation Networks, Inc.",,7,open_undersea_cable_map,Archived description only; not verified current operation
+strategic-evolution-underwater-link-seul,Strategic Evolution Underwater Link (SEUL),24 km,2017 July,Belize Telemedia,HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+subcan-link-1,Subcan Link 1,143 km,2002 May,Cable Submarine de Canarias,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+subcan-link-2,Subcan Link 2,136 km,2002 May,Cable Submarine de Canarias,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+sumatera-bangka-cable-system-sbcs,Sumatera Bangka Cable System (SBCS),57 km,2014,Telkom Indonesia,,2,open_undersea_cable_map,Archived description only; not verified current operation
+suriname-guyana-submarine-cable-system-sg-scs,Suriname-Guyana Submarine Cable System (SG-SCS),"1,249 km",2010 July,"Guyana Telephone and Telegraph (GT&T), Telesur",HMN Tech,3,open_undersea_cable_map,Archived description only; not verified current operation
+svalbard-undersea-cable-system,Svalbard Undersea Cable System,"2,714 km",2004 January,Telenor,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+sweden-estonia-ee-s-1,Sweden-Estonia (EE-S 1),240 km,1995 June,"Arelion (formerly Telia Carrier), GN Great Nordic, Telia Eesti (formerly Eesti Telekom, EMT, Elion)",ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+sweden-finland-4-sfs-4,Sweden-Finland 4 (SFS-4),254 km,1993 December,"Arelion (formerly Telia Carrier), Elisa Corporation",,2,open_undersea_cable_map,Archived description only; not verified current operation
+sweden-finland-link-sfl,Sweden-Finland Link (SFL),142 km,1994,"Arelion (formerly Telia Carrier), Elisa Corporation",,2,open_undersea_cable_map,Archived description only; not verified current operation
+sweden-latvia,Sweden-Latvia,391 km,2005 January,Latvia State Radio and Television Centre,,3,open_undersea_cable_map,Archived description only; not verified current operation
+taba-aqaba,Taba-Aqaba,13 km,1998,National Electric Power Company of Jordan,,2,open_undersea_cable_map,Archived description only; not verified current operation
+taino-carib,Taino-Carib,186 km,1992 December,"AT&T, C&W Networks, Embratel, Orange, T-Mobile",AT&T SSI,3,open_undersea_cable_map,Archived description only; not verified current operation
+taiwan-strait-express-1-tse-1,Taiwan Strait Express-1 (TSE-1),260 km,2013 January,"China Mobile, China Unicom, Chunghwa Telecom, Far EasTone (FET), Taiwan International Gateway Corporation, Taiwan Mobile",HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+tamares-north,Tamares North,345 km,2012 January,Tamares UK Group,,2,open_undersea_cable_map,Archived description only; not verified current operation
+tampnet-offshore-foc-network,Tampnet Offshore FOC Network,"1,751 km",1999 July,Tampnet,ASN,5,open_undersea_cable_map,Archived description only; not verified current operation
+tangerine,Tangerine,112 km,2000 September,Lumen,,2,open_undersea_cable_map,Archived description only; not verified current operation
+tanjun-pandan-sungai-kakap-cable-system,Tanjun Pandan-Sungai Kakap Cable System,348 km,2019 Q4,Moratelindo,,2,open_undersea_cable_map,Archived description only; not verified current operation
+tannat,Tannat,"2,000 km",2018 Q1,"Antel Uruguay, Google",ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+tarakan-selor-cable-system-tscs,Tarakan Selor Cable System (TSCS),83 km,2014,Telkom Indonesia,,2,open_undersea_cable_map,Archived description only; not verified current operation
+tasman-global-access-tga-cable,Tasman Global Access (TGA) Cable,"2,288 km",2017 March,"Spark New Zealand, Telstra, Vodafone",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+tata-tgn-atlantic,Tata TGN-Atlantic,"13,000 km",2001 June,Tata Communications,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+tata-tgn-gulf,Tata TGN-Gulf,"4,031 km",2012 February,Tata Communications,SubCom,6,open_undersea_cable_map,Archived description only; not verified current operation
+tata-tgn-intra-asia-tgn-ia,Tata TGN-Intra Asia (TGN-IA),"6,700 km",2009 March,Tata Communications,SubCom,4,open_undersea_cable_map,Archived description only; not verified current operation
+tata-tgn-pacific,Tata TGN-Pacific,"22,300 km",2002 December,Tata Communications,SubCom,5,open_undersea_cable_map,Archived description only; not verified current operation
+tata-tgn-tata-indicom,Tata TGN-Tata Indicom,"3,175 km",2004 November,Tata Communications,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+tata-tgn-western-europe,Tata TGN-Western Europe,"3,578 km",2002 June,Tata Communications,SubCom,3,open_undersea_cable_map,Archived description only; not verified current operation
+te-northtgn-eurasiaseacomalexandrosmedex,TE North/TGN-Eurasia/SEACOM/Alexandros/Medex,"3,634 km",2011 July,"Algerie Telecom, Cyta, PCCW, SEACOM, Tata Communications, Telecom Egypt",ASN,4,open_undersea_cable_map,Archived description only; not verified current operation
+tegopa,TEGOPA,222 km,1994,Telefonica,,3,open_undersea_cable_map,Archived description only; not verified current operation
+telstra-endeavour,Telstra Endeavour,"9,125 km",2008 September,Telstra,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+tenerife-gran-canaria,Tenerife-Gran Canaria,110 km,1999,Telefonica,,2,open_undersea_cable_map,Archived description only; not verified current operation
+tenerife-la-palma,Tenerife-La Palma,,,Telefonica,,2,open_undersea_cable_map,Archived description only; not verified current operation
+terra-sw,TERRA SW,,2012,GCI Communication Corp,,11,open_undersea_cable_map,Archived description only; not verified current operation
+thailand-indonesia-singapore-tis,Thailand-Indonesia-Singapore (TIS),968 km,2003 December,"National Telecom, Singtel, Telkom Indonesia",NEC,3,open_undersea_cable_map,Archived description only; not verified current operation
+the-east-african-marine-system-teams,The East African Marine System (TEAMS),"5,054 km",2009 October,"Etisalat UAE, TEAMS Ltd.",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+thetis,Thetis,660 km,2022 June,Vodafone,Nexans,20,open_undersea_cable_map,Archived description only; not verified current operation
+tobrok-emasaed-cable-system,Tobrok-Emasaed Cable System,178 km,2010 October,Libya International Telecommunications Company,HMN Tech,2,open_undersea_cable_map,Archived description only; not verified current operation
+tokelau-submarine-cable,Tokelau Submarine Cable,250 km,2022,Teletok,ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+tonga-cable,Tonga Cable,827 km,2013 August,"Digicel Tonga, Government of Tonga, Tonga Communications Corporation",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+tonga-domestic-cable-extension-tdce,Tonga Domestic Cable Extension (TDCE),410 km,2018 January,Tonga Cable Limited,ASN,3,open_undersea_cable_map,Archived description only; not verified current operation
+topaz,Topaz,,2023,Google,,4,open_undersea_cable_map,Archived description only; not verified current operation
+trans-adriatic-express,Trans Adriatic Express,106 km,2023 Q1,"EXA Infrastructure, TAP AG",,2,open_undersea_cable_map,Archived description only; not verified current operation
+trans-pacific-express-tpe-cable-system,Trans-Pacific Express (TPE) Cable System,"17,968 km",2008 August,"AT&T, China Telecom, China Unicom, Chunghwa Telecom, KT, NTT, Verizon",SubCom,6,open_undersea_cable_map,Archived description only; not verified current operation
+transcan-2,TRANSCAN-2,238 km,1990,Telefonica,,4,open_undersea_cable_map,Archived description only; not verified current operation
+transcan-3,TRANSCAN-3,210 km,2000,Telefonica,,2,open_undersea_cable_map,Archived description only; not verified current operation
+transworld-tw1,Transworld (TW1),"1,300 km",2006 June,TransWorld,SubCom,3,open_undersea_cable_map,Archived description only; not verified current operation
+trapani-kelibia,Trapani-Kelibia,209 km,1995 November,"Telecom Italia Sparkle, Tunisia Telecom",,2,open_undersea_cable_map,Archived description only; not verified current operation
+tt-1,TT-1,48 km,2012 August,"Alliance Telecommunications, C&W Networks, TSTT",,2,open_undersea_cable_map,Archived description only; not verified current operation
+tui-samoa,Tui-Samoa,"1,693 km",2018 February,Samoa Submarine Cable Company,ASN,6,open_undersea_cable_map,Archived description only; not verified current operation
+turcyos-1,Turcyos-1,110 km,1993,Turk Telekom,ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+turcyos-2,Turcyos-2,213 km,2011 March,Turk Telekom,,2,open_undersea_cable_map,Archived description only; not verified current operation
+tverrlinken,Tverrlinken,,2010,KystTele,,4,open_undersea_cable_map,Archived description only; not verified current operation
+uae-iran,UAE-Iran,170 km,1992,"Etisalat UAE, Telecommunication Infrastructure Company of Iran",ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+ugarit,UGARIT,239 km,1995 February,"A1 Telekom Austria, AT&T, BT, Cyta, Deutsche Telekom, Lebanese Ministry of Telecommunications, Orange, Singtel, Syrian Telecommunications Establishment, Tata Communications, Telecom Italia Sparkle, Telefonica, Vivacom",SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+uk-channel-islands-7,UK-Channel Islands-7,124 km,1994 January,"BT, Sure",,2,open_undersea_cable_map,Archived description only; not verified current operation
+uk-channel-islands-8,UK-Channel Islands-8,237 km,1994 January,,,2,open_undersea_cable_map,Archived description only; not verified current operation
+ultramar-ge,Ultramar GE,263 km,2023 January,GITGE (Gestor de Infraestructuras de Telecomunicaciones de Guinea Ecuatorial),ASN,2,open_undersea_cable_map,Archived description only; not verified current operation
+ulysses-2,Ulysses 2,,1997,Verizon,,2,open_undersea_cable_map,Archived description only; not verified current operation
+unisur,Unisur,265 km,1995 March,"Antel Uruguay, Telxius","ASN, SubCom",2,open_undersea_cable_map,Archived description only; not verified current operation
+unitel-north-submarine-cable-unsc,Unitel North Submarine Cable (UNSC),"1,145 km",2022 August,Unitel (Angola),HMN Tech,4,open_undersea_cable_map,Archived description only; not verified current operation
+unityeac-pacific,Unity/EAC-Pacific,"9,620 km",2010 March,"Airtel (Bharti), Google, KDDI, Singtel, TIME dotCom, Telstra","NEC, SubCom",2,open_undersea_cable_map,Archived description only; not verified current operation
+venezuelan-festoon,Venezuelan Festoon,"1,200 km",1998,CANTV,,12,open_undersea_cable_map,Archived description only; not verified current operation
+vodafone-greece-domestic,Vodafone Greece Domestic,92 km,2008,Vodafone,NSW,2,open_undersea_cable_map,Archived description only; not verified current operation
+wall-li,WALL-LI,60 km,2024 Q4,Crosslake Fibre,,2,open_undersea_cable_map,Archived description only; not verified current operation
+west-africa-cable-system-wacs,West Africa Cable System (WACS),"14,530 km",2012 May,"Altice Portugal, Angola Cables, Broadband Infraco, Camtel, Cape Verde Telecom, Congo Telecom, Liquid Intelligent Technologies, MTN, Office Congolais de Poste et Télécommunication, PCCW, Tata Communications, Telecom Namibia, Telkom South Africa, Togo Telecom, Vodacom DRC, Vodafone, Vodafone Espana, Vodafone Ghana",ASN,13,open_undersea_cable_map,Archived description only; not verified current operation
+x-link-submarine-cable,X-Link Submarine Cable,775 km,2019 December,E-Networks Inc.,,2,open_undersea_cable_map,Archived description only; not verified current operation
+yellow,Yellow,"7,001 km",2000 September,Lumen,SubCom,2,open_undersea_cable_map,Archived description only; not verified current operation
+zeus,Zeus,,2022 July,Zayo,Hexatronic,2,open_undersea_cable_map,Archived description only; not verified current operation

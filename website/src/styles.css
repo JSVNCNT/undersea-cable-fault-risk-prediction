@@ -1815,3 +1815,53 @@ tbody tr:last-child th {
     scroll-behavior: auto !important;
   }
 }
+/* Independent empirical evidence: preserve the existing responsive research shell. */
+.external-source-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.external-definitions {
+  display: grid;
+  grid-template-columns: minmax(6rem, 1fr) minmax(0, 2fr);
+  gap: 0.5rem 1rem;
+}
+.external-definitions dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.external-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-top: 1rem;
+}
+.external-source-grid + .ui-card {
+  margin-bottom: 1rem;
+}
+.external-kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.external-location-plot {
+  margin-top: 1rem;
+}
+.external-location-plot svg {
+  width: 100%;
+  max-height: 360px;
+  border: 1px solid #35475e;
+  border-radius: 0.5rem;
+}
+.external-nav-label {
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+}
+.external-kpis p {
+  overflow-wrap: anywhere;
+}
+.sidebar {
+  overflow-y: auto;
+}
